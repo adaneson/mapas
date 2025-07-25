@@ -1,0 +1,21 @@
+const lugares = [
+    { nombre: "CC KDM", lat: -22.312733751018, lng: -68.897586458245, tipo_area: "CC" },
+    { nombre: "CC Nexxo Fundicion", lat: -22.328839025764, lng: -68.885274223686, tipo_area: "CC" },
+    { nombre: "CC Pacoll", lat: -22.316950795456, lng: -68.890293484522, tipo_area: "CC" },
+    { nombre: "CC Secundaria Nexxo", lat: -22.314613635777, lng: -68.888110113235, tipo_area: "CC" },
+    { nombre: "CC SK", lat: -22.311243775405, lng: -68.892535271906, tipo_area: "CC" },
+    { nombre: "CPS", lat: -22.312849261481, lng: -68.888485284643, tipo_area: "FT" },
+    { nombre: "Ingreso  Molienda A0", lat: -22.311625584499, lng: -68.892951459097, tipo_area: "FT" },
+    { nombre: "Ingreso Molienda A2 (Kiosko)", lat: -22.312278252586, lng: -68.895754118624, tipo_area: "FT" },
+    { nombre: "Ingreso Quinto Molino Y Planta Pebbles", lat: -22.311201658921, lng: -68.896504171231, tipo_area: "FT" },
+    { nombre: "Limite Molienda A0-A1", lat: -22.311372019423, lng: -68.895016482911, tipo_area: "FT" },
+    { nombre: "Planta 3 De Acido", lat: -22.316117982550, lng: -68.885435322495, tipo_area: "FT" },
+    { nombre: "Planta De Acido", lat: -22.315680530637, lng: -68.886395313022, tipo_area: "FT" },
+    { nombre: "Puerta 2A", lat: -22.322672784895, lng: -68.925496372141, tipo_area: "PT" },
+    { nombre: "Puerta 2B", lat: -22.310478882107, lng: -68.916832718385, tipo_area: "PT" },
+    { nombre: "Puerta 4A", lat: -22.353446659086, lng: -68.856164540738, tipo_area: "PT" },
+    { nombre: "Puerta 4B", lat: -22.352276882080, lng: -68.857303744188, tipo_area: "PT" },
+    { nombre: "Refino Fundición", lat: -22.313387710135, lng: -68.889005564052, tipo_area: "FT" },
+    { nombre: "Taller Mecanico Nexxo 1", lat: -22.315333694196, lng: -68.889173036101, tipo_area: "FT" },
+    { nombre: "Taller Mecanico Nexxo 2", lat: -22.315831571330, lng: -68.889757363114, tipo_area: "FT" }
+];
