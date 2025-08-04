@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Animado de Rutas de Personas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a9ebd 0%, #0088aa 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 25px;
+            color: white;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+            padding: 20px;
+            background: rgba(255,255,255,0.15);
+            border-radius: 15px;
+            backdrop-filter: blur(5px);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .controls {
+            padding: 20px;
+            background: rgba(255,255,255,0.95);
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .controls button {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            background: linear-gradient(135deg, #0ec1e4 0%, #00a3d6 100%);
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102,126,234,0.3);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .controls button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102,126,234,0.4);
+        }
+
+        .controls button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .controls select {
+            padding: 10px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            background: white;
+            transition: border-color 0.3s ease;
+        }
+
+        .controls select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .controls label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #333;
+        }
+
+        .controls input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            accent-color: #667eea;
+        }
+
+        .map-section {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .map-container {
+            flex: 1;
+            min-width: 300px;
+            height: 760px;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+            overflow: hidden;
+            border: 2px solid rgba(255,255,255,0.3);
+            position: relative;
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+
+        .info-panel {
+            width: 300px;
+            background: rgba(255,255,255,0.95);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            font-size: 14px;
+            height: fit-content;
+        }
+
+        .info-panel h4 {
+            margin: 0 0 20px 0;
+            color: #333;
+            font-size: 18px;
+            font-weight: 600;
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #eee;
+        }
+
+        .info-item {
+            margin: 12px 0;
+            color: #555;
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .info-item strong {
+            color: #222;
+            font-weight: 600;
+            display: inline-block;
+            min-width: 100px;
+        }
+
+        @media (max-width: 900px) {
+            .map-section {
+                flex-direction: column;
+            }
+
+            .info-panel {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <button id="play-btn">▶ Reproducir</button>
+            <button id="pause-btn" disabled>⏸ Pausar</button>
+            <button id="reset-btn">🔄 Reiniciar</button>
+            <button id="fit-btn">🎯 Centrar Ruta</button>
+            <label>
+                Velocidad:
+                <select id="speed-select">
+                    <option value="0.5">0.5x</option>
+                    <option value="1" selected>1x</option>
+                    <option value="2">2x</option>
+                    <option value="5">5x</option>
+                    <option value="10">10x</option>
+                </select>
+            </label>
+            <label>
+                <input type="checkbox" id="show-path" checked> Mostrar trayectoria
+            </label>
+            <label>
+                <input type="checkbox" id="show-visited" checked> Mostrar puntos
+            </label>
+            <div style="width: 100%; display: flex; gap: 10px; margin-top: 10px; align-items: center;">
+                <label for="dia-select">Seleccionar Día:</label>
+                <select id="dia-select">
+                    <option value="" disabled selected>Seleccione una fecha</option>
+                </select>
+
+                <label for="empresa-select">Seleccionar Empresa:</label>
+                <select id="empresa-select">
+                    <option value="" disabled selected>Seleccione una empresa</option>
+                </select>
+                <label for="person-select">Seleccionar Persona:</label>
+                <select id="person-select">
+                    <option value="" disabled selected>Seleccione un persona</option>
+                </select>
+                <label for="map-style">Mapa:</label>
+                <select id="map-style">
+                    <option value="satellite" selected>Satélite</option>
+                    <option value="osm">OpenStreetMap</option>
+                    <option value="topo">Topográfico</option>
+                    <option value="dark">Oscuro</option>
+                    <option value="light">Claro</option>
+                    <option value="streets">Calles</option>
+                </select>
+            </div>
+        </div>
+        <div class="map-section">
+            <div class="map-container">
+                <div id="map"></div>
+            </div>
+            <div class="info-panel">
+                <h4>📍 Información del Recorrido</h4>
+                <div class="info-item"><strong>Ubicación:</strong> <span id="current-location">-</span></div>
+                <div class="info-item"><strong>Coordenadas:</strong> <span id="current-coords">-</span></div>
+                <div class="info-item"><strong>Tiempo:</strong> <span id="current-time">-</span></div>
+                <div class="info-item"><strong>Estado:</strong> 
+                    <span id="status-info">-</span> 
+                    <span id="status-indicator" class="status-indicator"></span>
+                    <span id="state-badge" class="state-badge">-</span>
+                </div>
+                <div class="person-progress">
+                    <div class="info-item"><strong>Progreso:</strong> <span id="progress">0%</span></div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+                    <div class="progress-info">
+                        <span>Inicio</span>
+                        <span id="distance-info">0 km</span>
+                        <span>Fin</span>
+                    </div>
+                </div>
+                <div class="info-item"><strong>Velocidad:</strong> <span id="speed-info">1x</span></div>
+                <div class="info-item"><strong>Puntos recorridos:</strong> <span id="points-info">0/0</span></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    // Variables globales
+    let movementData = [];
+    let currentIndex = 0;
+    let isPlaying = false;
+    let animationInterval;
+    let speed = 1;
+    let personMarker, visitedMarkers = [];
+    let pathPolyline, pathPolylineTraversed;
+    let currentTileLayer = "satellite";
+    let totalDistance = 0;
+
+    // Datos de rutas con estados
+    const rutas = {};
+
+    // Capas del mapa
+    const mapLayers = {
+        satellite: L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", { 
+            attribution: "Tiles &copy; Esri" 
+        }),
+        osm: L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { 
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' 
+        }),
+        topo: L.tileLayer("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", { 
+            attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a>'
+        }),
+        dark: L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+        }),
+        light: L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", { 
+            attribution: "© OpenStreetMap contributors © CARTO" 
+        }),
+        streets: L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", { 
+            attribution: "Tiles © Esri" 
+        })
+    };
+
+    // Inicializar el mapa
+    const map = L.map("map", {
+        center: [-22.311265, -68.892511],
+        zoom: 14,
+        maxZoom: 18,
+        layers: [mapLayers.satellite]
+    });
+
+    // Event listeners
+    document.getElementById("play-btn").addEventListener("click", startAnimation);
+    document.getElementById("pause-btn").addEventListener("click", stopAnimation);
+    document.getElementById("reset-btn").addEventListener("click", resetAnimation);
+    document.getElementById("fit-btn").addEventListener("click", fitToRoute);
+    document.getElementById("speed-select").addEventListener("change", e => {
+        speed = parseFloat(e.target.value);
+        updateInfoPanel(movementData[currentIndex], currentIndex, 1);
+    });
+    document.getElementById("show-path").addEventListener("change", e => {
+        if (e.target.checked) {
+            pathPolyline.addTo(map);
+            pathPolylineTraversed.addTo(map);
+        } else {
+            map.removeLayer(pathPolyline);
+            map.removeLayer(pathPolylineTraversed);
+        }
+    });
+    document.getElementById("show-visited").addEventListener("change", e => {
+        visitedMarkers.forEach(m => e.target.checked ? m.addTo(map) : map.removeLayer(m));
+    });
+    document.getElementById("map-style").addEventListener("change", e => {
+        map.removeLayer(mapLayers[currentTileLayer]);
+        currentTileLayer = e.target.value;
+        mapLayers[currentTileLayer].addTo(map);
+    });
+    document.getElementById("person-select").addEventListener("change", e => {
+        const person = e.target.value;
+        const dia = document.getElementById("dia-select").value;
+
+        if (!person || !dia) {
+            alert("Selecciona persona y día");
+            return;
+        }
+
+        const archivo = `salida_persona_js/puntos_${person}_${dia.replace(/-/g, "_")}.js`;
+
+        // Limpia scripts anteriores
+        const scriptExistente = document.getElementById("ruta-script");
+        if (scriptExistente) scriptExistente.remove();
+
+        const nuevoScript = document.createElement("script");
+        nuevoScript.src = archivo;
+        nuevoScript.id = "ruta-script";
+
+        nuevoScript.onload = () => {
+            const varName = `puntos_${person}_${dia.replace(/-/g, "_")}`;
+            if (typeof window[varName] === "undefined") {
+                alert(`❌ No se encontró la variable ${varName}`);
+                return;
+            }
+
+            movementData = window[varName];
+            resetRuta();  // aquí puedes graficar la ruta
+        };
+
+        nuevoScript.onerror = () => {
+            alert(`❌ Error al cargar archivo: ${archivo}`);
+        };
+
+        document.body.appendChild(nuevoScript);
+    });
+    // Escuchar cambios en los selectores
+    document.getElementById("person-select").addEventListener("change", cargarRutaSeleccionada);
+    document.getElementById("dia-select").addEventListener("change", cargarRutaSeleccionada);
+    window.addEventListener("DOMContentLoaded", cargarRutaSeleccionada);
+
+    // Centrar la ruta en el mapa
+    function fitToRoute() {
+        const pathCoords = movementData.map(p => [p.latitud, p.longitud]);
+        map.fitBounds(pathCoords, { padding: [50, 50] });
+    }
+
+    // Limpiar el mapa
+    function clearMap() {
+        if (personMarker) {
+            map.removeLayer(personMarker);
+            personMarker = null;
+        }
+        if (pathPolyline) {
+            map.removeLayer(pathPolyline);
+            pathPolyline = null;
+        }
+        if (pathPolylineTraversed) {
+            map.removeLayer(pathPolylineTraversed);
+            pathPolylineTraversed = null;
+        }
+        visitedMarkers.forEach(m => map.removeLayer(m));
+        visitedMarkers = [];
+    }
+
+
+    // De aqui se hace tomar los scripts externos
+    // Scripts Dinamico
+    function cargarScriptDinamico(src, callback) {
+        const s = document.createElement('script');
+        s.src = src + '?t=' + Date.now();
+        s.onload = callback;
+        document.head.appendChild(s);
+    }
+
+    // Primero gateways.js
+    cargarScriptDinamico('gateways.js', () => {
+
+        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles &copy; Esri'
+        }).addTo(map);
+
+        const iconos = {
+            PT: new L.Icon({ iconUrl: 'https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Puerta_Negra.png', iconSize: [40, 40], iconAnchor: [15, 30] }),
+            CC: new L.Icon({ iconUrl: 'https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Casa_De_Cambio.png', iconSize: [40, 40], iconAnchor: [15, 30] }),
+            FT: new L.Icon({ iconUrl: 'https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Frente_De_Trabajo.png', iconSize: [40, 40], iconAnchor: [15, 30] })
+        };
+
+        lugares.forEach(lugar => {
+            const icono = iconos[lugar.tipo_area] || new L.Icon.Default();
+            L.marker([lugar.lat, lugar.lng], { icon: icono })
+                .bindPopup(`<b>${lugar.nombre}</b><br>Tipo: ${lugar.tipo_area}`)
+                .addTo(map);
+        });
+    });
+
+    // Luego cargar los otros scripts en cadena
+    cargarScriptDinamico('dias_disponibles_personas.js', () => {
+        cargarScriptDinamico('personas_disponibles.js', () => {
+            cargarScriptDinamico('empresas_disponibles.js', () => {
+                // Cuando todos los scripts estén cargados, inicializar selectores
+                const diaSelect = document.getElementById("dia-select");
+                const empresaSelect = document.getElementById("empresa-select");
+                const personaSelect = document.getElementById("person-select");
+
+                diasDisponibles.sort((a, b) => new Date(b) - new Date(a)).forEach(fecha => {
+                    const option = document.createElement("option");
+                    option.value = fecha;
+                    option.textContent = fecha;
+                    diaSelect.appendChild(option);
+                });
+
+                const empresasOrdenadas = [...companyName].sort();
+                empresasOrdenadas.forEach(empresa => {
+                    const opt = document.createElement("option");
+                    opt.value = empresa;
+                    opt.textContent = empresa.replaceAll("_", " ");
+                    empresaSelect.appendChild(opt);
+                });
+
+                function actualizarPersonas(empresaSeleccionada) {
+                    personaSelect.innerHTML = "";
+                    const personas = personasDisponibles[empresaSeleccionada] || [];
+                    personas.sort().forEach(persona => {
+                        const opt = document.createElement("option");
+                        opt.value = persona;
+                        opt.textContent = persona.replaceAll("_", " ");
+                        personaSelect.appendChild(opt);
+                    });
+                }
+
+                empresaSelect.addEventListener("change", () => {
+                    actualizarPersonas(empresaSelect.value);
+                });
+
+                if (empresasOrdenadas.length > 0) {
+                    empresaSelect.value = empresasOrdenadas[0];
+                    actualizarPersonas(empresasOrdenadas[0]);
+                }
+            });
+        });
+    });
+
+    // Cargar rutas
+    // Cargar archivo de puntos al cambiar persona o día
+    function cargarRutaSeleccionada() {
+        const person = document.getElementById("person-select").value;
+        const dia = document.getElementById("dia-select").value;
+
+        if (!person || !dia) return;
+
+        const archivo = `salida_persona_js/puntos_${person}_${dia.replace(/-/g, "_")}.js`;
+        const scriptExistente = document.getElementById("ruta-script");
+        if (scriptExistente) scriptExistente.remove();
+
+        const nuevoScript = document.createElement("script");
+        nuevoScript.src = archivo;
+        nuevoScript.id = "ruta-script";
+
+        nuevoScript.onload = () => {
+            //alert(`Archivo cargado correctamente: ${archivo}`);
+            // Construir nombre variable igual que en python
+            const varName = `puntos_${person.replace(/-/g, '_')}_${dia.replace(/-/g, '_')}`;
+            //alert(varName);
+            if (typeof window[varName] === "undefined") {
+                alert(`No se encontró la variable ${varName} en el archivo cargado.`);
+                return;
+            }
+            movementData = window[varName];
+            //alert(movementData);
+            resetRuta();
+        };
+
+        nuevoScript.onerror = () => {
+            //alert(`Error al cargar el archivo: ${archivo}`);
+        };
+
+        document.body.appendChild(nuevoScript);
+    }
+
+    // Reiniciar ruta
+    function resetRuta() {
+        stopAnimation();
+        currentIndex = 0;
+        if (personMarker) map.removeLayer(personMarker);
+        if (pathPolyline) map.removeLayer(pathPolyline);
+        if (pathPolylineTraversed) map.removeLayer(pathPolylineTraversed);
+        visitedMarkers.forEach(m => map.removeLayer(m));
+        visitedMarkers = [];
+            
+        initializeMap();
+        updatePosition(0, 1);
+    }
+
+    // Actualizar la posición del camión
+    function updatePosition(index, progress = 1) {
+        const isLastPoint = index >= movementData.length - 1;
+        const current = movementData[index];
+        const next = isLastPoint ? current : movementData[index + 1];
+           
+        // Calcular posición actual
+        const position = {
+            lat: current.lat + (next.lat - current.lat) * progress,
+            lng: current.lng + (next.lng - current.lng) * progress
+        };
+
+        // Actualizar marcador del camión
+        personMarker.setLatLng([position.lat, position.lng]);
+        personMarker.setIcon(createPersonIcon(current.state));
+
+        // Actualizar ruta recorrida
+        const traversedPath = movementData.slice(0, index + 1).map(p => [p.lat, p.lng]);
+        traversedPath.push([position.lat, position.lng]);
+        pathPolylineTraversed.setLatLngs(traversedPath);
+            
+        // Actualizar marcadores visitados
+        visitedMarkers.forEach((m, i) => m.setOpacity(i <= index ? 0.8 : 0));
+            
+        // Actualizar panel de información
+        updateInfoPanel(current, index, progress);
+            
+        // Al completar la ruta
+        if (isLastPoint) {
+            pathPolyline.setStyle({opacity: 0.8});
+        }
+    }
+
+    // Actualizar panel de información
+    function updateInfoPanel(data, index, progress) {
+        const rawProgress = ((index + progress) / (movementData.length - 1)) * 100;
+        const totalProgress = Math.min(rawProgress, 100).toFixed(1);
+            
+        // Calcular distancia recorrida
+        let distanceTraveled = 0;
+        for (let i = 0; i < index; i++) {
+            distanceTraveled += calculateDistance(
+                movementData[i].lat, movementData[i].lng,
+                movementData[i + 1].lat, movementData[i + 1].lng
+            );
+        }
+            
+        // Actualizar elementos DOM
+        //{"latitud": -22.328839025764, "longitud": -68.885274223686, "timestamp": "2025-07-02T07:00:00", 
+        // "fecha_chile": "2025-07-02", "nombre": "CC Nexxo Fundicion", "gateway_tipo_area": null, 
+        // "worker_name_full": "ADEMAR ALBARO SALAZAR PRADO", "company_name": "KDM", 
+        // "tipo_intervalo": "NO UBICABLE", "tipo_intervalo_final": "NO UBICABLE", 
+        // "tipo_intervalo_final_explicado": "NO UBICABLE", "color_estado": "ROJO"}
+            
+        document.getElementById("current-location").innerText = data.nombre;
+        document.getElementById("current-coords").innerText = `${data.latitud.toFixed(6)}, ${data.longitud.toFixed(6)}`;
+        document.getElementById("current-time").innerText = new Date(data.timestamp).toLocaleTimeString("es-CL");
+        document.getElementById("progress").innerText = `${totalProgress}%`;
+        document.getElementById("speed-info").innerText = `${speed}x`;
+        document.getElementById("distance-info").innerText = `${distanceTraveled.toFixed(2)} km`;
+        document.getElementById("points-info").innerText = `${index + 1}/${movementData.length}`;
+            
+        // Actualizar estado del camión
+        document.getElementById("status-info").innerText = data.color_estado;
+            
+        // Actualizar indicador de estado
+        const statusIndicator = document.getElementById("status-indicator");
+        statusIndicator.className = "status-indicator";
+            
+        switch(data.state) {
+            case "VERDE":
+                statusIndicator.classList.add("status-verde");
+                break;
+            case "ROJO":
+                statusIndicator.classList.add("status-rojo");
+                break;
+
+        }
+            
+        // Actualizar badge de estado
+        const stateBadge = document.getElementById("state-badge");
+        stateBadge.className = "state-badge";
+        stateBadge.classList.add(`state-${data.state.toLowerCase()}`);
+        stateBadge.innerText = data.state;
+            
+        // Actualizar barra de progreso
+        document.getElementById("progress-fill").style.width = `${totalProgress}%`;
+    }
+
+    // Detener animación
+    function stopAnimation() {
+        if (!isPlaying) return;
+        isPlaying = false;
+        clearInterval(animationInterval);
+        document.getElementById("play-btn").disabled = false;
+        document.getElementById("pause-btn").disabled = true;
+            
+        if (currentIndex >= movementData.length - 1) {
+            updatePosition(movementData.length - 1, 1);
+        }
+    }
+
+    // Inicializar el mapa con la ruta
+    function initializeMap() {
+        // Calcular distancia total
+        totalDistance = 0;
+
+        //alert(movementData.length);
+        for (let i = 0; i < movementData.length - 1; i++) {
+            totalDistance += calculateDistance(
+                movementData[i].latitud, movementData[i].longitud,
+                movementData[i + 1].latitud, movementData[i + 1].longitud
+            );
+        }
+            
+        // Crear marcador del camión
+        personMarker = L.marker([movementData[0].latitud, movementData[0].longitud], { 
+            icon: createPersonIcon(movementData[0].state) 
+        }).addTo(map);
+            
+        // Crear polilíneas
+        const pathCoords = movementData.map(p => [p.latitud, p.longitud]);
+            
+        // Ruta completa
+        pathPolyline = L.polyline(pathCoords, {
+            color: "#0ec1e4", 
+            weight: 4, 
+            opacity: 0.0,
+            dashArray: "10, 5"
+        }).addTo(map);
+            
+        // Ruta recorrida
+        pathPolylineTraversed = L.polyline([], {
+            color: "#ff6b6b", 
+            weight: 4, 
+            opacity: 0.8
+        }).addTo(map);
+            
+        // Marcadores de puntos visitados
+        movementData.forEach((p, i) => {
+            const m = L.marker([p.latitud, p.longitud], { 
+                icon: visitedIcon, 
+                opacity: i === 0 ? 0.8 : 0 
+            });
+            m.bindPopup(`
+                <h4>${p.nombre}</h4>
+                <small><strong>Coordenadas:</strong> ${p.latitud.toFixed(6)}, ${p.longitud.toFixed(6)}</small>
+                <small><strong>Tiempo:</strong> ${new Date(p.timestamp).toLocaleString("es-CL")}</small>
+                <small><strong>Estado:</strong> <span class="state-badge state-${p.color_estado.toLowerCase()}">${p.color_estado}</span></small>
+            `);
+            m.addTo(map);
+            visitedMarkers.push(m);
+        });
+            
+        // Ajustar el mapa a la ruta
+        map.fitBounds(pathCoords, { padding: [50, 50] });
+    }
+
+    // Función para calcular la distancia entre dos puntos
+    const calculateDistance = (lat1, lng1, lat2, lng2) => {
+        const R = 6371; // Radio de la Tierra en km
+        const dLat = (lat2 - lat1) * Math.PI / 180;
+        const dLng = (lng2 - lng1) * Math.PI / 180;
+        const a = 
+            Math.sin(dLat/2) * Math.sin(dLat/2) +
+            Math.cos(lat1 * Math.PI / 180) * 
+            Math.cos(lat2 * Math.PI / 180) *
+            Math.sin(dLng/2) * Math.sin(dLng/2);
+        const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+        return R * c;
+    };
+
+    // Iconos personalizados por estado (corregidos)
+    const createPersonIcon = (state) => {
+        let iconUrl;
+            
+        switch(state) {
+            case "Idle":
+                iconUrl = "https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Amarillo.png";
+                break;
+            case "Running":
+                iconUrl = "https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Verde.png";
+                break;
+            case "Stopped":
+                iconUrl = "https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Salmon.png";
+                break;
+            case "Inactive":
+            default:
+                iconUrl = "https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Rojo.png";
+                break;
+        }
+            
+        return L.icon({
+            iconUrl: iconUrl,
+            iconSize: [80, 80],
+            iconAnchor: [20, 40] //Cambio de tamaño
+        });
+    };
+
+    const visitedIcon = L.divIcon({
+        className: "visited-marker",
+        html: `<div style="
+            width: 20px;
+            height: 20px;
+            background: #2ed573;
+            border: 3px solid white;
+            border-radius: 50%;
+            box-shadow: 0 2px 8px rgba(46, 213, 115, 0.4);
+        "></div>`,
+        iconSize: [20, 20],
+        iconAnchor: [10, 10]
+    });
+</script>
+</html>

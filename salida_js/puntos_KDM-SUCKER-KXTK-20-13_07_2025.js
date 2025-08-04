@@ -1,0 +1,4 @@
+window.puntos_KDM_SUCKER_KXTK_20_13_07_2025 = [
+{ lat: -22.483949, lng: -68.916641, timestamp: "2025-07-13T20:00:00", description: "Avenida Jorge Alessandri Rodríguez,El Peuco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Avenida Jorge Alessandri Rodríguez,El Peuco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Stopped" },
+{ lat: -22.483949, lng: -68.916641, timestamp: "2025-07-13T20:00:00", description: "Avenida Jorge Alessandri Rodríguez,El Peuco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Avenida Jorge Alessandri Rodríguez,El Peuco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Stopped" }
+];

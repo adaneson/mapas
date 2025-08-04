@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Mapa Animado con Leaflet</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css' />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js'></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        #map-container {
+            width: 100%;
+            height: 600px;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+            position: relative;
+            overflow: hidden;
+            border: 2px solid rgba(255,255,255,0.3);
+        }
+        
+        #map {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+        
+        .controls {
+            margin-bottom: 20px;
+            padding: 20px;
+            background: rgba(255,255,255,0.95);
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            align-items: center;
+            backdrop-filter: blur(10px);
+        }
+        
+        .controls button {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102,126,234,0.3);
+        }
+        
+        .controls button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102,126,234,0.4);
+        }
+        
+        .controls button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+        
+        .controls select {
+            padding: 10px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            background: white;
+            transition: border-color 0.3s ease;
+        }
+        
+        .controls select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .controls label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #333;
+        }
+        
+        .controls input[type='checkbox'] {
+            width: 18px;
+            height: 18px;
+            accent-color: #667eea;
+        }
+        
+        .info-panel {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(255,255,255,0.95);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+            font-size: 13px;
+            min-width: 250px;
+            z-index: 1000;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+        
+        .info-panel h4 {
+            margin: 0 0 15px 0;
+            color: #333;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #eee;
+        }
+        
+        .info-item {
+            margin: 8px 0;
+            color: #666;
+            padding: 5px 0;
+        }
+        
+        .info-item strong {
+            color: #333;
+            font-weight: 600;
+        }
+        
+        .person-marker {
+            width: 30px;
+            height: 30px;
+            background: #ff4757;
+            border: 4px solid white;
+            border-radius: 50%;
+            box-shadow: 0 4px 15px rgba(255, 71, 87, 0.5);
+            animation: pulse 2s infinite;
+            position: relative;
+        }
+        
+        .person-marker::before {
+            content: '📍';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 16px;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+        
+        .visited-marker {
+            width: 20px;
+            height: 20px;
+            background: #2ed573;
+            border: 3px solid white;
+            border-radius: 50%;
+            box-shadow: 0 2px 8px rgba(46, 213, 115, 0.4);
+        }
+        
+        .polyline-animated {
+            animation: dash 20s linear infinite;
+        }
+        
+        @keyframes dash {
+            to { stroke-dashoffset: -1000; }
+        }
+        
+        .leaflet-popup-content {
+            margin: 10px 15px;
+            line-height: 1.4;
+        }
+        
+        .leaflet-popup-content h4 {
+            margin: 0 0 8px 0;
+            color: #333;
+            font-size: 14px;
+        }
+        
+        .leaflet-popup-content small {
+            color: #666;
+            display: block;
+            margin: 2px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class='controls'>
+        <button id='play-btn'>▶ Reproducir</button>
+        <button id='pause-btn' disabled>⏸ Pausar</button>
+        <button id='reset-btn'>🔄 Reiniciar</button>
+        <button id='fit-btn'>🎯 Centrar Ruta</button>
+        <label>
+            Velocidad: 
+            <select id='speed-select'>
+                <option value='0.5'>0.5x</option>
+                <option value='1' selected>1x</option>
+                <option value='2'>2x</option>
+                <option value='5'>5x</option>
+                <option value='10'>10x</option>
+            </select>
+        </label>
+        <label>
+            <input type='checkbox' id='show-path' checked> Mostrar trayectoria
+        </label>
+        <label>
+            <input type='checkbox' id='show-visited' checked> Mostrar puntos visitados
+        </label>
+        <label>
+            Estilo: 
+            <select id='map-style'>
+                <option value='osm'>OpenStreetMap</option>
+                <option value='satellite'>Satélite</option>
+                <option value='topo'>Topográfico</option>
+                <option value='dark'>Oscuro</option>
+            </select>
+        </label>
+    </div>
+    
+    <div id='map-container'>
+        <div id='map'></div>
+        
+        <div class='info-panel'>
+            <h4>📍 Información del Recorrido</h4>
+            <div class='info-item' id='current-location'><strong>Ubicación:</strong> -</div>
+            <div class='info-item' id='current-coords'><strong>Coordenadas:</strong> -</div>
+            <div class='info-item' id='current-time'><strong>Tiempo:</strong> -</div>
+            <div class='info-item' id='progress'><strong>Progreso:</strong> 0%</div>
+            <div class='info-item' id='speed-info'><strong>Velocidad:</strong> 1x</div>
+            <div class='info-item' id='distance-info'><strong>Distancia:</strong> -</div>
+        </div>
+    </div>
+
+    <script>
+        // Datos de ejemplo - Ruta por Santiago de Chile
+        const movementData = [
+            { lat: -33.4489, lng: -70.6693, timestamp: '2024-01-01T08:00:00', description: 'Plaza de Armas', address: 'Centro Histórico de Santiago' },
+            { lat: -33.4378, lng: -70.6504, timestamp: '2024-01-01T08:30:00', description: 'Parque Forestal', address: 'Providencia, Santiago' },
+            { lat: -33.4173, lng: -70.6050, timestamp: '2024-01-01T09:00:00', description: 'Providencia', address: 'Av. Providencia, Santiago' },
+            { lat: -33.4051, lng: -70.5775, timestamp: '2024-01-01T09:30:00', description: 'Las Condes', address: 'Sector Financiero' },
+            { lat: -33.3926, lng: -70.5065, timestamp: '2024-01-01T10:00:00', description: 'La Dehesa', address: 'Zona Residencial' },
+            { lat: -33.4133, lng: -70.5478, timestamp: '2024-01-01T10:30:00', description: 'Vitacura', address: 'Sector Oriente' },
+            { lat: -33.4264, lng: -70.6114, timestamp: '2024-01-01T11:00:00', description: 'Ñuñoa', address: 'Comuna de Ñuñoa' },
+            { lat: -33.4571, lng: -70.6483, timestamp: '2024-01-01T11:30:00', description: 'San Miguel', address: 'Sector Sur' },
+            { lat: -33.4489, lng: -70.6693, timestamp: '2024-01-01T12:00:00', description: 'Plaza de Armas', address: 'Regreso al Centro' }
+        ];
+
+-22,311265	-68,892511
+-22,311575	-68,894871
+-22,311637	-68,893364
+-22,311135	-68,89642
+-22,3115922	-22,3115922
+-22,3115922	-68,8949453
+-22,310516	-68,916855
+-22,3112541	-68,892656
+-22,3115922	-68,8949453
+
+
+
+        // Configuración de capas de mapa
+        const mapLayers = {
+            osm: L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap contributors'
+            }),
+            satellite: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+                attribution: 'Tiles &copy; Esri'
+            }),
+            topo: L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+                attribution: 'Map data: &copy; OpenStreetMap contributors, SRTM | Map style: &copy; OpenTopoMap'
+            }),
+            dark: L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+                attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
+            })
+        };
+
+        // Inicializar mapa
+        const map = L.map('map', {
+            center: [-33.4489, -70.6693],
+            zoom: 12,
+            layers: [mapLayers.osm]
+        });
+
+        // Variables de animación
+        let currentIndex = 0;
+        let isPlaying = false;
+        let animationInterval;
+        let speed = 1;
+
+        // Elementos del mapa
+        let personMarker;
+        let visitedMarkers = [];
+        let pathPolyline;
+        let currentTileLayer = 'osm';
+
+        // Crear marcador de persona
+        const personIcon = L.divIcon({
+            className: 'person-marker',
+            iconSize: [30, 30],
+            iconAnchor: [15, 15]
+        });
+
+        // Crear marcador de puntos visitados
+        const visitedIcon = L.divIcon({
+            className: 'visited-marker',
+            iconSize: [20, 20],
+            iconAnchor: [10, 10]
+        });
+
+        // Inicializar elementos del mapa
+        function initializeMap() {
+            // Crear marcador de persona
+            personMarker = L.marker([movementData[0].lat, movementData[0].lng], {
+                icon: personIcon,
+                zIndexOffset: 1000
+            }).addTo(map);
+
+            // Crear línea de trayectoria
+            const pathCoords = movementData.map(point => [point.lat, point.lng]);
+            pathPolyline = L.polyline(pathCoords, {
+                color: '#3742fa',
+                weight: 4,
+                opacity: 0.8,
+                dashArray: '10, 5',
+                className: 'polyline-animated'
+            }).addTo(map);
+
+            // Crear marcadores de puntos visitados
+            movementData.forEach((point, index) => {
+                const marker = L.marker([point.lat, point.lng], {
+                    icon: visitedIcon,
+                    opacity: 0
+                });
+
+                marker.bindPopup(`
+                    <h4>${point.description}</h4>
+                    <small><strong>Dirección:</strong> ${point.address}</small>
+                    <small><strong>Tiempo:</strong> ${new Date(point.timestamp).toLocaleString('es-CL')}</small>
+                    <small><strong>Coordenadas:</strong> ${point.lat.toFixed(4)}, ${point.lng.toFixed(4)}</small>
+                `);
+
+                visitedMarkers.push(marker);
+                marker.addTo(map);
+            });
+
+            // Ajustar vista inicial
+            map.fitBounds(pathCoords, { padding: [20, 20] });
+        }
+
+        // Función para calcular distancia
+        function calculateDistance(lat1, lng1, lat2, lng2) {
+            const R = 6371; // Radio de la Tierra en km
+            const dLat = (lat2 - lat1) * Math.PI / 180;
+            const dLng = (lng2 - lng1) * Math.PI / 180;
+            const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                    Math.sin(dLng/2) * Math.sin(dLng/2);
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+            return R * c;
+        }
+
+        // Función para interpolar entre dos puntos
+        function interpolatePosition(start, end, progress) {
+            return {
+                lat: start.lat + (end.lat - start.lat) * progress,
+                lng: start.lng + (end.lng - start.lng) * progress
+            };
+        }
+
+        // Actualizar posición del marcador
+        function updatePosition(index, progress = 1) {
+            const current = movementData[index];
+            let position;
+
+            if (progress === 1 || index === movementData.length - 1) {
+                position = { lat: current.lat, lng: current.lng };
+            } else {
+                const next = movementData[index + 1];
+                position = interpolatePosition(current, next, progress);
+            }
+
+            // Actualizar marcador de persona
+            personMarker.setLatLng([position.lat, position.lng]);
+
+            // Actualizar marcadores visitados
+            visitedMarkers.forEach((marker, i) => {
+                if (i < index || (i === index && progress === 1)) {
+                    marker.setOpacity(0.8);
+                } else {
+                    marker.setOpacity(0);
+                }
+            });
+
+            updateInfoPanel(current, index, progress);
+        }
+
+        // Actualizar panel de información
+        function updateInfoPanel(data, index, progress) {
+            const totalProgress = ((index + progress) / movementData.length * 100).toFixed(1);
+
+            // Calcular distancia total recorrida
+            let totalDistance = 0;
+            for (let i = 0; i < index; i++) {
+                if (i < movementData.length - 1) {
+                    totalDistance += calculateDistance(
+                        movementData[i].lat, movementData[i].lng,
+                        movementData[i + 1].lat, movementData[i + 1].lng
+                    );
+                }
+            }
+
+            document.getElementById('current-location').innerHTML = 
+                `<strong>Ubicación:</strong> ${data.description}`;
+            document.getElementById('current-coords').innerHTML = 
+                `<strong>Coordenadas:</strong> ${data.lat.toFixed(4)}, ${data.lng.toFixed(4)}`;
+            document.getElementById('current-time').innerHTML = 
+                `<strong>Tiempo:</strong> ${new Date(data.timestamp).toLocaleTimeString('es-CL')}`;
+            document.getElementById('progress').innerHTML = 
+                `<strong>Progreso:</strong> ${totalProgress}%`;
+            document.getElementById('speed-info').innerHTML = 
+                `<strong>Velocidad:</strong> ${speed}x`;
+            document.getElementById('distance-info').innerHTML = 
+                `<strong>Distancia:</strong> ${totalDistance.toFixed(2)} km`;
+        }
+
+        // Funciones de animación
+        function startAnimation() {
+            if (isPlaying) return;
+
+            isPlaying = true;
+            document.getElementById('play-btn').disabled = true;
+            document.getElementById('pause-btn').disabled = false;
+
+            let subIndex = 0;
+            const steps = 20;
+
+            animationInterval = setInterval(() => {
+                if (currentIndex >= movementData.length - 1) {
+                    stopAnimation();
+                    return;
+                }
+
+                const progress = subIndex / steps;
+                updatePosition(currentIndex, progress);
+
+                subIndex++;
+                if (subIndex > steps) {
+                    subIndex = 0;
+                    currentIndex++;
+                }
+            }, 100 / speed);
+        }
+
+        function stopAnimation() {
+            isPlaying = false;
+            clearInterval(animationInterval);
+            document.getElementById('play-btn').disabled = false;
+            document.getElementById('pause-btn').disabled = true;
+        }
+
+        function resetAnimation() {
+            stopAnimation();
+            currentIndex = 0;
+            updatePosition(0, 1);
+        }
+
+        function fitToRoute() {
+            const pathCoords = movementData.map(point => [point.lat, point.lng]);
+            map.fitBounds(pathCoords, { padding: [20, 20] });
+        }
+
+        // Event listeners
+        document.getElementById('play-btn').addEventListener('click', startAnimation);
+        document.getElementById('pause-btn').addEventListener('click', stopAnimation);
+        document.getElementById('reset-btn').addEventListener('click', resetAnimation);
+        document.getElementById('fit-btn').addEventListener('click', fitToRoute);
+
+        document.getElementById('speed-select').addEventListener('change', (e) => {
+            speed = parseFloat(e.target.value);
+            updateInfoPanel(movementData[currentIndex], currentIndex, 1);
+        });
+
+        document.getElementById('show-path').addEventListener('change', (e) => {
+            if (e.target.checked) {
+                pathPolyline.addTo(map);
+            } else {
+                map.removeLayer(pathPolyline);
+            }
+        });
+
+        document.getElementById('show-visited').addEventListener('change', (e) => {
+            visitedMarkers.forEach(marker => {
+                if (e.target.checked) {
+                    marker.addTo(map);
+                } else {
+                    map.removeLayer(marker);
+                }
+            });
+        });
+
+        document.getElementById('map-style').addEventListener('change', (e) => {
+            const newLayer = e.target.value;
+            map.removeLayer(mapLayers[currentTileLayer]);
+            mapLayers[newLayer].addTo(map);
+            currentTileLayer = newLayer;
+        });
+
+        // Inicializar todo
+        initializeMap();
+        updatePosition(0, 1);
+    </script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+const companyName = ["BERLIAM", "KDM", "NEXXO", "PACOLL_ING._Y_CÍA._LTDA", "SIGDO_KOPPERS"];

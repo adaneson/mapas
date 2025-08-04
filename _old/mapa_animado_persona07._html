@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Animado de Rutas de Personas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a9ebd 0%, #0088aa 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 25px;
+            color: white;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+            padding: 20px;
+            background: rgba(255,255,255,0.15);
+            border-radius: 15px;
+            backdrop-filter: blur(5px);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .controls {
+            padding: 20px;
+            background: rgba(255,255,255,0.95);
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .controls button {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            background: linear-gradient(135deg, #0ec1e4 0%, #00a3d6 100%);
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(14,193,228,0.3);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .controls button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(14,193,228,0.4);
+        }
+
+        .controls button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .controls select {
+            padding: 10px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            background: white;
+            transition: border-color 0.3s ease;
+        }
+
+        .controls select:focus {
+            outline: none;
+            border-color: #0ec1e4;
+        }
+
+        .controls label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #333;
+        }
+
+        .controls input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            accent-color: #0ec1e4;
+        }
+
+        .map-section {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .map-container {
+            flex: 1;
+            min-width: 300px;
+            height: 760px;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+            overflow: hidden;
+            border: 2px solid rgba(255,255,255,0.3);
+            position: relative;
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+
+        .info-panel {
+            width: 300px;
+            background: rgba(255,255,255,0.95);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            font-size: 14px;
+            height: fit-content;
+        }
+
+        .info-panel h4 {
+            margin: 0 0 20px 0;
+            color: #333;
+            font-size: 18px;
+            font-weight: 600;
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #eee;
+        }
+
+        .info-item {
+            margin: 12px 0;
+            color: #555;
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .info-item strong {
+            color: #222;
+            font-weight: 600;
+            display: inline-block;
+            min-width: 100px;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #e0e0e0;
+            border-radius: 4px;
+            margin: 8px 0;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #0ec1e4, #00a3d6);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .progress-info {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            color: #666;
+            margin-top: 4px;
+        }
+
+        .status-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-left: 8px;
+        }
+
+        .status-running { background: #2ed573; }
+        .status-stopped { background: #ffa726; }
+        .status-idle { background: #ffeb3b; }
+        .status-inactive { background: #ff5252; }
+
+        .state-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-left: 8px;
+        }
+
+        .state-running { background: #e8f5e8; color: #2e7d32; }
+        .state-stopped { background: #fff3e0; color: #f57c00; }
+        .state-idle { background: #fffde7; color: #f57f17; }
+        .state-inactive { background: #ffebee; color: #c62828; }
+
+        .error-message {
+            background: #ffebee;
+            color: #c62828;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            border-left: 4px solid #c62828;
+        }
+
+        .loading-message {
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            border-left: 4px solid #1976d2;
+        }
+
+        @media (max-width: 900px) {
+            .map-section {
+                flex-direction: column;
+            }
+
+            .info-panel {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<script src="dias_disponibles_personas.js"></script>
+<script src="empresas_disponibles.js"></script>
+<script src="personas_disponibles.js"></script>
+<script src="gateways.js"></script>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚛 Mapa Animado de Rutas</h1>
+            <p>Visualización de trayectorias de personas en tiempo real</p>
+        </div>
+
+        <div class="controls">
+            <button id="play-btn">▶ Reproducir</button>
+            <button id="pause-btn" disabled>⏸ Pausar</button>
+            <button id="reset-btn">🔄 Reiniciar</button>
+            <button id="fit-btn">🎯 Centrar Ruta</button>
+
+            <label>
+                Velocidad:
+                <select id="speed-select">
+                    <option value="0.5">0.5x</option>
+                    <option value="1" selected>1x</option>
+                    <option value="2">2x</option>
+                    <option value="5">5x</option>
+                    <option value="10">10x</option>
+                </select>
+            </label>
+
+            <label>
+                <input type="checkbox" id="show-path" checked> Mostrar trayectoria
+            </label>
+            <label>
+                <input type="checkbox" id="show-visited" checked> Mostrar puntos
+            </label>
+
+            <div style="width: 100%; display: flex; gap: 10px; margin-top: 10px; align-items: center;">
+                <label for="dia-select">Seleccionar Día:</label>
+                <select id="dia-select">
+                    <option value="" disabled selected>Seleccione una fecha</option>
+                </select>
+
+                <label for="empresa-select">Seleccionar Empresa:</label>
+                <select id="empresa-select">
+                    <option value="" disabled selected>Seleccione una empresa</option>
+                </select>
+
+                <label for="person-select">Seleccionar Persona:</label>
+                <select id="person-select">
+                    <option value="" disabled selected>Seleccione una persona</option>
+                </select>
+
+                <label for="map-style">Mapa:</label>
+                <select id="map-style">
+                    <option value="satellite" selected>Satélite</option>
+                    <option value="osm">OpenStreetMap</option>
+                    <option value="topo">Topográfico</option>
+                    <option value="dark">Oscuro</option>
+                    <option value="light">Claro</option>
+                    <option value="streets">Calles</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="messages"></div>
+
+        <div class="map-section">
+            <div class="map-container">
+                <div id="map"></div>
+            </div>
+
+            <div class="info-panel">
+                <h4>📍 Información del Recorrido</h4>
+                <div class="info-item"><strong>Ubicación:</strong> <span id="current-location">-</span></div>
+                <div class="info-item"><strong>Coordenadas:</strong> <span id="current-coords">-</span></div>
+                <div class="info-item"><strong>Tiempo:</strong> <span id="current-time">-</span></div>
+                <div class="info-item"><strong>Estado:</strong> 
+                    <span id="status-info">-</span> 
+                    <span id="status-indicator" class="status-indicator"></span>
+                    <span id="state-badge" class="state-badge">-</span>
+                </div>
+                
+                <div class="person-progress">
+                    <div class="info-item"><strong>Progreso:</strong> <span id="progress">0%</span></div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+                    <div class="progress-info">
+                        <span>Inicio</span>
+                        <span id="distance-info">0 km</span>
+                        <span>Fin</span>
+                    </div>
+                </div>
+                
+                <div class="info-item"><strong>Velocidad:</strong> <span id="speed-info">1x</span></div>
+                <div class="info-item"><strong>Puntos recorridos:</strong> <span id="points-info">0/0</span></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Variables globales para la animación
+        let movementData = [];
+        let currentIndex = 0;
+        let isPlaying = false;
+        let animationInterval;
+        let speed = 1;
+        let personMarker, visitedMarkers = [];
+        let pathPolyline, pathPolylineTraversed;
+        let totalDistance = 0;
+        let map;
+
+        // Variables para datos (se deben cargar desde archivos externos)
+        let diasDisponibles = [];
+        let personasDisponibles = {};
+        let companyName = [];
+        let lugares = [];
+
+        // Función para mostrar mensajes
+        function showMessage(message, type = 'info') {
+            const messagesDiv = document.getElementById('messages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = type === 'error' ? 'error-message' : 'loading-message';
+            messageDiv.textContent = message;
+            messagesDiv.appendChild(messageDiv);
+            
+            // Remover mensaje después de 5 segundos
+            setTimeout(() => {
+                if (messageDiv.parentNode) {
+                    messageDiv.parentNode.removeChild(messageDiv);
+                }
+            }, 5000);
+        }
+
+        // Capas del mapa
+        const mapLayers = {
+            satellite: L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", { 
+                attribution: "Tiles &copy; Esri" 
+            }),
+            osm: L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { 
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' 
+            }),
+            topo: L.tileLayer("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", { 
+                attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a>'
+            }),
+            dark: L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+            }),
+            light: L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", { 
+                attribution: "© OpenStreetMap contributors © CARTO" 
+            }),
+            streets: L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", { 
+                attribution: "Tiles © Esri" 
+            })
+        };
+
+        // Inicializar mapa
+        function initializeMap() {
+            map = L.map("map", {
+                center: [-22.324271, -68.901054],
+                zoom: 14,
+                maxZoom: 18
+            });
+
+            // Capa inicial por defecto
+            let currentLayer = mapLayers["satellite"];
+            currentLayer.addTo(map);
+
+            // Cambio de capa al seleccionar estilo
+            const mapStyleSelect = document.getElementById("map-style");
+            mapStyleSelect.addEventListener("change", () => {
+                const selectedStyle = mapStyleSelect.value;
+                if (mapLayers[selectedStyle]) {
+                    map.removeLayer(currentLayer);
+                    currentLayer = mapLayers[selectedStyle];
+                    currentLayer.addTo(map);
+                }
+            });
+        }
+
+        // Iconos personalizados para lugares
+        const iconos = {
+            PT: new L.Icon({ 
+                iconUrl: 'https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Puerta_Negra.png', 
+                iconSize: [40, 40], 
+                iconAnchor: [15, 30] 
+            }),
+            CC: new L.Icon({ 
+                iconUrl: 'https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Casa_De_Cambio.png', 
+                iconSize: [40, 40], 
+                iconAnchor: [15, 30] 
+            }),
+            FT: new L.Icon({ 
+                iconUrl: 'https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Frente_De_Trabajo.png', 
+                iconSize: [40, 40], 
+                iconAnchor: [15, 30] 
+            })
+        };
+
+        // Agregar marcadores de lugares
+        function addPlaceMarkers() {
+            if (!lugares || lugares.length === 0) return;
+            
+            lugares.forEach(lugar => {
+                const icono = iconos[lugar.tipo_area] || new L.Icon.Default();
+                L.marker([lugar.lat, lugar.lng], { icon: icono })
+                    .bindPopup(`<b>${lugar.nombre}</b><br>Tipo: ${lugar.tipo_area}`)
+                    .addTo(map);
+            });
+        }
+
+        // Iconos personalizados por estado
+        const createTruckIcon = (state) => {
+            let iconUrl;
+            switch(state) {
+                case "Idle": iconUrl = "https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Amarillo.png"; break;
+                case "Running": iconUrl = "https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Verde.png"; break;
+                case "Stopped": iconUrl = "https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Salmon.png"; break;
+                case "Inactive": default: iconUrl = "https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Rojo.png"; break;
+            }
+            return L.icon({
+                iconUrl: iconUrl,
+                iconSize: [60, 60],
+                iconAnchor: [30, 60]
+            });
+        };
+
+        const visitedIcon = L.divIcon({
+            className: "visited-marker",
+            html: `<div style="width:16px;height:16px;background:#2ed573;border:2px solid white;border-radius:50%;box-shadow:0 2px 6px rgba(46,213,115,0.4)"></div>`,
+            iconSize: [16, 16],
+            iconAnchor: [8, 8]
+        });
+
+        // Función para calcular distancia
+        const calculateDistance = (lat1, lng1, lat2, lng2) => {
+            const R = 6371;
+            const dLat = (lat2 - lat1) * Math.PI / 180;
+            const dLng = (lng2 - lng1) * Math.PI / 180;
+            const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                      Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                      Math.sin(dLng/2) * Math.sin(dLng/2);
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+            return R * c;
+        };
+
+        // Inicializar mapa con ruta
+        function initializeRoute() {
+            if (!movementData || movementData.length === 0) {
+                showMessage('No hay datos de movimiento para mostrar', 'error');
+                return;
+            }
+            
+            // Limpiar elementos anteriores
+            clearMap();
+            
+            // Calcular distancia total
+            totalDistance = 0;
+            for (let i = 0; i < movementData.length - 1; i++) {
+                totalDistance += calculateDistance(
+                    movementData[i].lat, movementData[i].lng,
+                    movementData[i+1].lat, movementData[i+1].lng
+                );
+            }
+            
+            // Crear marcador de persona
+            personMarker = L.marker([movementData[0].lat, movementData[0].lng], {
+                icon: createTruckIcon(movementData[0].state || 'Inactive')
+            }).addTo(map);
+            
+            // Crear polilíneas
+            const pathCoords = movementData.map(p => [p.lat, p.lng]);
+            
+            // Ruta completa (línea punteada azul)
+            pathPolyline = L.polyline(pathCoords, {
+                color: "#0ec1e4",
+                weight: 3,
+                opacity: 0.6,
+                dashArray: "8,4"
+            }).addTo(map);
+            
+            // Ruta recorrida (línea sólida roja)
+            pathPolylineTraversed = L.polyline([], {
+                color: "#ff6b6b",
+                weight: 4,
+                opacity: 0.9
+            }).addTo(map);
+            
+            // Marcadores de puntos visitados
+            movementData.forEach((p, i) => {
+                const m = L.marker([p.lat, p.lng], {
+                    icon: visitedIcon,
+                    opacity: i === 0 ? 1 : 0
+                }).bindPopup(`
+                    <div style="min-width: 200px;">
+                        <h4 style="margin: 0 0 8px 0; color: #333;">${p.description || 'Punto ' + (i + 1)}</h4>
+                        <div style="font-size: 12px; color: #666;">
+                            <div><strong>Coordenadas:</strong> ${p.lat.toFixed(6)}, ${p.lng.toFixed(6)}</div>
+                            <div><strong>Tiempo:</strong> ${new Date(p.timestamp).toLocaleString("es-CL")}</div>
+                            <div><strong>Estado:</strong> <span class="state-badge state-${(p.state || 'inactive').toLowerCase()}">${p.state || 'N/A'}</span></div>
+                        </div>
+                    </div>
+                `).addTo(map);
+                visitedMarkers.push(m);
+            });
+            
+            // Ajustar vista al recorrido
+            map.fitBounds(pathCoords, { padding: [50, 50] });
+            
+            // Iniciar en posición inicial
+            currentIndex = 0;
+            updatePosition(0, 1);
+            
+            showMessage(`Ruta cargada con ${movementData.length} puntos. Distancia total: ${totalDistance.toFixed(2)} km`);
+        }
+
+        // Limpiar mapa
+        function clearMap() {
+            if (personMarker) {
+                map.removeLayer(personMarker);
+                personMarker = null;
+            }
+            if (pathPolyline) {
+                map.removeLayer(pathPolyline);
+                pathPolyline = null;
+            }
+            if (pathPolylineTraversed) {
+                map.removeLayer(pathPolylineTraversed);
+                pathPolylineTraversed = null;
+            }
+            visitedMarkers.forEach(m => map.removeLayer(m));
+            visitedMarkers = [];
+        }
+
+        // Actualizar posición
+        function updatePosition(index, progress = 1) {
+            if (!movementData || movementData.length === 0 || !personMarker) return;
+            
+            const isLastPoint = index >= movementData.length - 1;
+            const current = movementData[index];
+            const next = isLastPoint ? current : movementData[index + 1];
+            
+            // Calcular posición intermedia
+            const position = {
+                lat: current.lat + (next.lat - current.lat) * progress,
+                lng: current.lng + (next.lng - current.lng) * progress
+            };
+
+            // Actualizar marcador
+            personMarker.setLatLng([position.lat, position.lng]);
+            personMarker.setIcon(createTruckIcon(current.state || 'Inactive'));
+
+            // Actualizar ruta recorrida
+            const traversedPath = movementData.slice(0, index + 1).map(p => [p.lat, p.lng]);
+            if (progress < 1) {
+                traversedPath.push([position.lat, position.lng]);
+            }
+            if (pathPolylineTraversed) {
+                pathPolylineTraversed.setLatLngs(traversedPath);
+            }
+            
+            // Actualizar marcadores visitados
+            visitedMarkers.forEach((m, i) => {
+                const opacity = i <= index ? 1 : 0.3;
+                m.setOpacity(opacity);
+            });
+            
+            // Actualizar panel
+            updateInfoPanel(current, index, progress);
+        }
+
+        // Actualizar panel de información
+        function updateInfoPanel(data, index, progress) {
+            if (!data) return;
+            
+            const rawProgress = ((index + progress) / Math.max(movementData.length - 1, 1)) * 100;
+            const totalProgress = Math.min(rawProgress, 100).toFixed(1);
+            
+            // Calcular distancia recorrida
+            let distanceTraveled = 0;
+            for (let i = 0; i < index && i < movementData.length - 1; i++) {
+                distanceTraveled += calculateDistance(
+                    movementData[i].lat, movementData[i].lng,
+                    movementData[i+1].lat, movementData[i+1].lng
+                );
+            }
+            
+            // Actualizar elementos
+            document.getElementById("current-location").textContent = data.description || `Punto ${index + 1}`;
+            document.getElementById("current-coords").textContent = `${data.lat.toFixed(6)}, ${data.lng.toFixed(6)}`;
+            document.getElementById("current-time").textContent = data.timestamp ? 
+                new Date(data.timestamp).toLocaleString("es-CL") : 'N/A';
+            document.getElementById("progress").textContent = `${totalProgress}%`;
+            document.getElementById("speed-info").textContent = `${speed}x`;
+            document.getElementById("distance-info").textContent = `${distanceTraveled.toFixed(2)} km`;
+            document.getElementById("points-info").textContent = `${index + 1}/${movementData.length}`;
+            document.getElementById("status-info").textContent = data.state || 'N/A';
+            
+            // Actualizar indicador de estado
+            const statusIndicator = document.getElementById("status-indicator");
+            const state = (data.state || 'inactive').toLowerCase();
+            statusIndicator.className = `status-indicator status-${state}`;
+            
+            // Actualizar badge de estado
+            const stateBadge = document.getElementById("state-badge");
+            stateBadge.className = `state-badge state-${state}`;
+            stateBadge.textContent = data.state || 'N/A';
+            
+            // Actualizar barra de progreso
+            document.getElementById("progress-fill").style.width = `${totalProgress}%`;
+        }
+
+        // Control de animación
+        function startAnimation() {
+            if (isPlaying || !movementData || movementData.length === 0 || currentIndex >= movementData.length - 1) {
+                if (!movementData || movementData.length === 0) {
+                    showMessage('No hay datos para animar', 'error');
+                }
+                return;
+            }
+            
+            isPlaying = true;
+            document.getElementById("play-btn").disabled = true;
+            document.getElementById("pause-btn").disabled = false;
+            
+            let subIndex = 0;
+            const steps = 20;
+            
+            animationInterval = setInterval(() => {
+                if (currentIndex >= movementData.length - 1) {
+                    stopAnimation();
+                    return;
+                }
+                
+                updatePosition(currentIndex, subIndex / steps);
+                subIndex++;
+                
+                if (subIndex > steps) {
+                    subIndex = 0;
+                    currentIndex++;
+                    
+                    if (currentIndex >= movementData.length - 1) {
+                        stopAnimation();
+                        updatePosition(currentIndex, 1);
+                    }
+                }
+            }, 100 / speed);
+        }
+
+        function stopAnimation() {
+            if (!isPlaying) return;
+            isPlaying = false;
+            clearInterval(animationInterval);
+            document.getElementById("play-btn").disabled = false;
+            document.getElementById("pause-btn").disabled = true;
+        }
+
+        function resetAnimation() {
+            stopAnimation();
+            currentIndex = 0;
+            if (movementData && movementData.length > 0) {
+                updatePosition(0, 1);
+                if (pathPolyline) pathPolyline.setStyle({opacity: 0.6});
+            }
+        }
+
+        function fitToRoute() {
+            if (!movementData || movementData.length === 0) {
+                showMessage('No hay ruta para mostrar', 'error');
+                return;
+            }
+            const pathCoords = movementData.map(p => [p.lat, p.lng]);
+            map.fitBounds(pathCoords, { padding: [50, 50] });
+        }
+
+        // Configurar selectores
+        function setupSelectors() {
+            const diaSelect = document.getElementById("dia-select");
+            const empresaSelect = document.getElementById("empresa-select");
+            const personaSelect = document.getElementById("person-select");
+
+            // Llenar selector de días
+            if (diasDisponibles && diasDisponibles.length > 0) {
+                diasDisponibles.sort((a, b) => new Date(b) - new Date(a)).forEach(fecha => {
+                    const option = document.createElement("option");
+                    option.value = fecha;
+                    option.textContent = fecha;
+                    diaSelect.appendChild(option);
+                });
+            }
+
+            // Llenar selector de empresas
+            if (companyName && companyName.length > 0) {
+                const empresasOrdenadas = [...companyName].sort();
+                empresasOrdenadas.forEach(empresa => {
+                    const opt = document.createElement("option");
+                    opt.value = empresa;
+                    opt.textContent = empresa.replaceAll("_", " ");
+                    empresaSelect.appendChild(opt);
+                });
+            }
+
+            // Actualizar personas según empresa seleccionada
+            function actualizarPersonas(empresaSeleccionada) {
+                personaSelect.innerHTML = '<option value="" disabled selected>Seleccione una persona</option>';
+                const personas = personasDisponibles[empresaSeleccionada] || [];
+                
+                personas.sort().forEach(persona => {
+                    const opt = document.createElement("option");
+                    opt.value = persona;
+                    opt.textContent = persona.replaceAll("_", " ");
+                    personaSelect.appendChild(opt);
+                });
+            }
+
+            empresaSelect.addEventListener("change", () => {
+                actualizarPersonas(empresaSelect.value);
+                clearMap();
+                resetInfoPanel();
+            });
+
+            // Handler para cambios en los selectores
+            function onSelectionChange() {
+                const fecha = diaSelect.value;
+                const empresa = empresaSelect.value;
+                const persona = personaSelect.value;
+                
+                if (fecha && empresa && persona) {
+                    // Verificar que la persona pertenezca a la empresa seleccionada
+                    const personasEmpresa = personasDisponibles[empresa] || [];
+                    if (personasEmpresa.includes(persona)) {
+                        cargarRuta(fecha, empresa, persona);
+                    } else {
+                        showMessage('La persona seleccionada no pertenece a la empresa seleccionada', 'error');
+                    }
+                } else {
+                    // Limpiar si no hay selección completa
+                    clearMap();
+                    resetInfoPanel();
+                }
+            }
+
+            diaSelect.addEventListener("change", onSelectionChange);
+            personaSelect.addEventListener("change", onSelectionChange);
+        }
+
+        // Resetear panel de información
+        function resetInfoPanel() {
+            document.getElementById("current-location").textContent = "-";
+            document.getElementById("current-coords").textContent = "-";
+            document.getElementById("current-time").textContent = "-";
+            document.getElementById("progress").textContent = "0%";
+            document.getElementById("speed-info").textContent = `${speed}x`;
+            document.getElementById("distance-info").textContent = "0 km";
+            document.getElementById("points-info").textContent = "0/0";
+            document.getElementById("status-info").textContent = "-";
+            document.getElementById("status-indicator").className = "status-indicator";
+            document.getElementById("state-badge").textContent = "-";
+            document.getElementById("state-badge").className = "state-badge";
+            document.getElementById("progress-fill").style.width = "0%";
+        }
+
+        // Cargar ruta según los datos reales
+        function cargarRuta(fecha, empresa, persona) {
+            showMessage(`Cargando ruta para ${persona.replaceAll('_', ' ')} de ${empresa.replaceAll('_', ' ')} el ${fecha}...`);
+            
+            // Construir el nombre de la variable según el patrón de tus datos
+            const fechaFormateada = fecha.replaceAll('-', '_');
+            const variableName = `puntos_${persona}_${fechaFormateada}`;
+            
+            console.log(`🔍 Buscando variable: ${variableName}`);
+            
+            // Verificar si existe la variable en window
+            if (window[variableName] && Array.isArray(window[variableName])) {
+                procesarDatosRuta(window[variableName], variableName);
+            } else {
+                // Si no existe, intentar cargar el archivo correspondiente
+                console.log(`Variable ${variableName} no encontrada, intentando cargar archivo...`);
+                cargarArchivoPuntos(persona, fecha, variableName);
+            }
+        }
+
+        // Cargar archivo de puntos específico
+        function cargarArchivoPuntos(persona, fecha, variableName) {
+            const fechaFormateada = fecha.replaceAll('-', '_');
+            const fileName = `puntos_${persona}_${fechaFormateada}.js`;
+            
+            const script = document.createElement('script');
+            script.src = fileName + '?t=' + Date.now();
+            
+            script.onload = () => {
+                console.log(`✅ Archivo cargado: ${fileName}`);
+                if (window[variableName] && Array.isArray(window[variableName])) {
+                    procesarDatosRuta(window[variableName], variableName);
+                } else {
+                    showMessage(`Error: Variable ${variableName} no encontrada después de cargar ${fileName}`, 'error');
+                }
+            };
+            
+            script.onerror = () => {
+                console.warn(`❌ No se pudo cargar: ${fileName}`);
+                showMessage(`No se encontró el archivo de datos: ${fileName}`, 'error');
+                
+                // Mostrar archivos disponibles para debug
+                const puntosVars = Object.keys(window).filter(key => key.startsWith('puntos_'));
+                if (puntosVars.length > 0) {
+                    console.log('📍 Variables de puntos disponibles:', puntosVars.slice(0, 10));
+                    showMessage(`Variables disponibles: ${puntosVars.length} encontradas. Ver consola para detalles.`);
+                }
+            };
+            
+            document.head.appendChild(script);
+        }
+
+        // Procesar datos de ruta
+        function procesarDatosRuta(rawData, variableName) {
+            console.log(`📊 Procesando ${rawData.length} puntos de datos de ${variableName}`);
+            
+            // Convertir datos al formato esperado
+            movementData = rawData.map((punto, index) => {
+                // Manejar diferentes formatos de timestamp
+                let timestamp;
+                if (punto.timestamp) {
+                    timestamp = new Date(punto.timestamp).getTime();
+                } else {
+                    timestamp = Date.now() + (index * 60000); // Simular timestamps cada minuto
+                }
+                
+                // Convertir el estado según color_estado
+                let state = 'Inactive';
+                if (punto.color_estado) {
+                    switch(punto.color_estado.toUpperCase()) {
+                        case 'VERDE': state = 'Running'; break;
+                        case 'AMARILLO': state = 'Idle'; break;
+                        case 'SALMON': state = 'Stopped'; break;
+                        case 'ROJO': state = 'Inactive'; break;
+                        default: state = 'Inactive';
+                    }
+                }
+                
+                return {
+                    lat: parseFloat(punto.latitud),
+                    lng: parseFloat(punto.longitud),
+                    timestamp: timestamp,
+                    description: punto.nombre || punto.tipo_intervalo_final_explicado || `Punto ${index + 1}`,
+                    state: state,
+                    tipo_intervalo: punto.tipo_intervalo,
+                    tipo_intervalo_final: punto.tipo_intervalo_final,
+                    gateway_tipo_area: punto.gateway_tipo_area,
+                    color_estado: punto.color_estado
+                };
+            }).filter(punto => 
+                // Filtrar puntos con coordenadas válidas
+                !isNaN(punto.lat) && !isNaN(punto.lng) && 
+                punto.lat !== 0 && punto.lng !== 0
+            );
+            
+            if (movementData.length > 0) {
+                showMessage(`✅ Ruta cargada exitosamente: ${movementData.length} puntos válidos`);
+                console.log('🗺️ Primer punto:', movementData[0]);
+                console.log('🗺️ Último punto:', movementData[movementData.length - 1]);
+                initializeRoute();
+            } else {
+                showMessage('❌ No se encontraron puntos de datos válidos con coordenadas', 'error');
+                console.log('Raw data sample:', rawData.slice(0, 3));
+            }
+        }
+
+        // Cargar archivos de datos externos
+        function loadExternalData() {
+            // Intentar cargar los archivos de datos
+            const scripts = [
+                'personas_disponibles.js',
+                'empresas_disponibles.js', 
+                'dias_disponibles_personas.js',
+                'gateways.js'
+            ];
+            
+            let loadedScripts = 0;
+            const totalScripts = scripts.length;
+            
+            // También intentar cargar archivos de datos de puntos específicos
+            // Esto es opcional ya que se cargan dinámicamente según la selección
+            
+            scripts.forEach(scriptName => {
+                const script = document.createElement('script');
+                script.src = scriptName + '?t=' + Date.now();
+                script.onload = () => {
+                    loadedScripts++;
+                    console.log(`✅ Cargado: ${scriptName}`);
+                    if (loadedScripts === totalScripts) {
+                        onAllDataLoaded();
+                    }
+                };
+                script.onerror = () => {
+                    console.warn(`❌ No se pudo cargar: ${scriptName}`);
+                    showMessage(`Error cargando ${scriptName}`, 'error');
+                    loadedScripts++;
+                    if (loadedScripts === totalScripts) {
+                        onAllDataLoaded();
+                    }
+                };
+                document.head.appendChild(script);
+            });
+        }
+        
+        // Cuando todos los datos están cargados
+        function onAllDataLoaded() {
+            console.log('📊 Datos cargados. Inicializando selectores...');
+            
+            // Verificar qué datos están disponibles
+            let hasErrors = false;
+            
+            if (typeof diasDisponibles === 'undefined' || diasDisponibles.length === 0) {
+                showMessage('❌ No se encontraron días disponibles. Verifica el archivo dias_disponibles_personas.js', 'error');
+                hasErrors = true;
+            } else {
+                console.log(`✅ ${diasDisponibles.length} días disponibles cargados`);
+            }
+            
+            if (typeof companyName === 'undefined' || companyName.length === 0) {
+                showMessage('❌ No se encontraron empresas. Verifica el archivo empresas_disponibles.js', 'error');
+                hasErrors = true;
+            } else {
+                console.log(`✅ ${companyName.length} empresas cargadas`);
+            }
+            
+            if (typeof personasDisponibles === 'undefined' || Object.keys(personasDisponibles).length === 0) {
+                showMessage('❌ No se encontraron personas. Verifica el archivo personas_disponibles.js', 'error');
+                hasErrors = true;
+            } else {
+                const totalPersonas = Object.values(personasDisponibles).reduce((sum, arr) => sum + arr.length, 0);
+                console.log(`✅ ${totalPersonas} personas cargadas en ${Object.keys(personasDisponibles).length} empresas`);
+            }
+            
+            if (typeof lugares === 'undefined' || lugares.length === 0) {
+                console.warn('⚠️ No se encontraron lugares. Verifica el archivo gateways.js');
+                showMessage('No se pudieron cargar los marcadores de lugares', 'error');
+            } else {
+                console.log(`✅ ${lugares.length} lugares cargados`);
+                addPlaceMarkers();
+            }
+            
+            if (!hasErrors) {
+                setupSelectors();
+                showMessage('✅ Aplicación lista. Selecciona fecha, empresa y persona para visualizar una ruta.');
+            } else {
+                showMessage('⚠️ Aplicación iniciada con errores. Algunos datos no se pudieron cargar.', 'error');
+                setupSelectors(); // Inicializar de todas formas
+            }
+            
+            // Mostrar las variables de puntos disponibles para debug
+            const puntosVars = Object.keys(window).filter(key => key.startsWith('puntos_'));
+            if (puntosVars.length > 0) {
+                console.log(`📍 Variables de puntos encontradas: ${puntosVars.length}`);
+                console.log('Primeras 5 variables:', puntosVars.slice(0, 5));
+            } else {
+                console.warn('⚠️ No se encontraron variables de puntos (puntos_*)');
+            }
+        }
+
+        // Event listeners para controles
+        function setupEventListeners() {
+            document.getElementById("play-btn").addEventListener("click", startAnimation);
+            document.getElementById("pause-btn").addEventListener("click", stopAnimation);
+            document.getElementById("reset-btn").addEventListener("click", resetAnimation);
+            document.getElementById("fit-btn").addEventListener("click", fitToRoute);
+            
+            document.getElementById("speed-select").addEventListener("change", e => {
+                speed = parseFloat(e.target.value);
+                if (movementData && movementData.length > 0 && currentIndex < movementData.length) {
+                    updateInfoPanel(movementData[currentIndex], currentIndex, 1);
+                }
+                // Si está reproduciéndose, reiniciar con nueva velocidad
+                if (isPlaying) {
+                    stopAnimation();
+                    startAnimation();
+                }
+            });
+            
+            document.getElementById("show-path").addEventListener("change", e => {
+                if (pathPolyline && pathPolylineTraversed) {
+                    if (e.target.checked) {
+                        if (!map.hasLayer(pathPolyline)) pathPolyline.addTo(map);
+                        if (!map.hasLayer(pathPolylineTraversed)) pathPolylineTraversed.addTo(map);
+                    } else {
+                        if (map.hasLayer(pathPolyline)) map.removeLayer(pathPolyline);
+                        if (map.hasLayer(pathPolylineTraversed)) map.removeLayer(pathPolylineTraversed);
+                    }
+                }
+            });
+            
+            document.getElementById("show-visited").addEventListener("change", e => {
+                visitedMarkers.forEach(m => {
+                    if (e.target.checked) {
+                        if (!map.hasLayer(m)) m.addTo(map);
+                    } else {
+                        if (map.hasLayer(m)) map.removeLayer(m);
+                    }
+                });
+            });
+        }
+
+        // Inicialización principal
+        function initialize() {
+            console.log('Inicializando aplicación...');
+            
+            // Inicializar mapa
+            initializeMap();
+            
+            // Configurar event listeners
+            setupEventListeners();
+            
+            // Resetear panel de información
+            resetInfoPanel();
+            
+            // Cargar datos externos
+            //loadExternalData();
+            
+            showMessage('Aplicación inicializada. Cargando datos...');
+        }
+
+        // Inicializar cuando el DOM esté listo
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initialize);
+        } else {
+            initialize();
+        }
+
+        // Esperar a que el DOM esté listo
+    document.addEventListener('DOMContentLoaded', function() {
+        // Pequeña pausa para asegurar que todos los scripts se carguen
+        setTimeout(function() {
+            onAllDataLoaded();
+        }, 100);
+    });
+    </script>
+</body>
+</html>
