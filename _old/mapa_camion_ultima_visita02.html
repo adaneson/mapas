@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Mapa de Camiones con Datos Externos</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        body { margin: 0; padding: 0; font-family: sans-serif; }
+        #map { width: 100%; height: 100vh; }
+        .truck-tooltip {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 4px 8px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: bold;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            text-align: center;
+            white-space: nowrap;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<!-- Carga el JS externo generado por Python -->
+<script src="ultima_ubicacion_camiones.js"></script>
+
+<script>
+    const map = L.map('map').setView([-22.3, -68.9], 14);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    const createTruckIcon = (state) => {
+        let iconUrl;
+
+        switch(state) {
+            case "Idle":
+                iconUrl = "https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Amarillo.png";
+                break;
+            case "Running":
+                iconUrl = "https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Verde.png";
+                break;
+            case "Stopped":
+                iconUrl = "https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Salmon.png";
+                break;
+            default:
+                iconUrl = "https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Rojo.png";
+                break;
+        }
+
+        return L.icon({
+            iconUrl,
+            iconSize: [80, 80],
+            iconAnchor: [40, 80],
+            popupAnchor: [0, -90]
+        });
+    };
+
+    // Usa la variable global 'camiones' del archivo camiones.js
+    camiones.forEach(camion => {
+        const icono = createTruckIcon(camion.estado);
+        const marker = L.marker([camion.lat, camion.lng], { icon: icono }).addTo(map);
+
+        // Tooltip permanente arriba del camión
+        marker.bindTooltip(`
+            🚚 ${camion.nombre}<br>
+            <small>${camion.timestamp}</small><br>
+            <small>Estado: ${camion.estado}</small>
+        `, {
+            permanent: true,
+            direction: 'top',
+            offset: [0, -50],
+            className: 'truck-tooltip'
+        });
+    });
+</script>
+
+</body>
+</html>

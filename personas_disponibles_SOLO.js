@@ -1,0 +1,1 @@
+const personasDisponibles = ["ALDO_AURELIO_ESCOBAR_CORTES"];

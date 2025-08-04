@@ -17,5 +17,7 @@ const lugares = [
     { nombre: "Puerta 4B", lat: -22.352276882080, lng: -68.857303744188, tipo_area: "PT" },
     { nombre: "Refino Fundición", lat: -22.313387710135, lng: -68.889005564052, tipo_area: "FT" },
     { nombre: "Taller Mecanico Nexxo 1", lat: -22.315333694196, lng: -68.889173036101, tipo_area: "FT" },
-    { nombre: "Taller Mecanico Nexxo 2", lat: -22.315831571330, lng: -68.889757363114, tipo_area: "FT" }
+    { nombre: "Taller Mecanico Nexxo 2", lat: -22.315831571330, lng: -68.889757363114, tipo_area: "FT" },
+    { nombre: "CC KDM Principal", lat: -22.331831489435, lng: -68.879115168668, tipo_area: "CC" },
+    { nombre: "Casino A0", lat: -22.311659166936, lng: -68.891684574488, tipo_area: "CA" }
 ];
