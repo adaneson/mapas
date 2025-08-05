@@ -4,104 +4,119 @@ const camiones = [
     "lat": -22.309736,
     "lng": -68.891723,
     "estado": "Running",
-    "timestamp": "05-08-2025 23:59"
+    "timestamp": "05-08-2025 23:59",
+    "empresa": "ARAMARK"
   },
   {
     "nombre": "ARAMARK-SUCKER-PRLT-27",
     "lat": -22.441434,
     "lng": -68.880607,
     "estado": "Stopped",
-    "timestamp": "05-08-2025 23:59"
+    "timestamp": "05-08-2025 23:59",
+    "empresa": "ARAMARK"
   },
   {
     "nombre": "ARAMARK-SUCKER-PRLT-41",
     "lat": -22.434291,
     "lng": -68.906105,
     "estado": "Inactive",
-    "timestamp": "27-07-2025 00:00"
+    "timestamp": "27-07-2025 00:00",
+    "empresa": "ARAMARK"
   },
   {
     "nombre": "ARAMARK-SUCKER-SDHF-35",
     "lat": -22.43432,
     "lng": -68.906242,
     "estado": "Inactive",
-    "timestamp": "27-07-2025 00:00"
+    "timestamp": "27-07-2025 00:00",
+    "empresa": "ARAMARK"
   },
   {
     "nombre": "ARAMARK-SUCKER-SKSD-74",
     "lat": -22.440736,
     "lng": -68.880218,
     "estado": "Running",
-    "timestamp": "28-07-2025 23:59"
+    "timestamp": "28-07-2025 23:59",
+    "empresa": "ARAMARK"
   },
   {
     "nombre": "ARAMARK-SUCKER-SLCX-12",
     "lat": -22.306081,
     "lng": -68.895347,
     "estado": "Stopped",
-    "timestamp": "05-08-2025 23:59"
+    "timestamp": "05-08-2025 23:59",
+    "empresa": "ARAMARK"
   },
   {
     "nombre": "ICL RIEGO-SUCKER-RYPH-72",
     "lat": -22.48388,
     "lng": -68.916725,
     "estado": "Inactive",
-    "timestamp": "27-07-2025 00:00"
+    "timestamp": "27-07-2025 00:00",
+    "empresa": "ICL"
   },
   {
     "nombre": "KDM-SUCKER-KXTK-20",
     "lat": -22.314182,
     "lng": -68.888,
     "estado": "Running",
-    "timestamp": "05-08-2025 23:59"
+    "timestamp": "05-08-2025 23:59",
+    "empresa": "KDM"
   },
   {
     "nombre": "KDM-SUCKER-KXTX-22",
     "lat": -22.434656,
     "lng": -68.894348,
     "estado": "Inactive",
-    "timestamp": "27-07-2025 00:00"
+    "timestamp": "27-07-2025 00:00",
+    "empresa": "KDM"
   },
   {
     "nombre": "KDM-SUCKER-PBXD-49",
     "lat": -22.506139,
     "lng": -68.932937,
     "estado": "Stopped",
-    "timestamp": "05-08-2025 23:59"
+    "timestamp": "05-08-2025 23:59",
+    "empresa": "KDM"
   },
   {
     "nombre": "KDM-SUCKER-RLFP-27",
     "lat": -22.322433,
     "lng": -68.886283,
     "estado": "Running",
-    "timestamp": "05-08-2025 23:59"
+    "timestamp": "05-08-2025 23:59",
+    "empresa": "KDM"
   },
   {
     "nombre": "KDM-SUCKER-SGXL-87",
     "lat": -22.31373,
     "lng": -68.898353,
     "estado": "Running",
-    "timestamp": "05-08-2025 23:59"
+    "timestamp": "05-08-2025 23:59",
+    "empresa": "KDM"
   },
   {
     "nombre": "MINSPA-SUCKER-RCXR-54",
     "lat": -22.314338,
     "lng": -68.88594,
     "estado": "Running",
-    "timestamp": "05-08-2025 23:59"
+    "timestamp": "05-08-2025 23:59",
+    "empresa": "MINSPA"
   },
   {
     "nombre": "MINSPA-SUCKER-RCXR-64",
     "lat": -22.32875,
     "lng": -68.884071,
     "estado": "Stopped",
-    "timestamp": "05-08-2025 23:59"
+    "timestamp": "05-08-2025 23:59",
+    "empresa": "MINSPA"
   },
   {
     "nombre": "TRANYMEC-SUCKER-TCFD-96",
     "lat": -22.3575,
     "lng": -68.883605,
     "estado": "Running",
-    "timestamp": "05-08-2025 23:59"
+    "timestamp": "05-08-2025 23:59",
+    "empresa": "TRANYMEC"
   }
 ];

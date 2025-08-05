@@ -1,0 +1,5 @@
+window.puntos_ARAMARK_SUCKER_PRLT_27_05_07_2025 = [
+{ lat: -23.619379, lng: -70.392013, timestamp: "2025-07-05T00:00:00", description: "Avenida Edmundo Pérez Zujovic,Antofagasta,Provincia de Antofagasta, Antofagasta Region, Chile (SE)", address: "Avenida Edmundo Pérez Zujovic,Antofagasta,Provincia de Antofagasta, Antofagasta Region, Chile (SE)", state: "Inactive" },
+{ lat: -22.483911, lng: -68.916709, timestamp: "2025-07-05T13:09:00", description: "Avenida Jorge Alessandri Rodríguez,El Peuco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Avenida Jorge Alessandri Rodríguez,El Peuco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Inactive" },
+{ lat: -22.483911, lng: -68.916709, timestamp: "2025-07-05T13:09:00", description: "Avenida Jorge Alessandri Rodríguez,El Peuco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Avenida Jorge Alessandri Rodríguez,El Peuco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Inactive" }
+];

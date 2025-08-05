@@ -1,0 +1,9 @@
+window.puntos_ARAMARK_SUCKER_SDHF_35_05_07_2025 = [
+{ lat: -22.43432, lng: -68.906242, timestamp: "2025-07-05T00:00:00", description: "Puerto Seco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Puerto Seco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Inactive" },
+{ lat: -22.43432, lng: -68.906242, timestamp: "2025-07-05T00:00:00", description: "Puerto Seco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Puerto Seco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Inactive" },
+{ lat: -22.43432, lng: -68.906242, timestamp: "2025-07-05T00:00:00", description: "Puerto Seco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Puerto Seco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Inactive" },
+{ lat: -22.43432, lng: -68.906242, timestamp: "2025-07-05T00:00:00", description: "Puerto Seco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Puerto Seco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Inactive" },
+{ lat: -22.43432, lng: -68.906242, timestamp: "2025-07-05T00:00:00", description: "Puerto Seco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Puerto Seco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Inactive" },
+{ lat: -22.43432, lng: -68.906242, timestamp: "2025-07-05T00:00:00", description: "Puerto Seco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Puerto Seco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Inactive" },
+{ lat: -22.43432, lng: -68.906242, timestamp: "2025-07-05T00:00:00", description: "Puerto Seco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Puerto Seco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Inactive" }
+];
