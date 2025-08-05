@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Animado de Rutas de Camiones</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a9ebd 0%, #0088aa 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 25px;
+            color: white;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+            padding: 20px;
+            background: rgba(255,255,255,0.15);
+            border-radius: 15px;
+            backdrop-filter: blur(5px);
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .controls {
+            padding: 20px;
+            background: rgba(255,255,255,0.95);
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .controls button {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            background: linear-gradient(135deg, #0ec1e4 0%, #00a3d6 100%);
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102,126,234,0.3);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .controls button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102,126,234,0.4);
+        }
+        
+        .controls button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+        
+        .controls select {
+            padding: 10px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            background: white;
+            transition: border-color 0.3s ease;
+        }
+        
+        .controls select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .controls label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #333;
+        }
+        
+        .controls input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            accent-color: #667eea;
+        }
+        
+        .map-section {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .map-container {
+            flex: 1;
+            min-width: 300px;
+            height: 760px;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+            overflow: hidden;
+            border: 2px solid rgba(255,255,255,0.3);
+            position: relative;
+        }
+        
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .info-panel {
+            width: 300px;
+            background: rgba(255,255,255,0.95);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            font-size: 14px;
+            height: fit-content;
+        }
+        
+        .info-panel h4 {
+            margin: 0 0 20px 0;
+            color: #333;
+            font-size: 18px;
+            font-weight: 600;
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #eee;
+        }
+        
+        .info-item {
+            margin: 12px 0;
+            color: #555;
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .info-item strong {
+            color: #222;
+            font-weight: 600;
+            display: inline-block;
+            min-width: 100px;
+        }
+        
+        .legend {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 15px;
+            border-radius: 8px;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            font-size: 13px;
+        }
+        
+        .legend h4 {
+            margin: 0 0 10px 0;
+            font-size: 14px;
+            text-align: center;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 10px;
+            margin-right: 10px;
+            border-radius: 3px;
+        }
+
+        .truck-tooltip {
+            font-size: 11px !important;
+            line-height: 1.2;
+            padding: 2px 4px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .tooltip-rojo {
+            background-color: #ffe6e6 !important; /* rojo pálido */
+            border-color: #ff9999 !important;
+        }
+
+        .tooltip-verde {
+            background-color: #e6ffe6 !important; /* verde pálido */
+            border-color: #99ff99 !important;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="controls" style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center;">
+            <!-- Bloque superior -->
+                <button id="fit-btn">🎯 Centrar Mapa</button>
+                <label for="map-style">Mapa:</label>
+                <select id="map-style">
+                    <option value="satellite" selected>Satélite</option>
+                    <option value="osm">OpenStreetMap</option>
+                    <option value="topo">Topográfico</option>
+                    <option value="dark">Oscuro</option>
+                    <option value="light">Claro</option>
+                    <option value="streets">Calles</option>
+                </select>
+
+        </div>
+        <div class="map-section">
+            <div class="map-container">
+                <div id="map"></div>
+                <div class="legend">
+                    <h4>Leyenda</h4>
+                    
+                    <div class="legend-item">
+                        <img src="https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Amarillo.png" width="20" height="20" style="margin-right: 10px;">
+                        <span>Estado Idle</span>
+                    </div>
+                    <div class="legend-item">
+                        <img src="https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Verde.png" width="20" height="20" style="margin-right: 10px;">
+                        <span>Estado Running</span>
+                    </div>
+                     <div class="legend-item">
+                        <img src="https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Salmon.png" width="20" height="20" style="margin-right: 10px;">
+                        <span>Estado Stopped</span>
+                    </div>
+                   <div class="legend-item">
+                        <img src="https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Rojo.png" width="20" height="20" style="margin-right: 10px;">
+                        <span>Estado Inactive</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carga el JS externo generado por Python -->
+<!--script src="ultima_ubicacion_camiones.js"></script-->
+<script>
+    const s = document.createElement('script');
+    s.src = 'ultima_ubicacion_camiones.js?t=' + Date.now(); // Cache busting dinámico
+    document.head.appendChild(s);
+</script>
+
+<script>
+    // Inicializar el mapa
+    const map = L.map("map", {
+        center: [-22.37, -68.9],
+        zoom: 12,
+        maxZoom: 18
+    });
+
+    // Definir las capas de mapas
+    const mapLayers = {
+        satellite: L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", { 
+            attribution: "Tiles &copy; Esri" 
+        }),
+        osm: L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { 
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' 
+        }),
+        topo: L.tileLayer("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", { 
+            attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a>'
+        }),
+        dark: L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+        }),
+        light: L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", { 
+            attribution: "© OpenStreetMap contributors © CARTO" 
+        }),
+        streets: L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", { 
+            attribution: "Tiles © Esri" 
+        })
+    };
+
+    // Añadir la capa inicial (satélite)
+    mapLayers.satellite.addTo(map);
+    let currentLayer = mapLayers.satellite;
+
+    // Event listener para el selector de mapas
+    document.getElementById('map-style').addEventListener('change', function(e) {
+        const selectedLayer = e.target.value;
+        
+        // Remover la capa actual
+        map.removeLayer(currentLayer);
+        
+        // Añadir la nueva capa
+        currentLayer = mapLayers[selectedLayer];
+        currentLayer.addTo(map);
+    });
+
+    const createTruckIcon = (state) => {
+        let iconUrl;
+
+        switch(state) {
+            case "Idle":
+                iconUrl = "https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Amarillo.png";
+                break;
+            case "Running":
+                iconUrl = "https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Verde.png";
+                break;
+            case "Stopped":
+                iconUrl = "https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Salmon.png";
+                break;
+            default:
+                iconUrl = "https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Rojo.png";
+                break;
+        }
+
+        return L.icon({
+            iconUrl,
+            iconSize: [80, 80],
+            iconAnchor: [40, 80],
+            popupAnchor: [0, -90]
+        });
+    };
+
+    // Variable para almacenar los marcadores de camiones
+    let truckMarkers = [];
+
+    // Función para cargar y mostrar los camiones
+    function loadTrucks() {
+        // Verificar si la variable 'camiones' existe (viene del archivo externo)
+        if (typeof camiones !== 'undefined' && camiones.length > 0) {
+            camiones.forEach(camion => {
+                const icono = createTruckIcon(camion.estado);
+                const marker = L.marker([camion.lat, camion.lng], { icon: icono }).addTo(map);
+                const hoy = new Date();
+                const hoyStr = hoy.toISOString().slice(0, 10); // formato 'YYYY-MM-DD'
+
+                function esDeHoy(timestamp) {
+                    if (!timestamp) return false;
+
+                    // Suponemos que timestamp es tipo 'DD-MM-YYYY HH:mm:ss'
+                    const fechaStr = timestamp.split(" ")[0]; // 'DD-MM-YYYY'
+                    const [dia, mes, anio] = fechaStr.split("-");
+                    const fechaFormateada = `${anio}-${mes}-${dia}`; // 'YYYY-MM-DD'
+                    //alert(fechaFormateada);
+                    return fechaFormateada === hoyStr;
+                }
+
+                const claseExtra = esDeHoy(camion.timestamp) ? 'tooltip-verde' : 'tooltip-rojo';
+
+                // Tooltip permanente arriba del camión
+                marker.bindTooltip(`
+                    🚚 ${camion.nombre}<br>
+                    <small>${camion.timestamp}</small><br>
+                    <small>Estado: ${camion.estado}</small>
+                `, {
+                    permanent: true,
+                    direction: 'top',
+                    offset: [0, -50],
+                    className: `truck-tooltip ${claseExtra}`
+                });
+
+                truckMarkers.push(marker);
+            });
+        } else {
+            console.warn('No se encontraron datos de camiones. Asegúrate de que el archivo ultima_ubicacion_camiones.js esté cargado correctamente.');
+        }
+    }
+
+    // Event listener para el botón "Centrar Mapa"
+    document.getElementById("fit-btn").addEventListener("click", function() {
+        if (truckMarkers.length > 0) {
+            // Crear un grupo con todos los marcadores de camiones
+            const group = new L.featureGroup(truckMarkers);
+            // Ajustar la vista del mapa para mostrar todos los camiones
+            map.fitBounds(group.getBounds().pad(0.1));
+        } else {
+            // Si no hay camiones, centrar en las coordenadas por defecto
+            map.setView([-22.37, -68.9], 12);
+        }
+    });
+
+    // Cargar los camiones cuando la página esté lista
+    document.addEventListener('DOMContentLoaded', function() {
+        // Esperar un poco para asegurar que el archivo externo se haya cargado
+        setTimeout(loadTrucks, 100);
+    });
+</script>
+</body>
+</html>
