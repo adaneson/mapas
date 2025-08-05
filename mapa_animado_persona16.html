@@ -460,7 +460,7 @@
 
     // Inicializar el mapa
     const map = L.map("map", {
-        center: [-22.311265, -68.892511],
+        center: [-22.335, -68.892511],
         zoom: 14,
         maxZoom: 18,
         layers: [mapLayers.satellite]
@@ -535,8 +535,25 @@
 
     // Centrar la ruta en el mapa
     function fitToRoute() {
-        const pathCoords = movementData.map(p => [p.latitud, p.longitud]);
-        map.fitBounds(pathCoords, { padding: [50, 50] });
+        if (!movementData || movementData.length === 0) {
+            console.warn('No hay datos de movimiento para centrar la ruta');
+            return;
+        }
+        
+        const pathCoords = movementData
+            .filter(p => p && typeof p.latitud === 'number' && typeof p.longitud === 'number')
+            .map(p => [p.latitud, p.longitud]);
+            
+        if (pathCoords.length === 0) {
+            console.warn('No hay coordenadas válidas para centrar la ruta');
+            return;
+        }
+        
+        if (pathCoords.length === 1) {
+            map.setView(pathCoords[0], 15);
+        } else {
+            map.fitBounds(pathCoords, { padding: [50, 50] });
+        }
     }
 
     // Limpiar el mapa
@@ -764,29 +781,46 @@
 
     // Inicializar el mapa con la ruta
     function initializeMap() {
+        if (!movementData || movementData.length === 0) {
+            console.warn('No hay datos de movimiento para inicializar el mapa');
+            return;
+        }
+
+        // Validar que el primer punto tenga coordenadas válidas
+        const firstPoint = movementData[0];
+        if (!firstPoint || typeof firstPoint.latitud !== 'number' || typeof firstPoint.longitud !== 'number') {
+            console.error('El primer punto no tiene coordenadas válidas');
+            return;
+        }
+
         // Calcular distancia total
         totalDistance = 0;
 
-        //alert(movementData.length);
         for (let i = 0; i < movementData.length - 1; i++) {
-            totalDistance += calculateDistance(
-                movementData[i].latitud, movementData[i].longitud,
-                movementData[i + 1].latitud, movementData[i + 1].longitud
-            );
+            const current = movementData[i];
+            const next = movementData[i + 1];
+            
+            if (current && next && 
+                typeof current.latitud === 'number' && typeof current.longitud === 'number' &&
+                typeof next.latitud === 'number' && typeof next.longitud === 'number') {
+                totalDistance += calculateDistance(
+                    current.latitud, current.longitud,
+                    next.latitud, next.longitud
+                );
+            }
         }
             
         // Crear marcador de la persona
-        personMarker = L.marker([movementData[0].latitud, movementData[0].longitud], { 
-            icon: createPersonIcon(movementData[0].color_estado) 
+        personMarker = L.marker([firstPoint.latitud, firstPoint.longitud], { 
+            icon: createPersonIcon(firstPoint.color_estado || 'ROJO') 
         }).addTo(map);
         
         // Crear marcador de la persona
         const person = {
-            nombre: movementData[0].worker_name_full || "Persona", // Nombre completo de la persona
-            lugar: movementData[0].nombre, // Lugar donde se encuentra
-            timestamp: new Date(movementData[0].timestamp).toLocaleString("es-CL"),
-            estado: movementData[0].tipo_intervalo
-            //estado: movementData[0].color_estado
+            nombre: firstPoint.worker_name_full || "Persona", // Nombre completo de la persona
+            lugar: firstPoint.nombre || "Ubicación desconocida", // Lugar donde se encuentra
+            timestamp: firstPoint.timestamp ? new Date(firstPoint.timestamp).toLocaleString("es-CL") : "Sin fecha",
+            estado: firstPoint.tipo_intervalo || "Sin estado"
         };
 
         //o 👤
@@ -802,8 +836,17 @@
             className: `person-tooltip`
         });
 
-        // Crear polilíneas
-        const pathCoords = movementData.map(p => [p.latitud, p.longitud]);
+        // Crear polilíneas - filtrar puntos válidos
+        const validPoints = movementData.filter(p => 
+            p && typeof p.latitud === 'number' && typeof p.longitud === 'number'
+        );
+        
+        if (validPoints.length === 0) {
+            console.error('No hay puntos válidos para crear la ruta');
+            return;
+        }
+        
+        const pathCoords = validPoints.map(p => [p.latitud, p.longitud]);
             
         // Ruta completa
         pathPolyline = L.polyline(pathCoords, {
@@ -821,23 +864,27 @@
         }).addTo(map);
             
         // Marcadores de puntos visitados
-        movementData.forEach((p, i) => {
+        validPoints.forEach((p, i) => {
             const m = L.marker([p.latitud, p.longitud], { 
                 icon: visitedIcon, 
                 opacity: i === 0 ? 0.8 : 0 
             });
             m.bindPopup(`
-                <h4>${p.nombre}</h4>
+                <h4>${p.nombre || 'Ubicación sin nombre'}</h4>
                 <small><strong>Coordenadas:</strong> ${p.latitud.toFixed(6)}, ${p.longitud.toFixed(6)}</small><br>
-                <small><strong>Tiempo:</strong> ${new Date(p.timestamp).toLocaleString("es-CL")}</small><br>
-                <small><strong>Estado:</strong> <span class="state-badge state-${p.color_estado.toLowerCase()}">${p.color_estado}</span></small>
+                <small><strong>Tiempo:</strong> ${p.timestamp ? new Date(p.timestamp).toLocaleString("es-CL") : 'Sin fecha'}</small><br>
+                <small><strong>Estado:</strong> <span class="state-badge state-${(p.color_estado || 'rojo').toLowerCase()}">${p.color_estado || 'DESCONOCIDO'}</span></small>
             `);
             m.addTo(map);
             visitedMarkers.push(m);
         });
             
         // Ajustar el mapa a la ruta
-        map.fitBounds(pathCoords, { padding: [50, 50] });
+        if (pathCoords.length === 1) {
+            map.setView(pathCoords[0], 15);
+        } else if (pathCoords.length > 1) {
+            map.fitBounds(pathCoords, { padding: [50, 50] });
+        }
     }
 
     // Función para calcular la distancia entre dos puntos
@@ -876,6 +923,11 @@
 
     // Iniciar animación
     function startAnimation() {
+        if (!movementData || movementData.length === 0) {
+            console.warn('No hay datos de movimiento para iniciar la animación');
+            return;
+        }
+        
         if (isPlaying || currentIndex >= movementData.length - 1) return;
         isPlaying = true;
         document.getElementById("play-btn").disabled = true;
@@ -908,9 +960,26 @@
 
     // Actualizar la posición del camión
     function updatePosition(index, progress = 1) {
+        if (!movementData || movementData.length === 0 || index >= movementData.length) {
+            console.warn('Datos de movimiento inválidos en updatePosition');
+            return;
+        }
+
         const isLastPoint = index >= movementData.length - 1;
         const current = movementData[index];
         const next = isLastPoint ? current : movementData[index + 1];
+
+        // Validar coordenadas actuales
+        if (!current || typeof current.latitud !== 'number' || typeof current.longitud !== 'number') {
+            console.warn(`Coordenadas inválidas en el índice ${index}`);
+            return;
+        }
+
+        // Validar coordenadas siguientes
+        if (!isLastPoint && (!next || typeof next.latitud !== 'number' || typeof next.longitud !== 'number')) {
+            console.warn(`Coordenadas siguientes inválidas en el índice ${index + 1}`);
+            return;
+        }
 
         // Calcular posición actual
         const position = {
@@ -919,33 +988,47 @@
         };
 
         // Actualizar marcador de la persona
-        personMarker.setLatLng([position.lat, position.lng]);
-        personMarker.setIcon(createPersonIcon(current.color_estado));
+        if (personMarker) {
+            personMarker.setLatLng([position.lat, position.lng]);
+            personMarker.setIcon(createPersonIcon(current.color_estado || 'ROJO'));
+        }
 
         // Actualizar ruta recorrida
-        const traversedPath = movementData.slice(0, index + 1).map(p => [p.latitud, p.longitud]);
-        traversedPath.push([position.lat, position.lng]);
-        pathPolylineTraversed.setLatLngs(traversedPath);
+        if (pathPolylineTraversed) {
+            const validTraversedPoints = movementData
+                .slice(0, index + 1)
+                .filter(p => p && typeof p.latitud === 'number' && typeof p.longitud === 'number')
+                .map(p => [p.latitud, p.longitud]);
+            
+            validTraversedPoints.push([position.lat, position.lng]);
+            pathPolylineTraversed.setLatLngs(validTraversedPoints);
+        }
 
         // Actualizar marcadores visitados
-        visitedMarkers.forEach((m, i) => m.setOpacity(i <= index ? 0.8 : 0));
+        visitedMarkers.forEach((m, i) => {
+            if (m && m.setOpacity) {
+                m.setOpacity(i <= index ? 0.8 : 0);
+            }
+        });
 
         // Actualizar panel de información
         updateInfoPanel(current, index, progress);
 
         // Al completar la ruta
-        if (isLastPoint) {
+        if (isLastPoint && pathPolyline) {
             pathPolyline.setStyle({opacity: 0.8});
         }
 
-        // Dentro de updatePosition, después de actualizar el marcador
-        const tooltipContent = `
-            🚶 <b>${current.worker_name_full || 'Persona'}</b><br>
-            📍 ${current.nombre}<br>
-            <small>${new Date(current.timestamp).toLocaleString("es-CL")}</small><br>
-            <small>Estado: ${current.tipo_intervalo}</small>
-        `;
-        personMarker.setTooltipContent(tooltipContent);
+        // Actualizar tooltip del marcador
+        if (personMarker) {
+            const tooltipContent = `
+                🚶 <b>${current.worker_name_full || 'Persona'}</b><br>
+                📍 ${current.nombre || 'Ubicación desconocida'}<br>
+                <small>${current.timestamp ? new Date(current.timestamp).toLocaleString("es-CL") : 'Sin fecha'}</small><br>
+                <small>Estado: ${current.tipo_intervalo || 'Sin estado'}</small>
+            `;
+            personMarker.setTooltipContent(tooltipContent);
+        }
     }
 
     const visitedIcon = L.divIcon({
