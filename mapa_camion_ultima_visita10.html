@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Animado de Rutas de Camiones</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a9ebd 0%, #0088aa 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 25px;
+            color: white;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+            padding: 20px;
+            background: rgba(255,255,255,0.15);
+            border-radius: 15px;
+            backdrop-filter: blur(5px);
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .controls {
+            padding: 20px;
+            background: rgba(255,255,255,0.95);
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .controls button {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            background: linear-gradient(135deg, #0ec1e4 0%, #00a3d6 100%);
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102,126,234,0.3);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .controls button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102,126,234,0.4);
+        }
+        
+        .controls button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+        
+        .controls button.refresh-btn {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+        }
+        
+        .controls button.refresh-btn:hover {
+            box-shadow: 0 6px 20px rgba(40,167,69,0.4);
+        }
+        
+        .controls select {
+            padding: 10px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            background: white;
+            transition: border-color 0.3s ease;
+        }
+        
+        .controls select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .controls label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #333;
+        }
+        
+        .controls input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            accent-color: #667eea;
+        }
+        
+        .status-indicator {
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 600;
+            color: white;
+            background: #28a745;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        
+        .status-indicator.loading {
+            background: #ffc107;
+            color: #333;
+        }
+        
+        .status-indicator.error {
+            background: #dc3545;
+        }
+        
+        .status-indicator.inactive {
+            background: #dc3545;
+        }
+        
+        .status-indicator.mixed {
+            background: linear-gradient(45deg, #28a745 0%, #ffc107 50%, #dc3545 100%);
+        }
+        
+        .map-section {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .map-container {
+            flex: 1;
+            min-width: 300px;
+            height: 760px;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+            overflow: hidden;
+            border: 2px solid rgba(255,255,255,0.3);
+            position: relative;
+        }
+        
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .info-panel {
+            width: 300px;
+            background: rgba(255,255,255,0.95);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            font-size: 14px;
+            height: fit-content;
+        }
+        
+        .info-panel h4 {
+            margin: 0 0 20px 0;
+            color: #333;
+            font-size: 18px;
+            font-weight: 600;
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #eee;
+        }
+        
+        .info-item {
+            margin: 12px 0;
+            color: #555;
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .info-item strong {
+            color: #222;
+            font-weight: 600;
+            display: inline-block;
+            min-width: 100px;
+        }
+        
+        .legend {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 15px;
+            border-radius: 8px;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            font-size: 13px;
+        }
+        
+        .legend h4 {
+            margin: 0 0 10px 0;
+            font-size: 16px;
+            text-align: center;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 10px;
+            margin-right: 10px;
+            border-radius: 3px;
+        }
+
+        .truck-tooltip {
+            font-size: 14px !important;
+            line-height: 1.2;
+            padding: 2px 4px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .tooltip-rojo {
+            background-color: #ffe6e6 !important; /* rojo pálido */
+            border-color: #ff9999 !important;
+        }
+
+        .tooltip-verde {
+            background-color: #e6ffe6 !important; /* verde pálido */
+            border-color: #99ff99 !important;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="controls" style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center;">
+            <!-- Bloque superior -->
+            <button id="fit-btn">🎯 Centrar Mapa</button>
+            <button id="refresh-btn" class="refresh-btn">🔄 Refrescar Datos</button>
+            <label for="map-style">Mapa:</label>
+            <select id="map-style">
+                <option value="satellite" selected>Satélite</option>
+                <option value="osm">OpenStreetMap</option>
+                <option value="topo">Topográfico</option>
+                <option value="dark">Oscuro</option>
+                <option value="light">Claro</option>
+                <option value="streets">Calles</option>
+            </select>
+            <label for="empresa-select">Empresa:</label>
+            <select id="empresa-select">
+                <option value="TODAS">Todas</option>
+            </select>
+            <div id="status-indicator" class="status-indicator">
+                ✅ Listo
+            </div>
+        </div>
+        <div class="map-section">
+            <div class="map-container">
+                <div id="map"></div>
+                <div class="legend">
+                    <h4>Leyenda</h4>
+                    <div class="legend-item">
+                        <img src="https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Amarillo.png" width="30" height="30" style="margin-right: 10px;">
+                        <span>Estado Idle</span>
+                    </div>
+                    <div class="legend-item">
+                        <img src="https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Verde.png" width="30" height="30" style="margin-right: 10px;">
+                        <span>Estado Running</span>
+                    </div>
+                     <div class="legend-item">
+                        <img src="https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Salmon.png" width="30" height="30" style="margin-right: 10px;">
+                        <span>Estado Stopped</span>
+                    </div>
+                   <div class="legend-item">
+                        <img src="https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Rojo.png" width="30" height="30" style="margin-right: 10px;">
+                        <span>Estado Inactive</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    // Inicializar el mapa
+    const map = L.map("map", {
+        center: [-22.37, -68.9],
+        zoom: 12,
+        maxZoom: 18
+    });
+
+    // Definir las capas de mapas
+    const mapLayers = {
+        satellite: L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", { 
+            attribution: "Tiles &copy; Esri" 
+        }),
+        osm: L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { 
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' 
+        }),
+        topo: L.tileLayer("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", { 
+            attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a>'
+        }),
+        dark: L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+        }),
+        light: L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", { 
+            attribution: "© OpenStreetMap contributors © CARTO" 
+        }),
+        streets: L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", { 
+            attribution: "Tiles © Esri" 
+        })
+    };
+
+    // Añadir la capa inicial (satélite)
+    mapLayers.satellite.addTo(map);
+    let currentLayer = mapLayers.satellite;
+
+    // Event listener para el selector de mapas
+    document.getElementById('map-style').addEventListener('change', function(e) {
+        const selectedLayer = e.target.value;
+        
+        // Remover la capa actual
+        map.removeLayer(currentLayer);
+        
+        // Añadir la nueva capa
+        currentLayer = mapLayers[selectedLayer];
+        currentLayer.addTo(map);
+    });
+
+    const createTruckIcon = (state) => {
+        let iconUrl;
+
+        switch(state) {
+            case "Idle":
+                iconUrl = "https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Amarillo.png";
+                break;
+            case "Running":
+                iconUrl = "https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Verde.png";
+                break;
+            case "Stopped":
+                iconUrl = "https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Salmon.png";
+                break;
+            default:
+                iconUrl = "https://cdn.jsdelivr.net/gh/adaneson/iconos-camiones/Camion_Rojo.png";
+                break;
+        }
+
+        return L.icon({
+            iconUrl,
+            iconSize: [80, 80],
+            iconAnchor: [40, 80],
+            popupAnchor: [0, -90]
+        });
+    };
+
+    // Variables para manejar z-index
+    let currentZIndex = 1000;
+    let activeMarker = null;
+
+    // Variable para almacenar los marcadores de camiones
+    let truckMarkers = [];
+    
+    // Variable para almacenar referencia al script cargado
+    let loadedScript = null;
+
+    // Variable global para almacenar todos los datos de camiones
+    let allTrucksData = [];
+
+    // Función para actualizar el indicador de estado con conteo por estado
+    function updateStatus(message, type = 'success', stats = null) {
+        const indicator = document.getElementById('status-indicator');
+        
+        if (stats) {
+            // Determinar el tipo de indicador basado en los estados
+            let statusType = 'success';
+            let icon = '✅';
+            
+            if (stats.inactive > 0 && stats.active === 0) {
+                // Solo hay camiones inactivos
+                statusType = 'inactive';
+                icon = '🔴';
+            } else if (stats.inactive > 0) {
+                // Hay mezcla de estados
+                statusType = 'mixed';
+                icon = '⚠️';
+            }
+            
+            indicator.className = `status-indicator ${statusType}`;
+            
+            // Construir mensaje detallado
+            const parts = [];
+            if (stats.running > 0) parts.push(`${stats.running} Running`);
+            if (stats.idle > 0) parts.push(`${stats.idle} Idle`);
+            if (stats.stopped > 0) parts.push(`${stats.stopped} Stopped`);
+            if (stats.inactive > 0) parts.push(`${stats.inactive} Inactive`);
+            
+            const detailedMessage = parts.join(', ');
+            indicator.innerHTML = `${icon} Total: ${stats.total} (${detailedMessage})`;
+        } else {
+            // Mensaje simple sin estadísticas
+            indicator.className = `status-indicator ${type}`;
+            const icon = type === 'loading' ? '⏳' : type === 'error' ? '❌' : '✅';
+            indicator.innerHTML = `${icon} ${message}`;
+        }
+    }
+
+    // Función para limpiar todos los marcadores existentes
+    function clearTruckMarkers() {
+        truckMarkers.forEach(marker => {
+            map.removeLayer(marker);
+        });
+        truckMarkers = [];
+        activeMarker = null;
+        currentZIndex = 1000;
+    }
+
+    // Función para cargar el script de datos de forma asíncrona
+    function loadTruckData() {
+        return new Promise((resolve, reject) => {
+            updateStatus('Cargando datos...', 'loading');
+            
+            // Remover script anterior si existe
+            if (loadedScript) {
+                try {
+                    document.head.removeChild(loadedScript);
+                } catch (e) {
+                    console.log('Error removiendo script anterior:', e);
+                }
+                loadedScript = null;
+            }
+            
+            // Limpiar variable global anterior
+            if (typeof window.camiones !== 'undefined') {
+                delete window.camiones;
+            }
+            
+            // También limpiar la variable camiones sin window
+            if (typeof camiones !== 'undefined') {
+                try {
+                    delete camiones;
+                } catch (e) {
+                    // Variable puede estar en scope global
+                }
+            }
+            
+            // Crear nuevo script con cache busting más agresivo
+            const script = document.createElement('script');
+            const timestamp = Date.now();
+            script.src = `ultima_ubicacion_camiones.js?v=${timestamp}&_=${Math.random()}`;
+            script.type = 'text/javascript';
+            
+            // Configurar callbacks
+            script.onload = () => {
+                console.log('Script cargado exitosamente');
+                loadedScript = script;
+                
+                // Múltiples intentos para encontrar la variable
+                let attempts = 0;
+                const maxAttempts = 10;
+                
+                const checkForData = () => {
+                    attempts++;
+                    console.log(`Intento ${attempts} de encontrar variable camiones`);
+                    
+                    // Verificar múltiples formas de acceso a la variable
+                    let camionesDatos = null;
+                    
+                    if (typeof window.camiones !== 'undefined') {
+                        camionesDatos = window.camiones;
+                        console.log('Encontrado en window.camiones');
+                    } else if (typeof camiones !== 'undefined') {
+                        camionesDatos = camiones;
+                        console.log('Encontrado en variable global camiones');
+                    } else if (window.hasOwnProperty('camiones')) {
+                        camionesDatos = window['camiones'];
+                        console.log('Encontrado usando window["camiones"]');
+                    }
+                    
+                    if (camionesDatos && Array.isArray(camionesDatos) && camionesDatos.length > 0) {
+                        console.log(`Datos encontrados: ${camionesDatos.length} camiones`);
+                        resolve(camionesDatos);
+                    } else if (attempts < maxAttempts) {
+                        console.log('Datos no encontrados, reintentando...');
+                        setTimeout(checkForData, 200);
+                    } else {
+                        console.error('Variable camiones no encontrada después de múltiples intentos');
+                        updateStatus('Error: datos no encontrados', 'error');
+                        reject(new Error('Variable camiones no definida después de múltiples intentos'));
+                    }
+                };
+                
+                // Comenzar verificación después de un pequeño delay
+                setTimeout(checkForData, 100);
+            };
+            
+            script.onerror = (error) => {
+                console.error('Error cargando script:', error);
+                updateStatus('Error cargando archivo JS', 'error');
+                reject(new Error('Error loading script: ' + error.message));
+            };
+            
+            // Añadir script al head
+            document.head.appendChild(script);
+            console.log('Script añadido:', script.src);
+        });
+    }
+
+    // Función para poblar el selector de empresas
+    function populateEmpresaSelect(camiones) {
+        const selectEmpresa = document.getElementById('empresa-select');
+        
+        // Limpiar opciones existentes excepto "Todas"
+        while (selectEmpresa.children.length > 1) {
+            selectEmpresa.removeChild(selectEmpresa.lastChild);
+        }
+        
+        // Obtener empresas únicas
+        const empresasUnicas = [...new Set(camiones.map(c => c.empresa).filter(Boolean))];
+        empresasUnicas.sort().forEach(empresa => {
+            const option = document.createElement('option');
+            option.value = empresa;
+            option.textContent = empresa;
+            selectEmpresa.appendChild(option);
+        });
+    }
+
+    // Función para mostrar camiones filtrados por empresa
+    function displayTrucksByCompany() {
+        // Limpiar marcadores existentes
+        clearTruckMarkers();
+        
+        // Obtener empresa seleccionada
+        const empresaSeleccionada = document.getElementById('empresa-select').value;
+        
+        // Filtrar camiones
+        let filteredCamiones = allTrucksData;
+        if (empresaSeleccionada !== 'TODAS') {
+            filteredCamiones = allTrucksData.filter(c => c.empresa === empresaSeleccionada);
+        }
+        
+        console.log(`Mostrando ${filteredCamiones.length} camiones para empresa: ${empresaSeleccionada}`);
+        
+        // Verificar si hay camiones para mostrar
+        if (filteredCamiones.length === 0) {
+            updateStatus('No hay camiones para esta empresa', 'error');
+            return;
+        }
+        
+        // Crear marcadores con los datos filtrados
+        createTruckMarkers(filteredCamiones);
+    }
+
+    // Función separada para crear los marcadores con los datos
+    function createTruckMarkers(camiones) {
+        console.log(`Creando marcadores para ${camiones.length} camiones`);
+        
+        // Contadores de estados
+        const stats = {
+            total: camiones.length,
+            running: 0,
+            idle: 0,
+            stopped: 0,
+            inactive: 0,
+            active: 0
+        };
+        
+        // Crear marcadores para cada camión
+        camiones.forEach((camion, index) => {
+            const icono = createTruckIcon(camion.estado);
+            const marker = L.marker([camion.lat, camion.lng], { icon: icono }).addTo(map);
+            
+            // Contar estados
+            switch(camion.estado) {
+                case "Running":
+                    stats.running++;
+                    stats.active++;
+                    break;
+                case "Idle":
+                    stats.idle++;
+                    stats.active++;
+                    break;
+                case "Stopped":
+                    stats.stopped++;
+                    stats.active++;
+                    break;
+                default: // Inactive u otros
+                    stats.inactive++;
+                    break;
+            }
+            
+            const hoy = new Date();
+            const hoyStr = hoy.toISOString().slice(0, 10); // formato 'YYYY-MM-DD'
+
+            function esDeHoy(timestamp) {
+                if (!timestamp) return false;
+
+                // Suponemos que timestamp es tipo 'DD-MM-YYYY HH:mm:ss'
+                const fechaStr = timestamp.split(" ")[0]; // 'DD-MM-YYYY'
+                const [dia, mes, anio] = fechaStr.split("-");
+                const fechaFormateada = `${anio}-${mes}-${dia}`; // 'YYYY-MM-DD'
+
+                return fechaFormateada === hoyStr;
+            }
+
+            const claseExtra = esDeHoy(camion.timestamp) ? 'tooltip-verde' : 'tooltip-rojo';
+
+            // Tooltip permanente arriba del camión
+            marker.bindTooltip(`
+                🚚 ${camion.nombre}<br>
+                <small>${camion.timestamp}</small><br>
+                <small>Estado: ${camion.estado}</small><br>
+                <small>Empresa: ${camion.empresa || 'N/A'}</small>
+            `, {
+                permanent: true,
+                direction: 'top',
+                offset: [0, -50],
+                className: `truck-tooltip ${claseExtra}`
+            });
+
+            // Función para traer al frente
+            const bringToFront = function() {
+                // Reset previous active marker
+                if (activeMarker && activeMarker._icon) {
+                    activeMarker._icon.style.zIndex = '1000';
+                    if (activeMarker._tooltip && activeMarker._tooltip._container) {
+                        activeMarker._tooltip._container.style.zIndex = '1001';
+                    }
+                }
+                
+                // Bring clicked marker to front
+                currentZIndex += 10;
+                if (marker._icon) {
+                    marker._icon.style.zIndex = currentZIndex.toString();
+                }
+                if (marker._tooltip && marker._tooltip._container) {
+                    marker._tooltip._container.style.zIndex = (currentZIndex + 1).toString();
+                }
+                
+                activeMarker = marker;
+            };
+            
+            // Click event listener para el marcador
+            marker.on('click', bringToFront);
+
+            truckMarkers.push(marker);
+        });
+
+        // Configurar event listeners para tooltips después de un pequeño delay
+        setTimeout(() => {
+            truckMarkers.forEach((marker, index) => {
+                if (marker._tooltip && marker._tooltip._container) {
+                    const tooltipContainer = marker._tooltip._container;
+                    
+                    const bringToFrontForThisMarker = function(e) {
+                        e.stopPropagation();
+                        e.preventDefault();
+                        
+                        // Reset previous active marker
+                        if (activeMarker && activeMarker._icon) {
+                            activeMarker._icon.style.zIndex = '1000';
+                            if (activeMarker._tooltip && activeMarker._tooltip._container) {
+                                activeMarker._tooltip._container.style.zIndex = '1001';
+                            }
+                        }
+                        
+                        // Bring clicked marker to front
+                        currentZIndex += 10;
+                        if (marker._icon) {
+                            marker._icon.style.zIndex = currentZIndex.toString();
+                        }
+                        if (marker._tooltip && marker._tooltip._container) {
+                            marker._tooltip._container.style.zIndex = (currentZIndex + 1).toString();
+                        }
+                        
+                        activeMarker = marker;
+                    };
+
+                    tooltipContainer.addEventListener('click', bringToFrontForThisMarker);
+                    tooltipContainer.addEventListener('mousedown', bringToFrontForThisMarker);
+                    tooltipContainer.style.cursor = 'pointer';
+                    tooltipContainer.style.pointerEvents = 'auto';
+                }
+            });
+        }, 500);
+
+        // Actualizar status con estadísticas detalladas
+        updateStatus('', 'success', stats);
+    }
+
+    // Función para cargar y mostrar los camiones
+    async function loadTrucks() {
+        try {
+            // Limpiar marcadores existentes
+            clearTruckMarkers();
+            
+            let camiones = null;
+            
+            // Método 1: Intentar cargar datos frescos con script dinámico
+            try {
+                camiones = await loadTruckData();
+            } catch (error) {
+                console.warn('Método dinámico falló, intentando método alternativo:', error);
+                
+                // Método 2: Verificar si ya existe la variable global
+                if (typeof window.camiones !== 'undefined' && Array.isArray(window.camiones)) {
+                    camiones = window.camiones;
+                } else if (typeof camiones !== 'undefined' && Array.isArray(camiones)) {
+                    // Variable en scope global
+                } else {
+                    // Método 3: Cargar usando método tradicional como en el código original
+                    updateStatus('Intentando carga tradicional...', 'loading');
+                    
+                    return new Promise((resolve) => {
+                        const traditionalScript = document.createElement('script');
+                        traditionalScript.src = 'ultima_ubicacion_camiones.js?t=' + Date.now();
+                        
+                        traditionalScript.onload = () => {
+                            setTimeout(() => {
+                                if (typeof window.camiones !== 'undefined') {
+                                    allTrucksData = window.camiones;
+                                    populateEmpresaSelect(allTrucksData);
+                                    displayTrucksByCompany();
+                                    resolve();
+                                } else if (typeof camiones !== 'undefined') {
+                                    allTrucksData = camiones;
+                                    populateEmpresaSelect(allTrucksData);
+                                    displayTrucksByCompany();
+                                    resolve();
+                                } else {
+                                    updateStatus('No se pudieron cargar los datos', 'error');
+                                    resolve();
+                                }
+                            }, 500);
+                        };
+                        
+                        traditionalScript.onerror = () => {
+                            updateStatus('Error: archivo JS no encontrado', 'error');
+                            resolve();
+                        };
+                        
+                        document.head.appendChild(traditionalScript);
+                    });
+                }
+            }
+            
+            if (camiones && Array.isArray(camiones) && camiones.length > 0) {
+                // Guardar datos globalmente
+                allTrucksData = camiones;
+                
+                // Poblar selector de empresas
+                populateEmpresaSelect(allTrucksData);
+                
+                // Mostrar camiones según empresa seleccionada
+                displayTrucksByCompany();
+            } else {
+                updateStatus('No se encontraron datos válidos', 'error');
+            }
+
+        } catch (error) {
+            console.error('Error general loading trucks:', error);
+            updateStatus('Error general cargando camiones', 'error');
+        }
+    }
+
+    // Event listener para el botón "Centrar Mapa"
+    document.getElementById("fit-btn").addEventListener("click", function() {
+        if (truckMarkers.length > 0) {
+            const group = new L.featureGroup(truckMarkers);
+            map.fitBounds(group.getBounds().pad(0.1));
+        } else {
+            map.setView([-22.37, -68.9], 12);
+        }
+    });
+
+    // Event listener para el botón "Refrescar Datos"
+    document.getElementById("refresh-btn").addEventListener("click", function() {
+        loadTrucks();
+    });
+
+    // Event listener para el selector de empresa
+    document.getElementById('empresa-select').addEventListener('change', function() {
+        console.log('Empresa seleccionada:', this.value);
+        displayTrucksByCompany();
+        const group = new L.featureGroup(truckMarkers);
+        map.fitBounds(group.getBounds().pad(0.1));
+    });
+
+    // Cargar los camiones cuando la página esté lista
+    document.addEventListener('DOMContentLoaded', function() {
+        // Cargar datos iniciales
+        loadTrucks();
+        
+        // Opcional: Auto-refresh cada 5 minutos
+        setInterval(() => {
+            console.log('Auto-refreshing truck data...');
+            loadTrucks();
+        }, 5 * 60 * 1000); // 5 minutos
+    });
+</script>
+</html>
