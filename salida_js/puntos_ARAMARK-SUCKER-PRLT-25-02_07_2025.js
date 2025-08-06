@@ -1,0 +1,6 @@
+window.puntos_ARAMARK_SUCKER_PRLT_25_02_07_2025 = [
+{ lat: -22.483911, lng: -68.916641, timestamp: "2025-07-02T10:14:00", description: "Avenida Jorge Alessandri Rodríguez,El Peuco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Avenida Jorge Alessandri Rodríguez,El Peuco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Idle" },
+{ lat: -22.483911, lng: -68.916641, timestamp: "2025-07-02T10:16:00", description: "Avenida Jorge Alessandri Rodríguez,El Peuco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Avenida Jorge Alessandri Rodríguez,El Peuco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Running" },
+{ lat: -22.483911, lng: -68.916641, timestamp: "2025-07-02T10:16:00", description: "Avenida Jorge Alessandri Rodríguez,El Peuco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Avenida Jorge Alessandri Rodríguez,El Peuco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Stopped" },
+{ lat: -22.483911, lng: -68.916641, timestamp: "2025-07-02T10:16:00", description: "Avenida Jorge Alessandri Rodríguez,El Peuco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Avenida Jorge Alessandri Rodríguez,El Peuco,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Stopped" }
+];
