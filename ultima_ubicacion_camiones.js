@@ -43,7 +43,7 @@ const camiones = [
     "nombre": "ARAMARK-SUCKER-SLCX-12",
     "lat": -22.306081,
     "lng": -68.895347,
-    "estado": "Stopped",
+    "estado": "Running",
     "timestamp": "06-08-2025 23:59",
     "empresa": "ARAMARK"
   },
