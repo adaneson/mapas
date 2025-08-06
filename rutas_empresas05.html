@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de Gateways</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a9ebd 0%, #0088aa 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 25px;
+            color: white;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+            padding: 20px;
+            background: rgba(255,255,255,0.15);
+            border-radius: 15px;
+            backdrop-filter: blur(5px);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .controls {
+            padding: 20px;
+            background: rgba(255,255,255,0.95);
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .map-container {
+            flex: 1;
+            min-width: 300px;
+            height: 760px;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+            overflow: hidden;
+            border: 2px solid rgba(255,255,255,0.3);
+            position: relative;
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+
+        .legend {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 15px;
+            border-radius: 8px;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            font-size: 13px;
+        }
+        
+        .legend h4 {
+            margin: 0 0 10px 0;
+            font-size: 14px;
+            text-align: center;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        
+        .legend-circle {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            margin-right: 10px;
+            border: 2px solid white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+        }
+
+        @media (max-width: 900px) {
+            .map-section {
+                flex-direction: column;
+            }
+        }
+
+        #map-style {
+            font-size: 18px;
+            padding: 10px;
+            width: 250px;
+            border-radius: 6px; /* opcional para bordes redondeados */
+        }
+
+        #selectorRuta {
+            font-size: 18px;
+            padding: 10px;
+            width: 250px;
+            border-radius: 6px; /* opcional para bordes redondeados */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <label for="selectorRuta">Ruta:</label>
+            <select id="selectorRuta">
+                <option value="todas">Todas las Rutas</option>
+                <option value="0">Sigdo Koppers</option>
+                <option value="1">KDM</option>
+                <option value="2">Nexxo</option>
+                <option value="3">Pacoll</option>
+            </select>
+            <label for="map-style">Estilo de Mapa:</label>
+            <select id="map-style">
+                <option value="satellite" selected>Satélite</option>
+                <option value="osm">OpenStreetMap</option>
+                <option value="topo">Topográfico</option>
+                <option value="dark">Oscuro</option>
+                <option value="light">Claro</option>
+                <option value="streets">Calles</option>
+            </select>
+        </div>
+        
+        <div class="map-section">
+            <div class="map-container">
+                <div id="map"></div>
+                <div class="legend">
+                    <h4>Leyenda</h4>
+                    <div class="legend-item">
+                        <div class="legend-circle" style="background: #2196F3;"></div>
+                        <span>Puerta (PT)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-circle" style="background: #4CAF50;"></div>
+                        <span>Casa de Cambio (CC)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-circle" style="background: #FF9800;"></div>
+                        <span>Frente de Trabajo (FT)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-circle" style="background: #9C27B0;"></div>
+                        <span>Casino (CA)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+    let capasRutas = [];
+    const colores = ["#CCCCCC", "#88D18A", "#1A936F", "#FFFFFF"];
+    let currentTileLayer = "satellite";
+
+    const mapLayers = {
+        satellite: L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", { attribution: "Tiles &copy; Esri" }),
+        osm: L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: '&copy; OpenStreetMap contributors' }),
+        topo: L.tileLayer("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", { attribution: 'Map data: &copy; OpenStreetMap contributors, SRTM | Map style: &copy; OpenTopoMap' }),
+        dark: L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", { attribution: '&copy; OpenStreetMap & CARTO' }),
+        light: L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", { attribution: "© OpenStreetMap contributors © CARTO" }),
+        streets: L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", { attribution: "Tiles © Esri" })
+    };
+
+    const map = L.map("map", {
+        center: [-22.335, -68.892511],
+        zoom: 14,
+        maxZoom: 18,
+        layers: [mapLayers[currentTileLayer]]
+    });
+
+    document.getElementById("map-style").addEventListener("change", e => {
+        map.removeLayer(mapLayers[currentTileLayer]);
+        currentTileLayer = e.target.value;
+        mapLayers[currentTileLayer].addTo(map);
+    });
+
+    function createCircleIcon(color, size = 20) {
+        return L.divIcon({
+            className: 'circle-marker',
+            html: `<div style="
+                width: ${size}px;
+                height: ${size}px;
+                background-color: ${color};
+                border: 3px solid white;
+                border-radius: 50%;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+            "></div>`,
+            iconSize: [size, size],
+            iconAnchor: [size/2, size/2]
+        });
+    }
+
+    function cargarGateways() {
+        const coloresIconos = {
+            PT: '#2196F3', CC: '#4CAF50', FT: '#FF9800', CA: '#9C27B0'
+        };
+
+        lugares.forEach(lugar => {
+            const color = coloresIconos[lugar.tipo_area] || '#757575';
+            const icono = createCircleIcon(color, 24);
+            L.marker([lugar.lat, lugar.lng], { icon: icono })
+                .bindPopup(`<b>${lugar.nombre}</b><br>Tipo: ${lugar.tipo_area}`)
+                .addTo(map);
+        });
+    }
+
+    function crearRutas() {
+        for (let i = 0; i < rutas.length; i++) {
+            const ruta = rutas[i];
+            const color = colores[i % colores.length];
+            const nombre = nombres[i];
+
+            const grupoRuta = L.layerGroup();
+            grupoRuta.addLayer(L.polyline(ruta, {
+                color: color,
+                weight: 8,
+                opacity: 0.8
+            }).bindPopup(nombre));
+
+            capasRutas.push(grupoRuta);
+        }
+    }
+
+    function ajustarVistaCompleta() {
+        const bounds = L.latLngBounds([]);
+        rutas.forEach(ruta => ruta.forEach(punto => bounds.extend(punto)));
+        map.fitBounds(bounds, { padding: [20, 20] });
+    }
+
+    function ajustarVistaRuta(indice) {
+        const bounds = L.latLngBounds([]);
+        rutas[indice].forEach(punto => bounds.extend(punto));
+        map.fitBounds(bounds, { padding: [50, 50] });
+    }
+
+    function mostrarRuta(indice) {
+        capasRutas.forEach(capa => map.removeLayer(capa));
+
+        if (indice === "todas") {
+            capasRutas.forEach(capa => capa.addTo(map));
+            ajustarVistaCompleta();
+        } else {
+            const indexNum = Number(indice);
+            if (capasRutas[indexNum]) {
+                capasRutas[indexNum].addTo(map);
+                ajustarVistaRuta(indexNum);
+            } else {
+                console.warn("Ruta no encontrada para índice:", indexNum);
+            }
+        }
+    }
+
+    document.getElementById("selectorRuta").addEventListener("change", function () {
+        const valor = this.value;
+        mostrarRuta(valor);
+    });
+
+    function cargarScriptDinamico(src, callback) {
+        const s = document.createElement('script');
+        s.src = src + '?t=' + Date.now();
+        s.onload = callback;
+        s.onerror = () => console.error("Error al cargar script:", src);
+        document.head.appendChild(s);
+    }
+
+    // Carga secuencial de scripts
+    cargarScriptDinamico('nombres_rutas.js', function () {
+        console.log("✅ nombres_rutas.js cargado");
+
+        cargarScriptDinamico('rutas_empresas.js', function () {
+            console.log("✅ rutas_empresas.js cargado");
+
+            crearRutas();
+
+            // Generar select dinámicamente
+            const selector = document.getElementById("selectorRuta");
+            selector.innerHTML = `<option value="todas">Todas</option>` +
+                nombres.map((nombre, i) => `<option value="${i}">${nombre}</option>`).join('');
+
+            // Mostrar todas por defecto
+            mostrarRuta("todas");
+        });
+    });
+
+    // Cargar gateways después del mapa
+    cargarScriptDinamico('gateways.js', cargarGateways);
+</script>
+</body>
+</html>
