@@ -1,1 +1,1 @@
-const companyName = ["BERLIAM", "KDM", "NEXXO", "PACOLL_ING._Y_CÍA._LTDA", "SIGDO_KOPPERS"];
+const companyName = ["4", "5", "6", "BERLIAM", "KDM", "NEXXO", "PACOLL_ING._Y_CÍA._LTDA", "SIGDO_KOPPERS"];
