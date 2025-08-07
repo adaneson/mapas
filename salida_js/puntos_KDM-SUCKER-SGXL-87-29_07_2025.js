@@ -1,4 +1,5 @@
 window.puntos_KDM_SUCKER_SGXL_87_29_07_2025 = [
+{ lat: -22.443231, lng: -68.874526, timestamp: "2025-07-29T00:00:00", description: "Calama - Ollagüe,Jalquinche,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Calama - Ollagüe,Jalquinche,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Inactive" },
 { lat: -22.443231, lng: -68.874526, timestamp: "2025-07-29T00:37:00", description: "Calama - Ollagüe,Jalquinche,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Calama - Ollagüe,Jalquinche,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Stopped" },
 { lat: -22.443231, lng: -68.874526, timestamp: "2025-07-29T00:37:00", description: "Calama - Ollagüe,Jalquinche,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Calama - Ollagüe,Jalquinche,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Inactive" },
 { lat: -22.443231, lng: -68.874526, timestamp: "2025-07-29T00:37:00", description: "Calama - Ollagüe,Jalquinche,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Calama - Ollagüe,Jalquinche,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Stopped" },
