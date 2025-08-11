@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de Gateways</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a9ebd 0%, #0088aa 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 25px;
+            color: white;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+            padding: 20px;
+            background: rgba(255,255,255,0.15);
+            border-radius: 15px;
+            backdrop-filter: blur(5px);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .controls {
+            padding: 20px;
+            background: rgba(255,255,255,0.95);
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .controls label {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .controls input, .controls select {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .slider-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .slider-container input[type="range"] {
+            width: 200px;
+        }
+
+        .play-controls {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .btn-play { background-color: #4CAF50; color: white; }
+        .btn-play:hover { background-color: #45a049; }
+        .btn-play:disabled { background-color: #cccccc; cursor: not-allowed; }
+
+        .btn-pause { background-color: #ff9800; color: white; }
+        .btn-pause:hover { background-color: #e68900; }
+
+        .btn-stop { background-color: #f44336; color: white; }
+        .btn-stop:hover { background-color: #da190b; }
+
+        .btn-reload { 
+            background-color: #17a2b8; 
+            color: white; 
+        }
+        .btn-reload:hover { 
+            background-color: #138496; 
+        }
+
+        .btn-restart { 
+            background-color: #6f42c1; 
+            color: white; 
+        }
+        .btn-restart:hover { 
+            background-color: #5a2d91; 
+        }
+
+        .stats {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            background: rgba(255,255,255,0.1);
+            padding: 10px;
+            border-radius: 8px;
+            color: white;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 1.5em;
+            font-weight: bold;
+            display: block;
+        }
+
+        .map-container {
+            flex: 1;
+            min-width: 300px;
+            height: 760px;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+            overflow: hidden;
+            border: 2px solid rgba(255,255,255,0.3);
+            position: relative;
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+
+        .legend {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 15px;
+            border-radius: 8px;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            font-size: 13px;
+        }
+        
+        .legend h4 {
+            margin: 0 0 10px 0;
+            font-size: 14px;
+            text-align: center;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        
+        .legend-circle {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            margin-right: 10px;
+            border: 2px solid white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+        }
+
+        .info-panel {
+            background: rgba(255,255,255,0.9);
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 900px) {
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .slider-container input[type="range"] {
+                width: 100%;
+            }
+        }
+
+        #map-style {
+            font-size: 18px;
+            padding: 10px;
+            width: 250px;
+            border-radius: 6px;
+        }
+
+        .error-message {
+            background-color: #f8d7da;
+            color: #721c24;
+            padding: 10px;
+            border-radius: 6px;
+            margin: 10px 0;
+            border: 1px solid #f5c6cb;
+        }
+
+        #fit-btn {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            background: linear-gradient(135deg, #0ec1e4 0%, #00a3d6 100%);
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102,126,234,0.3);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <label for="fecha">Fecha: </label>
+            <input type="date" id="fecha" />
+            
+            <label for="empresa-select">Empresa: </label>
+            <select id="empresa-select">
+              <option value="Todas">Todas las empresas</option>
+            </select>
+            
+            <div class="slider-container">
+              <label>Hora:</label>
+              <input type="range" id="tiempo-slider" min="0" max="47" value="0" step="1">
+              <div id="tiempo-display">00:00</div>
+            </div>
+            
+            <div class="play-controls">
+              <button id="play-btn" class="btn btn-play">▶ Play</button>
+              <button id="pause-btn" class="btn btn-pause">⏸ Pausa</button>
+              <button id="stop-btn" class="btn btn-stop">⏹ Stop</button>
+              <button id="restart-btn" class="btn btn-restart">⏪ Reiniciar</button>
+              <label>
+                    Velocidad:
+                    <select id="speed-select">
+                        <option value="0.5">0.5x</option>
+                        <option value="1" selected>1x</option>
+                        <option value="2">2x</option>
+                        <option value="5">5x</option>
+                        <option value="10">10x</option>
+                    </select>
+                </label>
+            </div>
+            <div style="width: 100%; display: flex; gap: 10px; margin-top: 0px; align-items: center;"></div>
+                <label for="map-style">Estilo de Mapa:</label>
+                <select id="map-style">
+                    <option value="satellite" selected>Satélite</option>
+                    <option value="osm">OpenStreetMap</option>
+                    <option value="topo">Topográfico</option>
+                    <option value="dark">Oscuro</option>
+                    <option value="light">Claro</option>
+                    <option value="streets">Calles</option>
+                </select>
+                <button id="fit-btn">🎯 Centrar Ruta</button>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div class="stat-item">
+                <span class="stat-value" id="count-present">0</span>
+                <span>Ubicado</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value" id="count-absent">0</span>
+                <span>No Ubicado</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value" id="count-total">0</span>
+                <span>Total</span>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" id="tiempo-display-2">00:00</div>
+                <span>Hora</span>
+            </div>
+            <div class="stat-item">
+                <span id="rango-tiempo">Rango: --:-- a --:--</span>
+            </div>
+        </div>
+        
+        <div class="map-section">
+            <div class="map-container">
+                <div id="map"></div>
+                <div class="legend">
+                    <h4>Leyenda</h4>
+                    <div class="legend-item">
+                        <div class="legend-circle" style="background: #2196F3;"></div>
+                        <span>Puerta (PT)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-circle" style="background: #4CAF50;"></div>
+                        <span>Casa de Cambio (CC)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-circle" style="background: #FF9800;"></div>
+                        <span>Frente de Trabajo (FT)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-circle" style="background: #9C27B0;"></div>
+                        <span>Casino (CA)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-circle" style="background: #FFEB3B;"></div>
+                        <span>Ubicación Mixta</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="error-container"></div>
+    </div>
+
+    <script>
+        // Globales
+        let personasData = [];
+        let playbackSpeed = 1;
+        let baseIntervalTime = 1500;
+        
+        // Capas del mapa
+        const mapLayers = {
+            satellite: L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", { 
+                attribution: "Tiles &copy; Esri" 
+            }),
+            osm: L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { 
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' 
+            }),
+            topo: L.tileLayer("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", { 
+                attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a>'
+            }),
+            dark: L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+            }),
+            light: L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", { 
+                attribution: "© OpenStreetMap contributors © CARTO" 
+            }),
+            streets: L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", { 
+                attribution: "Tiles © Esri" 
+            })
+        };
+
+        // Inicializar el mapa con una sola capa base
+        const map = L.map("map", {
+            center: [-22.335, -68.892511],
+            zoom: 14,
+            maxZoom: 18
+        });
+
+        let currentTileLayer = "satellite";
+        mapLayers[currentTileLayer].addTo(map);
+
+        // Función para crear círculos como iconos
+        function createCircleIcon(color, size = 20) {
+            return L.divIcon({
+                className: 'circle-marker',
+                html: `<div style="
+                    width: ${size}px;
+                    height: ${size}px;
+                    background-color: ${color};
+                    border: 3px solid white;
+                    border-radius: 50%;
+                    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+                "></div>`,
+                iconSize: [size, size],
+                iconAnchor: [size/2, size/2]
+            });
+        }
+
+        // Variable para el layer group de gateways
+        let gatewaysLayer;
+
+        // Función para cargar scripts dinámicamente
+        function cargarScriptDinamico(src, callback) {
+            const oldScript = document.getElementById("script-gateways");
+            if (oldScript) oldScript.remove();
+
+            const s = document.createElement("script");
+            s.src = src + "?t=" + Date.now();
+            s.id = "script-gateways";
+            s.onload = () => {
+                limpiarError();
+                callback();
+            };
+            s.onerror = () => {
+                mostrarError(`No se pudo cargar el archivo: ${src}. Usando datos de ejemplo.`);
+                // Crear datos de ejemplo si falla la carga
+                window.lugares = [
+                    { nombre: "Gateway PT-01", lat: -22.335, lng: -68.892511, tipo_area: "PT" },
+                    { nombre: "Gateway CC-01", lat: -22.336, lng: -68.893, tipo_area: "CC" },
+                    { nombre: "Gateway FT-01", lat: -22.334, lng: -68.892, tipo_area: "FT" },
+                    { nombre: "Gateway CA-01", lat: -22.337, lng: -68.894, tipo_area: "CA" }
+                ];
+                callback();
+            };
+            document.body.appendChild(s);
+        }
+
+        // Cargar gateways dinámicamente
+        function cargarGatewaysDinamicos(callback) {
+            cargarScriptDinamico('gateways.js', () => {
+                // Verificar si se cargaron los gateways
+                if (typeof lugares !== 'undefined' && lugares && lugares.length > 0) {
+                    console.log("Gateways cargados exitosamente:", lugares.length);
+                } else {
+                    console.warn("No se encontraron gateways en el archivo");
+                }
+                if (callback) callback();
+            });
+        }
+
+        // Centrar la ruta en el mapa
+        function fitToRoute() {
+            const layers = layerGroup.getLayers();
+            if (layers.length === 0) {
+                console.warn('No hay marcadores para centrar');
+                return;
+            }
+            
+            let bounds = L.latLngBounds();
+            
+            layers.forEach(layer => {
+                if (layer.getLatLng) {
+                    bounds.extend(layer.getLatLng());
+                }
+            });
+            
+            if (bounds.isValid()) {
+                map.fitBounds(bounds, { padding: [50, 50] });
+            } else {
+                console.warn('Los límites no son válidos');
+            }
+        }
+
+        // Cargar gateways en el mapa
+        function cargarGateways() {
+            // Remover layer anterior si existe
+            if (gatewaysLayer) {
+                map.removeLayer(gatewaysLayer);
+            }
+
+            // Verificar que lugares existe
+            if (typeof lugares === 'undefined') {
+                console.error("Variable 'lugares' no está definida");
+                return;
+            }
+
+            const coloresIconos = {
+                PT: '#2196F3',  // Azul para Puerta
+                CC: '#4CAF50',  // Verde para Casa de Cambio
+                FT: '#FF9800',  // Naranja para Frente de Trabajo
+                CA: '#9C27B0'   // Morado para Casino
+            };
+
+            const markers = [];
+
+            lugares.forEach(lugar => {
+                const color = coloresIconos[lugar.tipo_area] || '#757575'; // Gris por defecto
+                const icono = createCircleIcon(color, 24);
+                
+                const marker = L.marker([lugar.lat, lugar.lng], { icon: icono })
+                    .bindPopup(`<b>${lugar.nombre}</b><br>Tipo: ${lugar.tipo_area}<br>Lat: ${lugar.lat}<br>Lng: ${lugar.lng}`);
+                
+                markers.push(marker);
+            });
+
+            // Crear layer group para los gateways
+            gatewaysLayer = L.layerGroup(markers).addTo(map);
+            
+            console.log(`${lugares.length} gateways cargados en el mapa`);
+        }
+
+        // Cambiar estilo del mapa
+        document.getElementById("map-style").addEventListener("change", e => {
+            map.removeLayer(mapLayers[currentTileLayer]);
+            currentTileLayer = e.target.value;
+            mapLayers[currentTileLayer].addTo(map);
+        });
+
+        document.getElementById("fit-btn").addEventListener("click", fitToRoute);
+
+        // Elementos del DOM
+        const empresaSelect = document.getElementById("empresa-select");
+        const fechaInput = document.getElementById("fecha");
+        const tiempoSlider = document.getElementById("tiempo-slider");
+        const tiempoDisplay = document.getElementById("tiempo-display");
+        const tiempoDisplay2 = document.getElementById("tiempo-display-2");
+        const playBtn = document.getElementById("play-btn");
+        const pauseBtn = document.getElementById("pause-btn");
+        const stopBtn = document.getElementById("stop-btn");
+        const restartBtn = document.getElementById("restart-btn");
+        const countPresent = document.getElementById("count-present");
+        const countAbsent = document.getElementById("count-absent");
+        const countTotal = document.getElementById("count-total");
+        const rangoTiempo = document.getElementById("rango-tiempo");
+        const errorContainer = document.getElementById("error-container");
+
+        // Variables globales
+        let personas = [];
+        let personasPorHora = {};
+        let layerGroup = L.layerGroup().addTo(map); // Inicializar como LayerGroup vacío
+        let isPlaying = false;
+        let playInterval;
+        let horasDisponibles = [];
+
+        // Iconos para marcadores
+        const iconos = {
+            ubicado: L.icon({
+                iconUrl: "https://adaneson.github.io/mapas/Iconos/Usuario_Verde.png",
+                iconSize: [40, 40],
+                iconAnchor: [20, 40],
+                tooltipAnchor: [0, -35]
+            }),
+            no_ubicable: L.icon({
+                iconUrl: "https://adaneson.github.io/mapas/Iconos/Usuario_Rojo.png",
+                iconSize: [40, 40],
+                iconAnchor: [20, 40],
+                tooltipAnchor: [0, -35]
+            }),
+            mixto: L.icon({
+                iconUrl: "https://adaneson.github.io/mapas/Iconos/Usuario_Amarillo.png",
+                iconSize: [40, 40],
+                iconAnchor: [20, 40],
+                tooltipAnchor: [0, -35]
+            })
+        };
+
+        // Función para mostrar errores
+        function mostrarError(mensaje) {
+            errorContainer.innerHTML = `<div class="error-message">${mensaje}</div>`;
+        }
+
+        function limpiarError() {
+            errorContainer.innerHTML = '';
+        }
+
+        // Generar horarios cada 30 minutos
+        function generarHorarios() {
+            const horarios = [];
+            for (let hora = 0; hora < 24; hora++) {
+                for (let minuto = 0; minuto < 60; minuto += 30) {
+                    const horaStr = hora.toString().padStart(2, '0');
+                    const minutoStr = minuto.toString().padStart(2, '0');
+                    horarios.push(`${horaStr}:${minutoStr}`);
+                }
+            }
+            return horarios;
+        }
+
+        // Función para redondear tiempo a la franja de 30 minutos más cercana
+        function redondearTiempo(fechaHora) {
+            const fecha = new Date(fechaHora);
+            const hora = fecha.getHours();
+            const minutos = fecha.getMinutes();
+            
+            const minutosRedondeados = minutos < 15 ? 0 : (minutos < 45 ? 30 : 0);
+            const horaFinal = minutosRedondeados === 0 && minutos >= 45 ? hora + 1 : hora;
+            
+            return `${horaFinal.toString().padStart(2, '0')}:${minutosRedondeados.toString().padStart(2, '0')}`;
+        }
+
+        // Procesar datos y agrupar por franjas horarias
+        function procesarDatos(datosOriginales) {
+            personasPorHora = {};
+            
+            horasDisponibles.forEach(hora => {
+                personasPorHora[hora] = [];
+            });
+
+            datosOriginales.forEach(persona => {
+                const horaRedondeada = redondearTiempo(persona.tiempo);
+                if (personasPorHora[horaRedondeada]) {
+                    personasPorHora[horaRedondeada].push({
+                        ...persona,
+                        horaFranja: horaRedondeada
+                    });
+                }
+            });
+
+            const horasConDatos = Object.keys(personasPorHora).filter(hora => 
+                personasPorHora[hora].length > 0
+            ).sort();
+
+            if (horasConDatos.length > 0) {
+                const primeraHora = horasConDatos[0];
+                const ultimaHora = horasConDatos[horasConDatos.length - 1];
+                rangoTiempo.textContent = `Rango: ${primeraHora} a ${ultimaHora}`;
+                
+                const primerIndice = horasDisponibles.indexOf(primeraHora);
+                const ultimoIndice = horasDisponibles.indexOf(ultimaHora);
+                
+                if (primerIndice !== -1 && ultimoIndice !== -1) {
+                    tiempoSlider.min = primerIndice;
+                    tiempoSlider.max = ultimoIndice;
+                    tiempoSlider.value = primerIndice;
+                }
+            }
+        }
+
+        // Datos de ejemplo para demostración
+        function generarDatosEjemplo() {
+            const empresas = ["Empresa A", "Empresa B", "Empresa C"];
+            const nombres = ["Juan Pérez", "María García", "Carlos López", "Ana Martín", "Luis Rodríguez"];
+            const modos = ["UBICADO", "NO UBICABLE"];
+            
+            const datos = [];
+            const hoy = new Date();
+            
+            for (let i = 0; i < 50; i++) {
+                const horaAleatoria = Math.floor(Math.random() * 24);
+                const minutoAleatorio = Math.random() < 0.5 ? 0 : 30;
+                
+                const fecha = new Date(hoy);
+                fecha.setHours(horaAleatoria, minutoAleatorio, 0, 0);
+                
+                datos.push({
+                    nombre: nombres[Math.floor(Math.random() * nombres.length)],
+                    empresa: empresas[Math.floor(Math.random() * empresas.length)],
+                    tiempo: fecha.toISOString(),
+                    modo: modos[Math.floor(Math.random() * modos.length)],
+                    lat: -22.335 + (Math.random() - 0.5) * 0.01,
+                    lng: -68.892511 + (Math.random() - 0.5) * 0.01
+                });
+            }
+            
+            return datos;
+        }
+
+        function cargarScriptPersonasDinamico(src, callback) {
+            const oldScript = document.getElementById("script-personas");
+            if (oldScript) oldScript.remove();
+
+            const s = document.createElement("script");
+            s.src = src + "?t=" + Date.now();
+            s.id = "script-personas";
+            s.onload = () => {
+                limpiarError();
+                
+                if (typeof window.personas !== 'undefined') {
+                    personasData = window.personas;
+                    window.personas = undefined;
+                }
+                
+                callback();
+            };
+            s.onerror = () => {
+                mostrarError(`No se pudo cargar el archivo: ${src}. Usando datos de ejemplo.`);
+                callback();
+            };
+            document.body.appendChild(s);
+        }
+
+        function actualizarEstadisticas(datosHora) {
+            const ubicados = datosHora.filter(p => p.modo === 'UBICADO').length;
+            const no_ubicables = datosHora.filter(p => p.modo === 'NO UBICABLE').length;
+            const total = datosHora.length;
+
+            countPresent.textContent = ubicados;
+            countAbsent.textContent = no_ubicables;
+            countTotal.textContent = total;
+        }
+
+        function renderMapa(empresaFiltro, hora) {
+            if (layerGroup) {
+                layerGroup.clearLayers();
+            }
+
+            const datosHora = personasPorHora[hora] || [];
+            const datosFiltrados = empresaFiltro === "Todas"
+                ? datosHora
+                : datosHora.filter(p => p.empresa === empresaFiltro);
+
+            actualizarEstadisticas(datosFiltrados);
+
+            const ubicaciones = {};
+
+            datosFiltrados.forEach(p => {
+                const key = `${Math.round(p.lat * 10000)},${Math.round(p.lng * 10000)}`;
+                
+                if (!ubicaciones[key]) {
+                    ubicaciones[key] = {
+                        lat: p.lat,
+                        lng: p.lng,
+                        ubicados: [],
+                        no_ubicables: []
+                    };
+                }
+                
+                if (p.modo === 'UBICADO') {
+                    ubicaciones[key].ubicados.push(p);
+                } else if (p.modo === 'NO UBICABLE') {
+                    ubicaciones[key].no_ubicables.push(p);
+                }
+            });
+
+            const layers = [];
+
+            for (const coordKey in ubicaciones) {
+                const data = ubicaciones[coordKey];
+                const totalPersonas = data.ubicados.length + data.no_ubicables.length;
+                
+                let icono;
+                let estado;
+                let tooltipContent = `<strong>Franja: ${hora}</strong><br>`;
+                
+                // Determinar el tipo de ubicación
+                if (data.ubicados.length > 0 && data.no_ubicables.length > 0) {
+                    // Caso mixto - usar icono amarillo
+                    icono = iconos.mixto;
+                    estado = "MIXTO";
+                    
+                    tooltipContent += `<strong>Estado: ${estado}</strong><br>`;
+                    tooltipContent += `<strong>UBICADOS (${data.ubicados.length}):</strong><br>`;
+                    data.ubicados.forEach(p => {
+                        tooltipContent += `${p.nombre}<br>`;
+                    });
+                    
+                    tooltipContent += `<strong>NO UBICABLES (${data.no_ubicables.length}):</strong><br>`;
+                    data.no_ubicables.forEach(p => {
+                        tooltipContent += `${p.nombre}<br>`;
+                    });
+                } else if (data.ubicados.length > 0) {
+                    // Solo ubicados
+                    icono = iconos.ubicado;
+                    estado = "UBICADO";
+                    
+                    tooltipContent += `<strong>Estado: ${estado}</strong><br>`;
+                    tooltipContent += `<strong>Personas (${totalPersonas}):</strong><br>`;
+                    data.ubicados.forEach(p => {
+                        tooltipContent += `${p.nombre}<br>`;
+                    });
+                } else {
+                    // Solo no ubicables
+                    icono = iconos.no_ubicable;
+                    estado = "NO UBICABLE";
+                    
+                    tooltipContent += `<strong>Estado: ${estado}</strong><br>`;
+                    tooltipContent += `<strong>Personas (${totalPersonas}):</strong><br>`;
+                    data.no_ubicables.forEach(p => {
+                        tooltipContent += `${p.nombre}<br>`;
+                    });
+                }
+                
+                const marker = L.marker([data.lat, data.lng], { icon: icono })
+                    .bindTooltip(tooltipContent, {
+                        direction: 'top',
+                        offset: [0, -35],
+                        opacity: 0.9,
+                        maxWidth: 250
+                    });
+
+                const label = L.marker([data.lat, data.lng], {
+                    icon: L.divIcon({
+                        className: "label-icon",
+                        html: `<div style="
+                            font-weight:bold;
+                            color:black;
+                            font-size:18px;
+                            text-align:center;
+                            transform: translateY(-45px);
+                            background: rgba(255,255,255,0.9);
+                            border: 2px solid ${estado === "UBICADO" ? '#27ae60' : 
+                                           estado === "NO UBICABLE" ? '#e74c3c' : '#f39c12'};
+                            border-radius: 50%;
+                            width: 28px;
+                            height: 28px;
+                            line-height: 24px;
+                        ">${totalPersonas}</div>`,
+                        iconSize: [0, 0],
+                        iconAnchor: [0, 0]
+                    }),
+                    interactive: false
+                });
+
+                layers.push(marker, label);
+            }
+
+            // Añadir nuevas capas
+            layers.forEach(layer => {
+                layerGroup.addLayer(layer);
+            });
+        }
+
+        function cargarEmpresas() {
+            empresaSelect.innerHTML = '<option value="Todas">Todas las empresas</option>';
+            
+            const todasEmpresas = new Set();
+            personasData.forEach(p => todasEmpresas.add(p.empresa));
+            
+            [...todasEmpresas].sort().forEach(e => {
+                const option = document.createElement("option");
+                option.value = e;
+                option.textContent = e;
+                empresaSelect.appendChild(option);
+            });
+        }
+
+        function cargarDatosPorFecha(fechaStr) {
+            const archivo = `salida_agrupados_js/datos_${fechaStr.replaceAll("-", "")}.js`;
+            cargarScriptPersonasDinamico(archivo, () => {
+                if (!personasData || personasData.length === 0) {
+                    // Generar datos de ejemplo
+                    personasData = generarDatosEjemplo();
+                }
+                
+                personas = personasData;
+                procesarDatos(personasData);
+                cargarEmpresas();
+                
+                const horaActual = horasDisponibles[tiempoSlider.value];
+                renderMapa("Todas", horaActual);
+            });
+        }
+
+        function actualizarTiempo() {
+            const horaActual = horasDisponibles[tiempoSlider.value];
+            tiempoDisplay.textContent = horaActual;
+            tiempoDisplay2.textContent = horaActual;
+            renderMapa(empresaSelect.value, horaActual);
+        }
+
+        function iniciarReproduccion() {
+            if (isPlaying) return;
+            
+            isPlaying = true;
+            playBtn.textContent = "▶ Reproduciendo...";
+            playBtn.disabled = true;
+            
+            // Clear existing interval if any
+            if (playInterval) {
+                clearInterval(playInterval);
+            }
+
+            const step = () => {
+                let currentValue = parseInt(tiempoSlider.value);
+                currentValue++;
+                
+                // Si llegamos al final, parar la reproducción
+                if (currentValue > parseInt(tiempoSlider.max)) {
+                    pausarReproduccion();
+                    playBtn.textContent = "▶ Finalizado";
+                    return;
+                }
+                
+                tiempoSlider.value = currentValue;
+                actualizarTiempo();
+            };
+
+            // Calcular intervalo basado en la velocidad seleccionada
+            const intervalTime = baseIntervalTime / playbackSpeed;
+            playInterval = setInterval(step, intervalTime);
+        }
+
+        function pausarReproduccion() {
+            if (!isPlaying) return;
+            
+            clearInterval(playInterval);
+            isPlaying = false;
+            playBtn.textContent = "▶ Play";
+            playBtn.disabled = false;
+        }
+
+        function detenerReproduccion() {
+            pausarReproduccion();
+            tiempoSlider.value = tiempoSlider.min;
+            actualizarTiempo();
+        }
+
+        function reiniciarReproduccion() {
+            pausarReproduccion();
+            tiempoSlider.value = tiempoSlider.min;
+            playBtn.textContent = "▶ Play";
+            playBtn.disabled = false;
+            actualizarTiempo();
+        }
+
+        // Event listeners
+        tiempoSlider.addEventListener("input", actualizarTiempo);
+        empresaSelect.addEventListener("change", () => {
+            const horaActual = horasDisponibles[tiempoSlider.value];
+            renderMapa(empresaSelect.value, horaActual);
+        });
+
+        fechaInput.addEventListener("change", () => {
+            const fechaSeleccionada = fechaInput.value;
+            if (fechaSeleccionada) {
+                pausarReproduccion();
+                cargarDatosPorFecha(fechaSeleccionada);
+            }
+        });
+
+        playBtn.addEventListener("click", iniciarReproduccion);
+        pauseBtn.addEventListener("click", pausarReproduccion);
+        stopBtn.addEventListener("click", detenerReproduccion);
+        restartBtn.addEventListener("click", reiniciarReproduccion);
+
+        document.getElementById("speed-select").addEventListener("change", e => {
+            playbackSpeed = parseFloat(e.target.value);
+            // Si está reproduciendo, reiniciar con la nueva velocidad
+            if (isPlaying) {
+                iniciarReproduccion();
+            }
+        });
+
+        // Inicializar la aplicación
+        function inicializar() {
+            horasDisponibles = generarHorarios();
+            const ayer = new Date();
+            ayer.setDate(ayer.getDate() - 1);
+            const fechaAyer = ayer.toISOString().split("T")[0];
+            fechaInput.value = fechaAyer;
+            
+            // Cargar gateways dinámicamente primero
+            cargarGatewaysDinamicos(() => {
+                // Una vez cargados los gateways, renderizarlos en el mapa
+                cargarGateways();
+                
+                // Luego cargar datos de personas
+                actualizarTiempo();
+                cargarDatosPorFecha(fechaAyer);
+            });
+        }
+
+        // Esperar a que el DOM esté completamente cargado
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', inicializar);
+        } else {
+            inicializar();
+        }
+    </script>
+</body>
+</html>
