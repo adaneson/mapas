@@ -1,4 +1,5 @@
 window.puntos_KDM_SUCKER_PBXD_49_31_07_2025 = [
+{ lat: -22.332054, lng: -68.879882, timestamp: "2025-07-31T00:00:00", description: "Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", address: "Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", state: "Stopped" },
 { lat: -22.332054, lng: -68.879882, timestamp: "2025-07-31T00:38:00", description: "Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", address: "Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", state: "Inactive" },
 { lat: -22.332054, lng: -68.879882, timestamp: "2025-07-31T01:38:00", description: "Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", address: "Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", state: "Inactive" },
 { lat: -22.332054, lng: -68.879882, timestamp: "2025-07-31T02:38:00", description: "Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", address: "Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", state: "Inactive" },

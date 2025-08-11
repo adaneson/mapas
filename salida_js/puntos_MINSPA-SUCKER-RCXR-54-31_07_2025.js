@@ -1,4 +1,5 @@
 window.puntos_MINSPA_SUCKER_RCXR_54_31_07_2025 = [
+{ lat: -22.31299, lng: -68.886138, timestamp: "2025-07-31T00:00:00", description: "PipeGrande,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "PipeGrande,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Stopped" },
 { lat: -22.31299, lng: -68.886138, timestamp: "2025-07-31T00:01:00", description: "PipeGrande,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "PipeGrande,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Running" },
 { lat: -22.318784, lng: -68.88768, timestamp: "2025-07-31T00:10:00", description: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Idle" },
 { lat: -22.318784, lng: -68.88768, timestamp: "2025-07-31T00:15:00", description: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Running" },
