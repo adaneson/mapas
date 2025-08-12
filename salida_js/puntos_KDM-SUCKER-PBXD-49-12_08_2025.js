@@ -1,0 +1,5 @@
+window.puntos_KDM_SUCKER_PBXD_49_12_08_2025 = [
+{ lat: -22.506738, lng: -68.93296, timestamp: "2025-08-12T01:33:00", description: "B-25,Condominio Borde Río,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", address: "B-25,Condominio Borde Río,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", state: "Inactive" },
+{ lat: -22.506738, lng: -68.93296, timestamp: "2025-08-12T03:33:00", description: "B-25,Condominio Borde Río,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", address: "B-25,Condominio Borde Río,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", state: "Inactive" },
+{ lat: -22.506738, lng: -68.93296, timestamp: "2025-08-12T23:59:00", description: "B-25,Condominio Borde Río,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", address: "B-25,Condominio Borde Río,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", state: "Stopped" }
+];

@@ -1,0 +1,7 @@
+window.puntos_TRANYMEC_SUCKER_TCFD_96_12_08_2025 = [
+{ lat: -22.344181, lng: -68.881515, timestamp: "2025-08-12T00:10:00", description: "3.26 km from Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "3.26 km from Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Inactive" },
+{ lat: -22.344181, lng: -68.881515, timestamp: "2025-08-12T00:10:00", description: "3.26 km from Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "3.26 km from Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Inactive" },
+{ lat: -22.344181, lng: -68.881515, timestamp: "2025-08-12T02:10:00", description: "3.26 km from Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "3.26 km from Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Stopped" },
+{ lat: -22.344181, lng: -68.881515, timestamp: "2025-08-12T03:10:00", description: "3.26 km from Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "3.26 km from Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Inactive" },
+{ lat: -22.344181, lng: -68.881515, timestamp: "2025-08-12T23:59:00", description: "3.26 km from Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "3.26 km from Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Stopped" }
+];
