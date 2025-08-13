@@ -11,6 +11,14 @@ window.personas = [
     nombre: "ALDO AURELIO ESCOBAR CORTES",
     lat: -22.315509638749,
     lng: -68.923715554613,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ALDO AURELIO ESCOBAR CORTES",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
     tiempo: "2025-07-26 08:00:00",
     empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
@@ -100,6 +108,14 @@ window.personas = [
     lat: -22.315509638749,
     lng: -68.923715554613,
     tiempo: "2025-07-26 13:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ALDO AURELIO ESCOBAR CORTES",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 14:00:00",
     empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
   },
@@ -276,6 +292,14 @@ window.personas = [
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "OSCAR HERNANDEZ BARRERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -395,6 +419,14 @@ window.personas = [
     nombre: "JAIME FERNANDEZ MICHEA",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JAIME FERNANDEZ MICHEA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 09:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
@@ -404,6 +436,14 @@ window.personas = [
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JAIME FERNANDEZ MICHEA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -435,7 +475,23 @@ window.personas = [
     nombre: "JAIME FERNANDEZ MICHEA",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JAIME FERNANDEZ MICHEA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JAIME FERNANDEZ MICHEA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -460,6 +516,14 @@ window.personas = [
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JAIME FERNANDEZ MICHEA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 15:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -508,6 +572,14 @@ window.personas = [
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JAIME FERNANDEZ MICHEA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -531,6 +603,14 @@ window.personas = [
     nombre: "RICHARD EDUARDO VARGAS VERA",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "RICHARD EDUARDO VARGAS VERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 07:30:00",
     empresa: "KDM",
     modo: "UBICADO"
@@ -556,6 +636,14 @@ window.personas = [
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RICHARD EDUARDO VARGAS VERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -651,6 +739,14 @@ window.personas = [
     nombre: "RICHARD EDUARDO VARGAS VERA",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RICHARD EDUARDO VARGAS VERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 16:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
@@ -694,6 +790,14 @@ window.personas = [
     tiempo: "2025-07-26 18:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RICHARD EDUARDO VARGAS VERA",
+    lat: -22.35227688208,
+    lng: -68.857303744188,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
   },
   {
     nombre: "NELSON DAVID FERNANDEZ CASTRO",
@@ -812,6 +916,14 @@ window.personas = [
     lat: -22.312733751018,
     lng: -68.897586458245,
     tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "NELSON DAVID FERNANDEZ CASTRO",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 14:30:00",
     empresa: "KDM",
     modo: "UBICADO"
   },
@@ -979,6 +1091,22 @@ window.personas = [
     nombre: "HERNAN VALDEBENITO TORRES",
     lat: -22.312733751018,
     lng: -68.897586458245,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "HERNAN VALDEBENITO TORRES",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "HERNAN VALDEBENITO TORRES",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
     tiempo: "2025-07-26 12:30:00",
     empresa: "BERLIAM",
     modo: "NO UBICABLE"
@@ -1171,6 +1299,22 @@ window.personas = [
     nombre: "CESAR CORTES BARRAZA",
     lat: -22.312733751018,
     lng: -68.897586458245,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CESAR CORTES BARRAZA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CESAR CORTES BARRAZA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
     tiempo: "2025-07-26 12:30:00",
     empresa: "BERLIAM",
     modo: "NO UBICABLE"
@@ -1204,6 +1348,14 @@ window.personas = [
     lat: -22.312733751018,
     lng: -68.897586458245,
     tiempo: "2025-07-26 14:30:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CESAR CORTES BARRAZA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 15:00:00",
     empresa: "BERLIAM",
     modo: "NO UBICABLE"
   },
@@ -1380,6 +1532,14 @@ window.personas = [
     lat: -22.315509638749,
     lng: -68.923715554613,
     tiempo: "2025-07-26 13:00:00",
+    empresa: "SIGDO KOPPERS",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MANUEL AGUSTÍN PONCE MANCILLA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 13:30:00",
     empresa: "SIGDO KOPPERS",
     modo: "NO UBICABLE"
   },
@@ -1475,6 +1635,14 @@ window.personas = [
     nombre: "PATRICIO IBAR BARRERA ARAYA",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "NEXXO",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "PATRICIO IBAR BARRERA ARAYA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 07:30:00",
     empresa: "NEXXO",
     modo: "UBICADO"
@@ -1500,6 +1668,14 @@ window.personas = [
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 09:00:00",
+    empresa: "NEXXO",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "PATRICIO IBAR BARRERA ARAYA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:30:00",
     empresa: "NEXXO",
     modo: "UBICADO"
   },
@@ -1588,6 +1764,14 @@ window.personas = [
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 15:00:00",
+    empresa: "NEXXO",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "PATRICIO IBAR BARRERA ARAYA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 15:30:00",
     empresa: "NEXXO",
     modo: "UBICADO"
   },
@@ -1739,6 +1923,14 @@ window.personas = [
     nombre: "LUIS MANUEL MORALES ALVAREZ",
     lat: -22.353446659086,
     lng: -68.856164540738,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS MANUEL MORALES ALVAREZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
     tiempo: "2025-07-26 14:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
@@ -1835,6 +2027,14 @@ window.personas = [
     nombre: "LUIS HUMBERTO CASTRO MALDONADO",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "NEXXO",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "LUIS HUMBERTO CASTRO MALDONADO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 09:00:00",
     empresa: "NEXXO",
     modo: "NO UBICABLE"
@@ -1844,6 +2044,14 @@ window.personas = [
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 09:30:00",
+    empresa: "NEXXO",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS HUMBERTO CASTRO MALDONADO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:00:00",
     empresa: "NEXXO",
     modo: "NO UBICABLE"
   },
@@ -1875,7 +2083,23 @@ window.personas = [
     nombre: "LUIS HUMBERTO CASTRO MALDONADO",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "NEXXO",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS HUMBERTO CASTRO MALDONADO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 12:30:00",
+    empresa: "NEXXO",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS HUMBERTO CASTRO MALDONADO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:00:00",
     empresa: "NEXXO",
     modo: "NO UBICABLE"
   },
@@ -1902,6 +2126,14 @@ window.personas = [
     tiempo: "2025-07-26 14:30:00",
     empresa: "NEXXO",
     modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS HUMBERTO CASTRO MALDONADO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "NEXXO",
+    modo: "UBICADO"
   },
   {
     nombre: "LUIS HUMBERTO CASTRO MALDONADO",
@@ -1948,6 +2180,14 @@ window.personas = [
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 18:00:00",
+    empresa: "NEXXO",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "LUIS HUMBERTO CASTRO MALDONADO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:30:00",
     empresa: "NEXXO",
     modo: "UBICADO"
   },
@@ -1963,6 +2203,14 @@ window.personas = [
     nombre: "MIGUEL ALBERTO VEGA ORTIZ",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MIGUEL ALBERTO VEGA ORTIZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 07:30:00",
     empresa: "KDM",
     modo: "UBICADO"
@@ -1988,6 +2236,14 @@ window.personas = [
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MIGUEL ALBERTO VEGA ORTIZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 09:30:00",
     empresa: "KDM",
     modo: "UBICADO"
   },
@@ -2083,6 +2339,14 @@ window.personas = [
     nombre: "MIGUEL ALBERTO VEGA ORTIZ",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MIGUEL ALBERTO VEGA ORTIZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 16:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
@@ -2124,6 +2388,14 @@ window.personas = [
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MIGUEL ALBERTO VEGA ORTIZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 19:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -2345,6 +2617,14 @@ window.personas = [
   },
   {
     nombre: "PEDRO HAROLDO GUERRERO PIZARRO",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PEDRO HAROLDO GUERRERO PIZARRO",
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 07:30:00",
@@ -2372,6 +2652,14 @@ window.personas = [
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PEDRO HAROLDO GUERRERO PIZARRO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -2467,6 +2755,22 @@ window.personas = [
     nombre: "PEDRO HAROLDO GUERRERO PIZARRO",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PEDRO HAROLDO GUERRERO PIZARRO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PEDRO HAROLDO GUERRERO PIZARRO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 16:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
@@ -2483,6 +2787,14 @@ window.personas = [
     nombre: "PEDRO HAROLDO GUERRERO PIZARRO",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PEDRO HAROLDO GUERRERO PIZARRO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 18:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
@@ -2492,6 +2804,14 @@ window.personas = [
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PEDRO HAROLDO GUERRERO PIZARRO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 19:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -2515,6 +2835,14 @@ window.personas = [
     nombre: "JOSE JULIAN COROSEO ORTIZ",
     lat: -22.353446659086,
     lng: -68.856164540738,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE JULIAN COROSEO ORTIZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
     tiempo: "2025-07-26 08:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
@@ -2540,6 +2868,14 @@ window.personas = [
     lat: -22.353446659086,
     lng: -68.856164540738,
     tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE JULIAN COROSEO ORTIZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 10:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -2628,6 +2964,22 @@ window.personas = [
     lat: -22.353446659086,
     lng: -68.856164540738,
     tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE JULIAN COROSEO ORTIZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE JULIAN COROSEO ORTIZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 17:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -2659,6 +3011,14 @@ window.personas = [
     nombre: "PABLO TRIGO TRIGO",
     lat: -22.312733751018,
     lng: -68.897586458245,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "PABLO TRIGO TRIGO",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
     tiempo: "2025-07-26 08:00:00",
     empresa: "KDM",
     modo: "UBICADO"
@@ -2750,6 +3110,14 @@ window.personas = [
     tiempo: "2025-07-26 13:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PABLO TRIGO TRIGO",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
   },
   {
     nombre: "PABLO TRIGO TRIGO",
@@ -2963,6 +3331,14 @@ window.personas = [
     nombre: "JORGE LAUTARO FUENTES CRUZ",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JORGE LAUTARO FUENTES CRUZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 15:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
@@ -3075,6 +3451,14 @@ window.personas = [
     nombre: "CRISTIAN ALFREDO ESPERGUEL OÑATE",
     lat: -22.315509638749,
     lng: -68.923715554613,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "SIGDO KOPPERS",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CRISTIAN ALFREDO ESPERGUEL OÑATE",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
     tiempo: "2025-07-26 10:00:00",
     empresa: "SIGDO KOPPERS",
     modo: "NO UBICABLE"
@@ -3108,6 +3492,14 @@ window.personas = [
     lat: -22.315509638749,
     lng: -68.923715554613,
     tiempo: "2025-07-26 12:00:00",
+    empresa: "SIGDO KOPPERS",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CRISTIAN ALFREDO ESPERGUEL OÑATE",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 12:30:00",
     empresa: "SIGDO KOPPERS",
     modo: "NO UBICABLE"
   },
@@ -3155,6 +3547,22 @@ window.personas = [
     nombre: "CRISTIAN ALFREDO ESPERGUEL OÑATE",
     lat: -22.315509638749,
     lng: -68.923715554613,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "SIGDO KOPPERS",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CRISTIAN ALFREDO ESPERGUEL OÑATE",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "SIGDO KOPPERS",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CRISTIAN ALFREDO ESPERGUEL OÑATE",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
     tiempo: "2025-07-26 16:30:00",
     empresa: "SIGDO KOPPERS",
     modo: "NO UBICABLE"
@@ -3164,6 +3572,14 @@ window.personas = [
     lat: -22.315509638749,
     lng: -68.923715554613,
     tiempo: "2025-07-26 17:00:00",
+    empresa: "SIGDO KOPPERS",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CRISTIAN ALFREDO ESPERGUEL OÑATE",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 17:30:00",
     empresa: "SIGDO KOPPERS",
     modo: "NO UBICABLE"
   },
@@ -3209,6 +3625,14 @@ window.personas = [
   },
   {
     nombre: "CARLOS ALBERTO MONTOYA REYES",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "SIGDO KOPPERS",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CARLOS ALBERTO MONTOYA REYES",
     lat: -22.311243775405,
     lng: -68.892535271906,
     tiempo: "2025-07-26 08:30:00",
@@ -3236,6 +3660,14 @@ window.personas = [
     lat: -22.311625584499,
     lng: -68.892951459097,
     tiempo: "2025-07-26 10:00:00",
+    empresa: "SIGDO KOPPERS",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "CARLOS ALBERTO MONTOYA REYES",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 10:30:00",
     empresa: "SIGDO KOPPERS",
     modo: "UBICADO"
   },
@@ -3324,6 +3756,22 @@ window.personas = [
     lat: -22.311625584499,
     lng: -68.892951459097,
     tiempo: "2025-07-26 16:00:00",
+    empresa: "SIGDO KOPPERS",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "CARLOS ALBERTO MONTOYA REYES",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "SIGDO KOPPERS",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "CARLOS ALBERTO MONTOYA REYES",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 17:00:00",
     empresa: "SIGDO KOPPERS",
     modo: "UBICADO"
   },
@@ -3779,6 +4227,14 @@ window.personas = [
     nombre: "CRISTIAN ENRIQUE CERVANTES CERVANTES",
     lat: -22.310478882107,
     lng: -68.916832718385,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CRISTIAN ENRIQUE CERVANTES CERVANTES",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
     tiempo: "2025-07-26 08:00:00",
     empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
@@ -3812,6 +4268,14 @@ window.personas = [
     lat: -22.310478882107,
     lng: -68.916832718385,
     tiempo: "2025-07-26 10:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CRISTIAN ENRIQUE CERVANTES CERVANTES",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 10:30:00",
     empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
   },
@@ -3867,6 +4331,14 @@ window.personas = [
     nombre: "CRISTIAN ENRIQUE CERVANTES CERVANTES",
     lat: -22.310478882107,
     lng: -68.916832718385,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CRISTIAN ENRIQUE CERVANTES CERVANTES",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
     tiempo: "2025-07-26 14:30:00",
     empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
@@ -3900,6 +4372,14 @@ window.personas = [
     lat: -22.310478882107,
     lng: -68.916832718385,
     tiempo: "2025-07-26 16:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CRISTIAN ENRIQUE CERVANTES CERVANTES",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 17:00:00",
     empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
   },
@@ -4171,6 +4651,14 @@ window.personas = [
     nombre: "MAURICIO ALEJANDRO INAREJO TOLEDO",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "NEXXO",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MAURICIO ALEJANDRO INAREJO TOLEDO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 09:30:00",
     empresa: "NEXXO",
     modo: "UBICADO"
@@ -4196,6 +4684,14 @@ window.personas = [
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 11:00:00",
+    empresa: "NEXXO",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MAURICIO ALEJANDRO INAREJO TOLEDO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 11:30:00",
     empresa: "NEXXO",
     modo: "UBICADO"
   },
@@ -4299,6 +4795,14 @@ window.personas = [
     nombre: "MAURICIO ALEJANDRO INAREJO TOLEDO",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "NEXXO",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MAURICIO ALEJANDRO INAREJO TOLEDO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 18:30:00",
     empresa: "NEXXO",
     modo: "UBICADO"
@@ -4310,6 +4814,14 @@ window.personas = [
     tiempo: "2025-07-26 19:00:00",
     empresa: "NEXXO",
     modo: "UBICADO"
+  },
+  {
+    nombre: "FREDY RICARDO RAMOS SEGUEL",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "SIGDO KOPPERS",
+    modo: "NO UBICABLE"
   },
   {
     nombre: "FREDY RICARDO RAMOS SEGUEL",
@@ -4411,6 +4923,14 @@ window.personas = [
     nombre: "FREDY RICARDO RAMOS SEGUEL",
     lat: -22.310478882107,
     lng: -68.916832718385,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "SIGDO KOPPERS",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "FREDY RICARDO RAMOS SEGUEL",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
     tiempo: "2025-07-26 14:30:00",
     empresa: "SIGDO KOPPERS",
     modo: "NO UBICABLE"
@@ -4444,6 +4964,14 @@ window.personas = [
     lat: -22.310478882107,
     lng: -68.916832718385,
     tiempo: "2025-07-26 16:30:00",
+    empresa: "SIGDO KOPPERS",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "FREDY RICARDO RAMOS SEGUEL",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 17:00:00",
     empresa: "SIGDO KOPPERS",
     modo: "NO UBICABLE"
   },
@@ -4497,6 +5025,14 @@ window.personas = [
   },
   {
     nombre: "EDGAR ALBERTO BELEN RAMOS",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "EDGAR ALBERTO BELEN RAMOS",
     lat: -22.311625584499,
     lng: -68.892951459097,
     tiempo: "2025-07-26 09:00:00",
@@ -4508,6 +5044,14 @@ window.personas = [
     lat: -22.311625584499,
     lng: -68.892951459097,
     tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "EDGAR ALBERTO BELEN RAMOS",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 10:00:00",
     empresa: "KDM",
     modo: "UBICADO"
   },
@@ -4539,7 +5083,23 @@ window.personas = [
     nombre: "EDGAR ALBERTO BELEN RAMOS",
     lat: -22.311625584499,
     lng: -68.892951459097,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "EDGAR ALBERTO BELEN RAMOS",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
     tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "EDGAR ALBERTO BELEN RAMOS",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 13:00:00",
     empresa: "KDM",
     modo: "UBICADO"
   },
@@ -4564,6 +5124,14 @@ window.personas = [
     lat: -22.311243775405,
     lng: -68.892535271906,
     tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "EDGAR ALBERTO BELEN RAMOS",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 15:00:00",
     empresa: "KDM",
     modo: "UBICADO"
   },
@@ -4614,6 +5182,14 @@ window.personas = [
     tiempo: "2025-07-26 18:00:00",
     empresa: "KDM",
     modo: "UBICADO"
+  },
+  {
+    nombre: "EDGAR ALBERTO BELEN RAMOS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
   },
   {
     nombre: "EDGAR ALBERTO BELEN RAMOS",
@@ -4643,6 +5219,14 @@ window.personas = [
     nombre: "ROSA LUCI NINA ALI",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ROSA LUCI NINA ALI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 08:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
@@ -4732,6 +5316,14 @@ window.personas = [
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ROSA LUCI NINA ALI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 14:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -4939,6 +5531,14 @@ window.personas = [
     nombre: "JUAN ANTONIO OLAZO FRANCO",
     lat: -22.315509638749,
     lng: -68.923715554613,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN ANTONIO OLAZO FRANCO",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
     tiempo: "2025-07-26 15:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
@@ -5003,6 +5603,14 @@ window.personas = [
     nombre: "HECTOR ALEJANDRO HERRERA CALDERON",
     lat: -22.310478882107,
     lng: -68.916832718385,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "HECTOR ALEJANDRO HERRERA CALDERON",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
     tiempo: "2025-07-26 07:30:00",
     empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
@@ -5028,6 +5636,14 @@ window.personas = [
     lat: -22.310478882107,
     lng: -68.916832718385,
     tiempo: "2025-07-26 09:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "HECTOR ALEJANDRO HERRERA CALDERON",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 09:30:00",
     empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
   },
@@ -5075,6 +5691,14 @@ window.personas = [
     nombre: "HECTOR ALEJANDRO HERRERA CALDERON",
     lat: -22.310478882107,
     lng: -68.916832718385,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "HECTOR ALEJANDRO HERRERA CALDERON",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
     tiempo: "2025-07-26 13:00:00",
     empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
@@ -5115,6 +5739,22 @@ window.personas = [
     nombre: "HECTOR ALEJANDRO HERRERA CALDERON",
     lat: -22.310478882107,
     lng: -68.916832718385,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "HECTOR ALEJANDRO HERRERA CALDERON",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "HECTOR ALEJANDRO HERRERA CALDERON",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
     tiempo: "2025-07-26 16:30:00",
     empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
@@ -5124,6 +5764,14 @@ window.personas = [
     lat: -22.310478882107,
     lng: -68.916832718385,
     tiempo: "2025-07-26 17:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "HECTOR ALEJANDRO HERRERA CALDERON",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 17:30:00",
     empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
   },
@@ -5142,6 +5790,14 @@ window.personas = [
     tiempo: "2025-07-26 18:30:00",
     empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
+  },
+  {
+    nombre: "HECTOR ALEJANDRO HERRERA CALDERON",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "UBICADO"
   },
   {
     nombre: "SEBASTIAN ALONSO YAÑEZ PIZARRO",
@@ -5251,6 +5907,14 @@ window.personas = [
     nombre: "SEBASTIAN ALONSO YAÑEZ PIZARRO",
     lat: -22.35227688208,
     lng: -68.857303744188,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "NEXXO",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "SEBASTIAN ALONSO YAÑEZ PIZARRO",
+    lat: -22.35227688208,
+    lng: -68.857303744188,
     tiempo: "2025-07-26 15:00:00",
     empresa: "NEXXO",
     modo: "NO UBICABLE"
@@ -5292,6 +5956,14 @@ window.personas = [
     lat: -22.35227688208,
     lng: -68.857303744188,
     tiempo: "2025-07-26 17:30:00",
+    empresa: "NEXXO",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "SEBASTIAN ALONSO YAÑEZ PIZARRO",
+    lat: -22.35227688208,
+    lng: -68.857303744188,
+    tiempo: "2025-07-26 18:00:00",
     empresa: "NEXXO",
     modo: "NO UBICABLE"
   },
@@ -5331,6 +6003,14 @@ window.personas = [
     nombre: "GILBERTO DEL TRANSITO OGALDE ORTIZ",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "GILBERTO DEL TRANSITO OGALDE ORTIZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 07:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
@@ -5356,6 +6036,14 @@ window.personas = [
     lat: -22.312733751018,
     lng: -68.897586458245,
     tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "GILBERTO DEL TRANSITO OGALDE ORTIZ",
+    lat: -22.311201658921,
+    lng: -68.896504171231,
+    tiempo: "2025-07-26 09:30:00",
     empresa: "KDM",
     modo: "UBICADO"
   },
@@ -5401,6 +6089,14 @@ window.personas = [
   },
   {
     nombre: "GILBERTO DEL TRANSITO OGALDE ORTIZ",
+    lat: -22.311201658921,
+    lng: -68.896504171231,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "GILBERTO DEL TRANSITO OGALDE ORTIZ",
     lat: -22.312733751018,
     lng: -68.897586458245,
     tiempo: "2025-07-26 13:00:00",
@@ -5441,6 +6137,22 @@ window.personas = [
   },
   {
     nombre: "GILBERTO DEL TRANSITO OGALDE ORTIZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "GILBERTO DEL TRANSITO OGALDE ORTIZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "GILBERTO DEL TRANSITO OGALDE ORTIZ",
     lat: -22.311201658921,
     lng: -68.896504171231,
     tiempo: "2025-07-26 16:30:00",
@@ -5459,6 +6171,14 @@ window.personas = [
     nombre: "GILBERTO DEL TRANSITO OGALDE ORTIZ",
     lat: -22.311201658921,
     lng: -68.896504171231,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GILBERTO DEL TRANSITO OGALDE ORTIZ",
+    lat: -22.311201658921,
+    lng: -68.896504171231,
     tiempo: "2025-07-26 18:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
@@ -5468,6 +6188,14 @@ window.personas = [
     lat: -22.311201658921,
     lng: -68.896504171231,
     tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GILBERTO DEL TRANSITO OGALDE ORTIZ",
+    lat: -22.311201658921,
+    lng: -68.896504171231,
+    tiempo: "2025-07-26 19:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -5723,6 +6451,14 @@ window.personas = [
     nombre: "MICHAEL ALEJANDRO CAMPILLAY PAEZ",
     lat: -22.312733751018,
     lng: -68.897586458245,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MICHAEL ALEJANDRO CAMPILLAY PAEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
     tiempo: "2025-07-26 09:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
@@ -5748,6 +6484,22 @@ window.personas = [
     lat: -22.312733751018,
     lng: -68.897586458245,
     tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MICHAEL ALEJANDRO CAMPILLAY PAEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MICHAEL ALEJANDRO CAMPILLAY PAEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 12:00:00",
     empresa: "KDM",
     modo: "UBICADO"
   },
@@ -6107,6 +6859,14 @@ window.personas = [
     nombre: "EMILIO JOSE POZO BARRAZA",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "NEXXO",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "EMILIO JOSE POZO BARRAZA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 11:30:00",
     empresa: "NEXXO",
     modo: "NO UBICABLE"
@@ -6132,6 +6892,14 @@ window.personas = [
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 13:00:00",
+    empresa: "NEXXO",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "EMILIO JOSE POZO BARRAZA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:30:00",
     empresa: "NEXXO",
     modo: "NO UBICABLE"
   },
@@ -6435,6 +7203,14 @@ window.personas = [
     nombre: "JUAN GERMAN CORIA MEDRANO",
     lat: -22.310478882107,
     lng: -68.916832718385,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN GERMAN CORIA MEDRANO",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
     tiempo: "2025-07-26 08:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
@@ -6524,6 +7300,14 @@ window.personas = [
     lat: -22.310478882107,
     lng: -68.916832718385,
     tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN GERMAN CORIA MEDRANO",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 14:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -6619,6 +7403,14 @@ window.personas = [
     nombre: "JOAB NEHEMIAS CAMACHO LLAVES",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOAB NEHEMIAS CAMACHO LLAVES",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 08:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
@@ -6710,6 +7502,14 @@ window.personas = [
     tiempo: "2025-07-26 13:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOAB NEHEMIAS CAMACHO LLAVES",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
   },
   {
     nombre: "JOAB NEHEMIAS CAMACHO LLAVES",
@@ -6875,6 +7675,14 @@ window.personas = [
     nombre: "JONATHAN ORDENES LOPEZ",
     lat: -22.310478882107,
     lng: -68.916832718385,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JONATHAN ORDENES LOPEZ",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
     tiempo: "2025-07-26 11:30:00",
     empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
@@ -6900,6 +7708,14 @@ window.personas = [
     lat: -22.310478882107,
     lng: -68.916832718385,
     tiempo: "2025-07-26 13:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JONATHAN ORDENES LOPEZ",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 13:30:00",
     empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
   },
@@ -7195,6 +8011,14 @@ window.personas = [
     nombre: "VICTOR DAMIAN YAÑEZ CUBILLOS",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "VICTOR DAMIAN YAÑEZ CUBILLOS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 07:30:00",
     empresa: "KDM",
     modo: "UBICADO"
@@ -7220,6 +8044,14 @@ window.personas = [
     lat: -22.312733751018,
     lng: -68.897586458245,
     tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "VICTOR DAMIAN YAÑEZ CUBILLOS",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 09:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -7315,6 +8147,14 @@ window.personas = [
     nombre: "VICTOR DAMIAN YAÑEZ CUBILLOS",
     lat: -22.312733751018,
     lng: -68.897586458245,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "VICTOR DAMIAN YAÑEZ CUBILLOS",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
     tiempo: "2025-07-26 16:00:00",
     empresa: "KDM",
     modo: "UBICADO"
@@ -7356,6 +8196,14 @@ window.personas = [
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "VICTOR DAMIAN YAÑEZ CUBILLOS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 19:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -7491,6 +8339,14 @@ window.personas = [
     nombre: "DIEGO JOSE ORDENES GAHONA",
     lat: -22.315509638749,
     lng: -68.923715554613,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DIEGO JOSE ORDENES GAHONA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
     tiempo: "2025-07-26 15:00:00",
     empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
@@ -7556,6 +8412,14 @@ window.personas = [
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "GUILLERMO DAVID BAUTISTA MAMANI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:30:00",
     empresa: "KDM",
     modo: "UBICADO"
   },
@@ -7652,6 +8516,14 @@ window.personas = [
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GUILLERMO DAVID BAUTISTA MAMANI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 14:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -7755,6 +8627,22 @@ window.personas = [
     nombre: "BETSABE MARGOT MUÑOZ CORTES",
     lat: -22.310478882107,
     lng: -68.916832718385,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "BETSABE MARGOT MUÑOZ CORTES",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "BETSABE MARGOT MUÑOZ CORTES",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
     tiempo: "2025-07-26 11:30:00",
     empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
@@ -7827,6 +8715,14 @@ window.personas = [
     nombre: "FRANCISCO MELQUIADES CHAVEZ ORELLANA",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "NEXXO",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "FRANCISCO MELQUIADES CHAVEZ ORELLANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 09:30:00",
     empresa: "NEXXO",
     modo: "UBICADO"
@@ -7907,6 +8803,14 @@ window.personas = [
     nombre: "FRANCISCO MELQUIADES CHAVEZ ORELLANA",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "NEXXO",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "FRANCISCO MELQUIADES CHAVEZ ORELLANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 15:00:00",
     empresa: "NEXXO",
     modo: "UBICADO"
@@ -7955,6 +8859,14 @@ window.personas = [
     nombre: "FRANCISCO MELQUIADES CHAVEZ ORELLANA",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "NEXXO",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "FRANCISCO MELQUIADES CHAVEZ ORELLANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 18:30:00",
     empresa: "NEXXO",
     modo: "UBICADO"
@@ -7964,6 +8876,22 @@ window.personas = [
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "GEORGE EDWARD MARQUEZ CAMPOS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "GEORGE EDWARD MARQUEZ CAMPOS",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 08:00:00",
     empresa: "KDM",
     modo: "UBICADO"
   },
@@ -7996,6 +8924,14 @@ window.personas = [
     lat: -22.312733751018,
     lng: -68.897586458245,
     tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GEORGE EDWARD MARQUEZ CAMPOS",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 10:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -8084,6 +9020,22 @@ window.personas = [
     lat: -22.312733751018,
     lng: -68.897586458245,
     tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GEORGE EDWARD MARQUEZ CAMPOS",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GEORGE EDWARD MARQUEZ CAMPOS",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 17:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -8187,6 +9139,14 @@ window.personas = [
     nombre: "CRISTIAN ALEJANDRO ROSAS CLARO",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CRISTIAN ALEJANDRO ROSAS CLARO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 11:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
@@ -8212,6 +9172,14 @@ window.personas = [
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CRISTIAN ALEJANDRO ROSAS CLARO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -8315,6 +9283,14 @@ window.personas = [
     nombre: "FELIPE BARRERA FRES",
     lat: -22.312733751018,
     lng: -68.897586458245,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "FELIPE BARRERA FRES",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
     tiempo: "2025-07-26 08:30:00",
     empresa: "KDM",
     modo: "UBICADO"
@@ -8340,6 +9316,14 @@ window.personas = [
     lat: -22.312733751018,
     lng: -68.897586458245,
     tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "FELIPE BARRERA FRES",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 10:30:00",
     empresa: "KDM",
     modo: "UBICADO"
   },
@@ -8433,6 +9417,22 @@ window.personas = [
   },
   {
     nombre: "FELIPE BARRERA FRES",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "FELIPE BARRERA FRES",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "FELIPE BARRERA FRES",
     lat: -22.311201658921,
     lng: -68.896504171231,
     tiempo: "2025-07-26 17:30:00",
@@ -8475,6 +9475,14 @@ window.personas = [
     nombre: "EDGAR ALEXANDRO ARANCIBIA SANDON",
     lat: -22.310478882107,
     lng: -68.916832718385,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "SIGDO KOPPERS",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "EDGAR ALEXANDRO ARANCIBIA SANDON",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
     tiempo: "2025-07-26 07:30:00",
     empresa: "SIGDO KOPPERS",
     modo: "NO UBICABLE"
@@ -8500,6 +9508,14 @@ window.personas = [
     lat: -22.310478882107,
     lng: -68.916832718385,
     tiempo: "2025-07-26 09:00:00",
+    empresa: "SIGDO KOPPERS",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "EDGAR ALEXANDRO ARANCIBIA SANDON",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 09:30:00",
     empresa: "SIGDO KOPPERS",
     modo: "NO UBICABLE"
   },
@@ -8588,6 +9604,14 @@ window.personas = [
     lat: -22.310478882107,
     lng: -68.916832718385,
     tiempo: "2025-07-26 15:00:00",
+    empresa: "SIGDO KOPPERS",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "EDGAR ALEXANDRO ARANCIBIA SANDON",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 15:30:00",
     empresa: "SIGDO KOPPERS",
     modo: "NO UBICABLE"
   },
@@ -8640,6 +9664,14 @@ window.personas = [
     modo: "UBICADO"
   },
   {
+    nombre: "EDGAR ALEXANDRO ARANCIBIA SANDON",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "SIGDO KOPPERS",
+    modo: "UBICADO"
+  },
+  {
     nombre: "CRISTIAN ROBERTO RAMIREZ DIAZ",
     lat: -22.310478882107,
     lng: -68.916832718385,
@@ -8654,6 +9686,14 @@ window.personas = [
     tiempo: "2025-07-26 07:00:00",
     empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CRISTIAN ROBERTO RAMIREZ DIAZ",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "UBICADO"
   },
   {
     nombre: "CRISTIAN ROBERTO RAMIREZ DIAZ",
@@ -8748,6 +9788,14 @@ window.personas = [
     lat: -22.313387710135,
     lng: -68.889005564052,
     tiempo: "2025-07-26 13:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CRISTIAN ROBERTO RAMIREZ DIAZ",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 14:00:00",
     empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
   },
@@ -8843,6 +9891,14 @@ window.personas = [
     nombre: "MALCON ATREYU ESQUIVEL ALVAREZ",
     lat: -22.312733751018,
     lng: -68.897586458245,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MALCON ATREYU ESQUIVEL ALVAREZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
     tiempo: "2025-07-26 08:30:00",
     empresa: "KDM",
     modo: "UBICADO"
@@ -8876,6 +9932,14 @@ window.personas = [
     lat: -22.312733751018,
     lng: -68.897586458245,
     tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MALCON ATREYU ESQUIVEL ALVAREZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 11:00:00",
     empresa: "KDM",
     modo: "UBICADO"
   },
@@ -8963,6 +10027,14 @@ window.personas = [
     nombre: "PEDRO ENRIQUE AYABIRE MIRANDA",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "NEXXO",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "PEDRO ENRIQUE AYABIRE MIRANDA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 09:00:00",
     empresa: "NEXXO",
     modo: "UBICADO"
@@ -8972,6 +10044,14 @@ window.personas = [
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 09:30:00",
+    empresa: "NEXXO",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "PEDRO ENRIQUE AYABIRE MIRANDA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:00:00",
     empresa: "NEXXO",
     modo: "UBICADO"
   },
@@ -9003,7 +10083,23 @@ window.personas = [
     nombre: "PEDRO ENRIQUE AYABIRE MIRANDA",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "NEXXO",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "PEDRO ENRIQUE AYABIRE MIRANDA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 12:30:00",
+    empresa: "NEXXO",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "PEDRO ENRIQUE AYABIRE MIRANDA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:00:00",
     empresa: "NEXXO",
     modo: "UBICADO"
   },
@@ -9028,6 +10124,14 @@ window.personas = [
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 14:30:00",
+    empresa: "NEXXO",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "PEDRO ENRIQUE AYABIRE MIRANDA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 15:00:00",
     empresa: "NEXXO",
     modo: "UBICADO"
   },
@@ -9081,6 +10185,14 @@ window.personas = [
   },
   {
     nombre: "PEDRO ENRIQUE AYABIRE MIRANDA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "NEXXO",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "PEDRO ENRIQUE AYABIRE MIRANDA",
     lat: -22.310478882107,
     lng: -68.916832718385,
     tiempo: "2025-07-26 19:00:00",
@@ -9092,6 +10204,14 @@ window.personas = [
     lat: -22.310478882107,
     lng: -68.916832718385,
     tiempo: "2025-07-26 07:30:00",
+    empresa: "SIGDO KOPPERS",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GERARDO VALENTE FLORES CENTENO",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 08:00:00",
     empresa: "SIGDO KOPPERS",
     modo: "NO UBICABLE"
   },
@@ -9124,6 +10244,14 @@ window.personas = [
     lat: -22.310478882107,
     lng: -68.916832718385,
     tiempo: "2025-07-26 10:00:00",
+    empresa: "SIGDO KOPPERS",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GERARDO VALENTE FLORES CENTENO",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 10:30:00",
     empresa: "SIGDO KOPPERS",
     modo: "NO UBICABLE"
   },
@@ -9212,6 +10340,22 @@ window.personas = [
     lat: -22.310478882107,
     lng: -68.916832718385,
     tiempo: "2025-07-26 16:00:00",
+    empresa: "SIGDO KOPPERS",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GERARDO VALENTE FLORES CENTENO",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "SIGDO KOPPERS",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GERARDO VALENTE FLORES CENTENO",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 17:00:00",
     empresa: "SIGDO KOPPERS",
     modo: "NO UBICABLE"
   },
@@ -9283,6 +10427,14 @@ window.personas = [
     nombre: "CRISTOFER ROJAS CORTES",
     lat: -22.310478882107,
     lng: -68.916832718385,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CRISTOFER ROJAS CORTES",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
     tiempo: "2025-07-26 10:30:00",
     empresa: "BERLIAM",
     modo: "NO UBICABLE"
@@ -9292,6 +10444,22 @@ window.personas = [
     lat: -22.310478882107,
     lng: -68.916832718385,
     tiempo: "2025-07-26 11:00:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CRISTOFER ROJAS CORTES",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CRISTOFER ROJAS CORTES",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 12:00:00",
     empresa: "BERLIAM",
     modo: "NO UBICABLE"
   },
@@ -9332,6 +10500,14 @@ window.personas = [
     lat: -22.310478882107,
     lng: -68.916832718385,
     tiempo: "2025-07-26 14:30:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CRISTOFER ROJAS CORTES",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 15:00:00",
     empresa: "BERLIAM",
     modo: "NO UBICABLE"
   },
@@ -9382,6 +10558,14 @@ window.personas = [
     tiempo: "2025-07-26 18:00:00",
     empresa: "BERLIAM",
     modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CRISTOFER ROJAS CORTES",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "BERLIAM",
+    modo: "UBICADO"
   },
   {
     nombre: "GASPAR JESUS VIDAL ALVAREZ",
@@ -9627,6 +10811,14 @@ window.personas = [
     nombre: "FELIPHE IGNACIO BAUTISTA MAMANI",
     lat: -22.312733751018,
     lng: -68.897586458245,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "FELIPHE IGNACIO BAUTISTA MAMANI",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
     tiempo: "2025-07-26 09:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
@@ -9700,6 +10892,14 @@ window.personas = [
     lat: -22.311201658921,
     lng: -68.896504171231,
     tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "FELIPHE IGNACIO BAUTISTA MAMANI",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 14:30:00",
     empresa: "KDM",
     modo: "UBICADO"
   },
@@ -9755,6 +10955,14 @@ window.personas = [
     nombre: "FELIPHE IGNACIO BAUTISTA MAMANI",
     lat: -22.311372019423,
     lng: -68.895016482911,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "FELIPHE IGNACIO BAUTISTA MAMANI",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
     tiempo: "2025-07-26 18:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
@@ -9787,6 +10995,14 @@ window.personas = [
     nombre: "FRANCO BENJAMIN FUENTES AVENDAÑO",
     lat: -22.315509638749,
     lng: -68.923715554613,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "FRANCO BENJAMIN FUENTES AVENDAÑO",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
     tiempo: "2025-07-26 08:30:00",
     empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
@@ -9812,6 +11028,14 @@ window.personas = [
     lat: -22.315509638749,
     lng: -68.923715554613,
     tiempo: "2025-07-26 10:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "FRANCO BENJAMIN FUENTES AVENDAÑO",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 10:30:00",
     empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
   },
@@ -9900,6 +11124,22 @@ window.personas = [
     lat: -22.315509638749,
     lng: -68.923715554613,
     tiempo: "2025-07-26 16:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "FRANCO BENJAMIN FUENTES AVENDAÑO",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "FRANCO BENJAMIN FUENTES AVENDAÑO",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 17:00:00",
     empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
   },
@@ -10046,6 +11286,14 @@ window.personas = [
     tiempo: "2025-07-26 14:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JEFERSON HERNÁN SUÁREZ CORTÉS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
   },
   {
     nombre: "JEFERSON HERNÁN SUÁREZ CORTÉS",
@@ -10147,6 +11395,14 @@ window.personas = [
     nombre: "JOSE ALFREDO TORRES BULEJE",
     lat: -22.310478882107,
     lng: -68.916832718385,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE ALFREDO TORRES BULEJE",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
     tiempo: "2025-07-26 08:00:00",
     empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
@@ -10238,6 +11494,14 @@ window.personas = [
     tiempo: "2025-07-26 13:30:00",
     empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE ALFREDO TORRES BULEJE",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "UBICADO"
   },
   {
     nombre: "JOSE ALFREDO TORRES BULEJE",
@@ -10347,6 +11611,14 @@ window.personas = [
     nombre: "HERNAN MACHACA MAMANI",
     lat: -22.312733751018,
     lng: -68.897586458245,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "HERNAN MACHACA MAMANI",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
     tiempo: "2025-07-26 09:00:00",
     empresa: "KDM",
     modo: "UBICADO"
@@ -10356,6 +11628,14 @@ window.personas = [
     lat: -22.312733751018,
     lng: -68.897586458245,
     tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "HERNAN MACHACA MAMANI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:00:00",
     empresa: "KDM",
     modo: "UBICADO"
   },
@@ -10388,6 +11668,22 @@ window.personas = [
     lat: -22.312733751018,
     lng: -68.897586458245,
     tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "HERNAN MACHACA MAMANI",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "HERNAN MACHACA MAMANI",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 13:00:00",
     empresa: "KDM",
     modo: "UBICADO"
   },
@@ -10435,6 +11731,14 @@ window.personas = [
     nombre: "HERNAN MACHACA MAMANI",
     lat: -22.312733751018,
     lng: -68.897586458245,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "HERNAN MACHACA MAMANI",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
     tiempo: "2025-07-26 16:30:00",
     empresa: "KDM",
     modo: "UBICADO"
@@ -10451,9 +11755,25 @@ window.personas = [
     nombre: "HERNAN MACHACA MAMANI",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "HERNAN MACHACA MAMANI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 18:00:00",
     empresa: "KDM",
     modo: "UBICADO"
+  },
+  {
+    nombre: "HERNAN MACHACA MAMANI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
   },
   {
     nombre: "HERNAN MACHACA MAMANI",
@@ -10475,6 +11795,14 @@ window.personas = [
     nombre: "ALISSON SUSANA VARGAS RODRIGUEZ",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "NEXXO",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ALISSON SUSANA VARGAS RODRIGUEZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 07:30:00",
     empresa: "NEXXO",
     modo: "UBICADO"
@@ -10500,6 +11828,14 @@ window.personas = [
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 09:00:00",
+    empresa: "NEXXO",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ALISSON SUSANA VARGAS RODRIGUEZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:30:00",
     empresa: "NEXXO",
     modo: "UBICADO"
   },
@@ -10595,6 +11931,14 @@ window.personas = [
     nombre: "ALISSON SUSANA VARGAS RODRIGUEZ",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "NEXXO",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ALISSON SUSANA VARGAS RODRIGUEZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 16:00:00",
     empresa: "NEXXO",
     modo: "UBICADO"
@@ -10670,6 +12014,14 @@ window.personas = [
     tiempo: "2025-07-26 08:30:00",
     empresa: "KDM",
     modo: "UBICADO"
+  },
+  {
+    nombre: "JUAN CARLOS CONDORI MAMANI",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
   },
   {
     nombre: "JUAN CARLOS CONDORI MAMANI",
@@ -10748,6 +12100,14 @@ window.personas = [
     lat: -22.312733751018,
     lng: -68.897586458245,
     tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS CONDORI MAMANI",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 14:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -10801,6 +12161,14 @@ window.personas = [
   },
   {
     nombre: "JUAN CARLOS CONDORI MAMANI",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JUAN CARLOS CONDORI MAMANI",
     lat: -22.311201658921,
     lng: -68.896504171231,
     tiempo: "2025-07-26 18:30:00",
@@ -10820,6 +12188,14 @@ window.personas = [
     lat: -22.315509638749,
     lng: -68.923715554613,
     tiempo: "2025-07-26 19:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JUAN GABRIEL VELASCO AYOVI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
     empresa: "KDM",
     modo: "UBICADO"
   },
@@ -10852,6 +12228,14 @@ window.personas = [
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN GABRIEL VELASCO AYOVI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -10947,6 +12331,14 @@ window.personas = [
     nombre: "JUAN GABRIEL VELASCO AYOVI",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN GABRIEL VELASCO AYOVI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 16:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
@@ -10990,6 +12382,14 @@ window.personas = [
     tiempo: "2025-07-26 18:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN GABRIEL VELASCO AYOVI",
+    lat: -22.35227688208,
+    lng: -68.857303744188,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
   },
   {
     nombre: "MARIO FERNANDO GOMEZ CLAVIJO",
@@ -11092,6 +12492,14 @@ window.personas = [
     lat: -22.312733751018,
     lng: -68.897586458245,
     tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARIO FERNANDO GOMEZ CLAVIJO",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 13:30:00",
     empresa: "KDM",
     modo: "UBICADO"
   },
@@ -11180,6958 +12588,6 @@ window.personas = [
     lat: -22.35227688208,
     lng: -68.857303744188,
     tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ELEOTERIO ZAPATA DELGADILLO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ELEOTERIO ZAPATA DELGADILLO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ELEOTERIO ZAPATA DELGADILLO",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ELEOTERIO ZAPATA DELGADILLO",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ELEOTERIO ZAPATA DELGADILLO",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ELEOTERIO ZAPATA DELGADILLO",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ELEOTERIO ZAPATA DELGADILLO",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ELEOTERIO ZAPATA DELGADILLO",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ELEOTERIO ZAPATA DELGADILLO",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ELEOTERIO ZAPATA DELGADILLO",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ELEOTERIO ZAPATA DELGADILLO",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ELEOTERIO ZAPATA DELGADILLO",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ELEOTERIO ZAPATA DELGADILLO",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ELEOTERIO ZAPATA DELGADILLO",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ELEOTERIO ZAPATA DELGADILLO",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ELEOTERIO ZAPATA DELGADILLO",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ELEOTERIO ZAPATA DELGADILLO",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ELEOTERIO ZAPATA DELGADILLO",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ELEOTERIO ZAPATA DELGADILLO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ELEOTERIO ZAPATA DELGADILLO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ELEOTERIO ZAPATA DELGADILLO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "GUMERCINDO PEDRAZA MENDOZA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 06:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "GUMERCINDO PEDRAZA MENDOZA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "GUMERCINDO PEDRAZA MENDOZA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "GUMERCINDO PEDRAZA MENDOZA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "GUMERCINDO PEDRAZA MENDOZA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "GUMERCINDO PEDRAZA MENDOZA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "GUMERCINDO PEDRAZA MENDOZA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "GUMERCINDO PEDRAZA MENDOZA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "GUMERCINDO PEDRAZA MENDOZA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "GUMERCINDO PEDRAZA MENDOZA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "GUMERCINDO PEDRAZA MENDOZA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "GUMERCINDO PEDRAZA MENDOZA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "GUMERCINDO PEDRAZA MENDOZA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "GUMERCINDO PEDRAZA MENDOZA",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "GUMERCINDO PEDRAZA MENDOZA",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "GUMERCINDO PEDRAZA MENDOZA",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "GUMERCINDO PEDRAZA MENDOZA",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "GUMERCINDO PEDRAZA MENDOZA",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "GUMERCINDO PEDRAZA MENDOZA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "GUMERCINDO PEDRAZA MENDOZA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "GUMERCINDO PEDRAZA MENDOZA",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOSE LUIS PERALES JOAQUIN",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 06:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOSE LUIS PERALES JOAQUIN",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOSE LUIS PERALES JOAQUIN",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOSE LUIS PERALES JOAQUIN",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOSE LUIS PERALES JOAQUIN",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS PERALES JOAQUIN",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS PERALES JOAQUIN",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS PERALES JOAQUIN",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS PERALES JOAQUIN",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS PERALES JOAQUIN",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS PERALES JOAQUIN",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS PERALES JOAQUIN",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS PERALES JOAQUIN",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS PERALES JOAQUIN",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS PERALES JOAQUIN",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS PERALES JOAQUIN",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS PERALES JOAQUIN",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS PERALES JOAQUIN",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS PERALES JOAQUIN",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS PERALES JOAQUIN",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS PERALES JOAQUIN",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOSE LUIS PERALES JOAQUIN",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOSE LUIS PERALES JOAQUIN",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS PERALES JOAQUIN",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DIEGO FLORES CORDOVA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DIEGO FLORES CORDOVA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DIEGO FLORES CORDOVA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DIEGO FLORES CORDOVA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DIEGO FLORES CORDOVA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DIEGO FLORES CORDOVA",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DIEGO FLORES CORDOVA",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DIEGO FLORES CORDOVA",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DIEGO FLORES CORDOVA",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DIEGO FLORES CORDOVA",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DIEGO FLORES CORDOVA",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DIEGO FLORES CORDOVA",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DIEGO FLORES CORDOVA",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DIEGO FLORES CORDOVA",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DIEGO FLORES CORDOVA",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DIEGO FLORES CORDOVA",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DIEGO FLORES CORDOVA",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DIEGO FLORES CORDOVA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DIEGO FLORES CORDOVA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "TOVIAS FELIX ROJAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "TOVIAS FELIX ROJAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "TOVIAS FELIX ROJAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "TOVIAS FELIX ROJAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "TOVIAS FELIX ROJAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "TOVIAS FELIX ROJAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "TOVIAS FELIX ROJAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "TOVIAS FELIX ROJAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "TOVIAS FELIX ROJAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "TOVIAS FELIX ROJAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "TOVIAS FELIX ROJAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "TOVIAS FELIX ROJAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "TOVIAS FELIX ROJAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "TOVIAS FELIX ROJAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "TOVIAS FELIX ROJAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "TOVIAS FELIX ROJAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "TOVIAS FELIX ROJAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS GUERRA REJAS",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS GUERRA REJAS",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS GUERRA REJAS",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS GUERRA REJAS",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS GUERRA REJAS",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS GUERRA REJAS",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS GUERRA REJAS",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS GUERRA REJAS",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS GUERRA REJAS",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS GUERRA REJAS",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS GUERRA REJAS",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS GUERRA REJAS",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS GUERRA REJAS",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS GUERRA REJAS",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS GUERRA REJAS",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS GUERRA REJAS",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS GUERRA REJAS",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS GUERRA REJAS",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS GUERRA REJAS",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS GUERRA REJAS",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS GUERRA REJAS",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 06:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ISAID AÑEZ ZEBALLOS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ISAID AÑEZ ZEBALLOS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ISAID AÑEZ ZEBALLOS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ISAID AÑEZ ZEBALLOS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ISAID AÑEZ ZEBALLOS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ISAID AÑEZ ZEBALLOS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ISAID AÑEZ ZEBALLOS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ISAID AÑEZ ZEBALLOS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ISAID AÑEZ ZEBALLOS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ISAID AÑEZ ZEBALLOS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ISAID AÑEZ ZEBALLOS",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ISAID AÑEZ ZEBALLOS",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ISAID AÑEZ ZEBALLOS",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ISAID AÑEZ ZEBALLOS",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ISAID AÑEZ ZEBALLOS",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ISAID AÑEZ ZEBALLOS",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ISAID AÑEZ ZEBALLOS",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ISAID AÑEZ ZEBALLOS",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ISAID AÑEZ ZEBALLOS",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ISAID AÑEZ ZEBALLOS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ISAID AÑEZ ZEBALLOS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ISAID AÑEZ ZEBALLOS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ISAID AÑEZ ZEBALLOS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 19:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MAIKO ASATO HERRERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MAIKO ASATO HERRERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MAIKO ASATO HERRERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MAIKO ASATO HERRERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MAIKO ASATO HERRERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MAIKO ASATO HERRERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MAIKO ASATO HERRERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MAIKO ASATO HERRERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MAIKO ASATO HERRERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MAIKO ASATO HERRERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MAIKO ASATO HERRERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MAIKO ASATO HERRERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MAIKO ASATO HERRERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MAIKO ASATO HERRERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MAIKO ASATO HERRERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MAIKO ASATO HERRERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MAIKO ASATO HERRERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MAIKO ASATO HERRERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MAIKO ASATO HERRERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MAIKO ASATO HERRERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MAIKO ASATO HERRERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MAIKO ASATO HERRERA",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MAIKO ASATO HERRERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MAIKO ASATO HERRERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MAIKO ASATO HERRERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "VICTOR FLORES TALAVERA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "BERLIAM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "VICTOR FLORES TALAVERA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "VICTOR FLORES TALAVERA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "VICTOR FLORES TALAVERA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "VICTOR FLORES TALAVERA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "VICTOR FLORES TALAVERA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "VICTOR FLORES TALAVERA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "VICTOR FLORES TALAVERA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "VICTOR FLORES TALAVERA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "VICTOR FLORES TALAVERA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "VICTOR FLORES TALAVERA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "VICTOR FLORES TALAVERA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "VICTOR FLORES TALAVERA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "VICTOR FLORES TALAVERA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "VICTOR FLORES TALAVERA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "VICTOR FLORES TALAVERA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "VICTOR FLORES TALAVERA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "VICTOR FLORES TALAVERA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "VICTOR FLORES TALAVERA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "VICTOR FLORES TALAVERA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "VICTOR FLORES TALAVERA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "VICTOR FLORES TALAVERA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "VICTOR FLORES TALAVERA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "BERLIAM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "VICTOR FLORES TALAVERA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "BERLIAM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARIO HUAYTA COTJIRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MARIO HUAYTA COTJIRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MARIO HUAYTA COTJIRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MARIO HUAYTA COTJIRI",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARIO HUAYTA COTJIRI",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MARIO HUAYTA COTJIRI",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MARIO HUAYTA COTJIRI",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MARIO HUAYTA COTJIRI",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MARIO HUAYTA COTJIRI",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MARIO HUAYTA COTJIRI",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MARIO HUAYTA COTJIRI",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MARIO HUAYTA COTJIRI",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MARIO HUAYTA COTJIRI",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARIO HUAYTA COTJIRI",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARIO HUAYTA COTJIRI",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARIO HUAYTA COTJIRI",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MARIO HUAYTA COTJIRI",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MARIO HUAYTA COTJIRI",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MARIO HUAYTA COTJIRI",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MARIO HUAYTA COTJIRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARIO HUAYTA COTJIRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MARIO HUAYTA COTJIRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MARIO HUAYTA COTJIRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MARIO HUAYTA COTJIRI",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "RAUL ARISPE SANCHEZ",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "RAUL ARISPE SANCHEZ",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RAUL ARISPE SANCHEZ",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RAUL ARISPE SANCHEZ",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RAUL ARISPE SANCHEZ",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RAUL ARISPE SANCHEZ",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RAUL ARISPE SANCHEZ",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RAUL ARISPE SANCHEZ",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RAUL ARISPE SANCHEZ",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RAUL ARISPE SANCHEZ",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RAUL ARISPE SANCHEZ",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RAUL ARISPE SANCHEZ",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RAUL ARISPE SANCHEZ",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RAUL ARISPE SANCHEZ",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RAUL ARISPE SANCHEZ",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RAUL ARISPE SANCHEZ",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RAUL ARISPE SANCHEZ",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RAUL ARISPE SANCHEZ",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RAUL ARISPE SANCHEZ",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "WILFREDO CAYO ARENAS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "WILFREDO CAYO ARENAS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "WILFREDO CAYO ARENAS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "WILFREDO CAYO ARENAS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "WILFREDO CAYO ARENAS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "WILFREDO CAYO ARENAS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "WILFREDO CAYO ARENAS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "WILFREDO CAYO ARENAS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "WILFREDO CAYO ARENAS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "WILFREDO CAYO ARENAS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "WILFREDO CAYO ARENAS",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "WILFREDO CAYO ARENAS",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "WILFREDO CAYO ARENAS",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "WILFREDO CAYO ARENAS",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "WILFREDO CAYO ARENAS",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "WILFREDO CAYO ARENAS",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "WILFREDO CAYO ARENAS",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "WILFREDO CAYO ARENAS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "WILFREDO CAYO ARENAS",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "NELSON PEREDO PIZO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "NELSON PEREDO PIZO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "NELSON PEREDO PIZO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "NELSON PEREDO PIZO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "NELSON PEREDO PIZO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "NELSON PEREDO PIZO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "NELSON PEREDO PIZO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "NELSON PEREDO PIZO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "NELSON PEREDO PIZO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "NELSON PEREDO PIZO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "NELSON PEREDO PIZO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "NELSON PEREDO PIZO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "NELSON PEREDO PIZO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "NELSON PEREDO PIZO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "NELSON PEREDO PIZO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "NELSON PEREDO PIZO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "NELSON PEREDO PIZO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "NELSON PEREDO PIZO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "NELSON PEREDO PIZO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "NELSON PEREDO PIZO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "NELSON PEREDO PIZO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "NELSON PEREDO PIZO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "NELSON PEREDO PIZO",
-    lat: -22.35227688208,
-    lng: -68.857303744188,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CARLOS DANIEL IGNACIO AIREYU",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 19:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "FERNANDO ABARIOJO ONARRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "FERNANDO ABARIOJO ONARRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FERNANDO ABARIOJO ONARRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FERNANDO ABARIOJO ONARRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FERNANDO ABARIOJO ONARRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FERNANDO ABARIOJO ONARRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FERNANDO ABARIOJO ONARRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FERNANDO ABARIOJO ONARRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FERNANDO ABARIOJO ONARRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FERNANDO ABARIOJO ONARRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FERNANDO ABARIOJO ONARRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FERNANDO ABARIOJO ONARRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FERNANDO ABARIOJO ONARRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FERNANDO ABARIOJO ONARRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FERNANDO ABARIOJO ONARRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FERNANDO ABARIOJO ONARRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FERNANDO ABARIOJO ONARRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FERNANDO ABARIOJO ONARRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FERNANDO ABARIOJO ONARRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FERNANDO ABARIOJO ONARRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FERNANDO ABARIOJO ONARRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FERNANDO ABARIOJO ONARRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "FERNANDO ABARIOJO ONARRI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FERNANDO ABARIOJO ONARRI",
-    lat: -22.35227688208,
-    lng: -68.857303744188,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 06:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARTIN SARZURI QUISPE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARTIN SARZURI QUISPE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARTIN SARZURI QUISPE",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARTIN SARZURI QUISPE",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARTIN SARZURI QUISPE",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARTIN SARZURI QUISPE",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARTIN SARZURI QUISPE",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARTIN SARZURI QUISPE",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARTIN SARZURI QUISPE",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARTIN SARZURI QUISPE",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARTIN SARZURI QUISPE",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARTIN SARZURI QUISPE",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARTIN SARZURI QUISPE",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARTIN SARZURI QUISPE",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARTIN SARZURI QUISPE",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MARTIN SARZURI QUISPE",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARTIN SARZURI QUISPE",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARTIN SARZURI QUISPE",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARTIN SARZURI QUISPE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARTIN SARZURI QUISPE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MARTIN SARZURI QUISPE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MARTIN SARZURI QUISPE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MARTIN SARZURI QUISPE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "EDWIN SARZURI AGUIRRE",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 06:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "EDWIN SARZURI AGUIRRE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "EDWIN SARZURI AGUIRRE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "EDWIN SARZURI AGUIRRE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "EDWIN SARZURI AGUIRRE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "EDWIN SARZURI AGUIRRE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "EDWIN SARZURI AGUIRRE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "EDWIN SARZURI AGUIRRE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "EDWIN SARZURI AGUIRRE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "EDWIN SARZURI AGUIRRE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "EDWIN SARZURI AGUIRRE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "EDWIN SARZURI AGUIRRE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "EDWIN SARZURI AGUIRRE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "EDWIN SARZURI AGUIRRE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "EDWIN SARZURI AGUIRRE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "EDWIN SARZURI AGUIRRE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "EDWIN SARZURI AGUIRRE",
-    lat: -22.311201658921,
-    lng: -68.896504171231,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "EDWIN SARZURI AGUIRRE",
-    lat: -22.311201658921,
-    lng: -68.896504171231,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "EDWIN SARZURI AGUIRRE",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "EDWIN SARZURI AGUIRRE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "EDWIN SARZURI AGUIRRE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "EDWIN SARZURI AGUIRRE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DOUGLAS SALVATIERRA NEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DOUGLAS SALVATIERRA NEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DOUGLAS SALVATIERRA NEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DOUGLAS SALVATIERRA NEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DOUGLAS SALVATIERRA NEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DOUGLAS SALVATIERRA NEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DOUGLAS SALVATIERRA NEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DOUGLAS SALVATIERRA NEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DOUGLAS SALVATIERRA NEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DOUGLAS SALVATIERRA NEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DOUGLAS SALVATIERRA NEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DOUGLAS SALVATIERRA NEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DOUGLAS SALVATIERRA NEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DOUGLAS SALVATIERRA NEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DOUGLAS SALVATIERRA NEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DOUGLAS SALVATIERRA NEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DOUGLAS SALVATIERRA NEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DOUGLAS SALVATIERRA NEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DOUGLAS SALVATIERRA NEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DOUGLAS SALVATIERRA NEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DOUGLAS SALVATIERRA NEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 19:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DAVID MOISES GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DAVID MOISES GUTIERREZ BRAVO",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DAVID MOISES GUTIERREZ BRAVO",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DAVID MOISES GUTIERREZ BRAVO",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DAVID MOISES GUTIERREZ BRAVO",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DAVID MOISES GUTIERREZ BRAVO",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DAVID MOISES GUTIERREZ BRAVO",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DAVID MOISES GUTIERREZ BRAVO",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DAVID MOISES GUTIERREZ BRAVO",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DAVID MOISES GUTIERREZ BRAVO",
-    lat: -22.311201658921,
-    lng: -68.896504171231,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DAVID MOISES GUTIERREZ BRAVO",
-    lat: -22.311201658921,
-    lng: -68.896504171231,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DAVID MOISES GUTIERREZ BRAVO",
-    lat: -22.311201658921,
-    lng: -68.896504171231,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DAVID MOISES GUTIERREZ BRAVO",
-    lat: -22.311201658921,
-    lng: -68.896504171231,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DAVID MOISES GUTIERREZ BRAVO",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DAVID MOISES GUTIERREZ BRAVO",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DAVID MOISES GUTIERREZ BRAVO",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DAVID MOISES GUTIERREZ BRAVO",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DAVID MOISES GUTIERREZ BRAVO",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DAVID MOISES GUTIERREZ BRAVO",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DAVID MOISES GUTIERREZ BRAVO",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DAVID MOISES GUTIERREZ BRAVO",
-    lat: -22.311201658921,
-    lng: -68.896504171231,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DAVID MOISES GUTIERREZ BRAVO",
-    lat: -22.311201658921,
-    lng: -68.896504171231,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DAVID MOISES GUTIERREZ BRAVO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "PETRIENNE MENACHO REVOLLO",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PETRIENNE MENACHO REVOLLO",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PETRIENNE MENACHO REVOLLO",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PETRIENNE MENACHO REVOLLO",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PETRIENNE MENACHO REVOLLO",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PETRIENNE MENACHO REVOLLO",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PETRIENNE MENACHO REVOLLO",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PETRIENNE MENACHO REVOLLO",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PETRIENNE MENACHO REVOLLO",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PETRIENNE MENACHO REVOLLO",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PETRIENNE MENACHO REVOLLO",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PETRIENNE MENACHO REVOLLO",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PETRIENNE MENACHO REVOLLO",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PETRIENNE MENACHO REVOLLO",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PETRIENNE MENACHO REVOLLO",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PETRIENNE MENACHO REVOLLO",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PETRIENNE MENACHO REVOLLO",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PETRIENNE MENACHO REVOLLO",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PETRIENNE MENACHO REVOLLO",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PETRIENNE MENACHO REVOLLO",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PETRIENNE MENACHO REVOLLO",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PETRIENNE MENACHO REVOLLO",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ROMER MENDOLAS MAMANI",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ROMER MENDOLAS MAMANI",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ROMER MENDOLAS MAMANI",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ROMER MENDOLAS MAMANI",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ROMER MENDOLAS MAMANI",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ROMER MENDOLAS MAMANI",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ROMER MENDOLAS MAMANI",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ROMER MENDOLAS MAMANI",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ROMER MENDOLAS MAMANI",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ROMER MENDOLAS MAMANI",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ROMER MENDOLAS MAMANI",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ROMER MENDOLAS MAMANI",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ROMER MENDOLAS MAMANI",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ROMER MENDOLAS MAMANI",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ROMER MENDOLAS MAMANI",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ROMER MENDOLAS MAMANI",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ROMER MENDOLAS MAMANI",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ROMER MENDOLAS MAMANI",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ROMER MENDOLAS MAMANI",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ROMER MENDOLAS MAMANI",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ROMER MENDOLAS MAMANI",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ROMER MENDOLAS MAMANI",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ROMER MENDOLAS MAMANI",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JHONNY GARCIA COLQUE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JHONNY GARCIA COLQUE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JHONNY GARCIA COLQUE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JHONNY GARCIA COLQUE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JHONNY GARCIA COLQUE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JHONNY GARCIA COLQUE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JHONNY GARCIA COLQUE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JHONNY GARCIA COLQUE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JHONNY GARCIA COLQUE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JHONNY GARCIA COLQUE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JHONNY GARCIA COLQUE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JHONNY GARCIA COLQUE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JHONNY GARCIA COLQUE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JHONNY GARCIA COLQUE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JHONNY GARCIA COLQUE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JHONNY GARCIA COLQUE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JHONNY GARCIA COLQUE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JHONNY GARCIA COLQUE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JHONNY GARCIA COLQUE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JHONNY GARCIA COLQUE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JHONNY GARCIA COLQUE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JHONNY GARCIA COLQUE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JHONNY GARCIA COLQUE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JHONNY GARCIA COLQUE",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JHONNY GARCIA COLQUE",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 19:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MILTON GALLOSO MOSQUEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MILTON GALLOSO MOSQUEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MILTON GALLOSO MOSQUEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MILTON GALLOSO MOSQUEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MILTON GALLOSO MOSQUEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MILTON GALLOSO MOSQUEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MILTON GALLOSO MOSQUEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MILTON GALLOSO MOSQUEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MILTON GALLOSO MOSQUEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MILTON GALLOSO MOSQUEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MILTON GALLOSO MOSQUEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MILTON GALLOSO MOSQUEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MILTON GALLOSO MOSQUEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MILTON GALLOSO MOSQUEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MILTON GALLOSO MOSQUEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MILTON GALLOSO MOSQUEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MILTON GALLOSO MOSQUEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MILTON GALLOSO MOSQUEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MILTON GALLOSO MOSQUEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MILTON GALLOSO MOSQUEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MILTON GALLOSO MOSQUEIRA",
-    lat: -22.35227688208,
-    lng: -68.857303744188,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JEAN PAUL LIMARINO LOPEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JEAN PAUL LIMARINO LOPEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JEAN PAUL LIMARINO LOPEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JEAN PAUL LIMARINO LOPEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JEAN PAUL LIMARINO LOPEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JEAN PAUL LIMARINO LOPEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JEAN PAUL LIMARINO LOPEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JEAN PAUL LIMARINO LOPEZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JEAN PAUL LIMARINO LOPEZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JEAN PAUL LIMARINO LOPEZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JEAN PAUL LIMARINO LOPEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JEAN PAUL LIMARINO LOPEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JEAN PAUL LIMARINO LOPEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JEAN PAUL LIMARINO LOPEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JEAN PAUL LIMARINO LOPEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JEAN PAUL LIMARINO LOPEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JEAN PAUL LIMARINO LOPEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JEAN PAUL LIMARINO LOPEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JEAN PAUL LIMARINO LOPEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JEAN PAUL LIMARINO LOPEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JEAN PAUL LIMARINO LOPEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JEAN PAUL LIMARINO LOPEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.311201658921,
-    lng: -68.896504171231,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.311201658921,
-    lng: -68.896504171231,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.311201658921,
-    lng: -68.896504171231,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.311201658921,
-    lng: -68.896504171231,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.311201658921,
-    lng: -68.896504171231,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.311201658921,
-    lng: -68.896504171231,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 19:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JESE ELEAN MEZA VARGAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JESE ELEAN MEZA VARGAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JESE ELEAN MEZA VARGAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JESE ELEAN MEZA VARGAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JESE ELEAN MEZA VARGAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JESE ELEAN MEZA VARGAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JESE ELEAN MEZA VARGAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JESE ELEAN MEZA VARGAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JESE ELEAN MEZA VARGAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JESE ELEAN MEZA VARGAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JESE ELEAN MEZA VARGAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JESE ELEAN MEZA VARGAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JESE ELEAN MEZA VARGAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JESE ELEAN MEZA VARGAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JESE ELEAN MEZA VARGAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JESE ELEAN MEZA VARGAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JESE ELEAN MEZA VARGAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JESE ELEAN MEZA VARGAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JESE ELEAN MEZA VARGAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JESE ELEAN MEZA VARGAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JESE ELEAN MEZA VARGAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JESE ELEAN MEZA VARGAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JESE ELEAN MEZA VARGAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RADOMIRO ZEPEDA PASTRANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "RADOMIRO ZEPEDA PASTRANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RADOMIRO ZEPEDA PASTRANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RADOMIRO ZEPEDA PASTRANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RADOMIRO ZEPEDA PASTRANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RADOMIRO ZEPEDA PASTRANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RADOMIRO ZEPEDA PASTRANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RADOMIRO ZEPEDA PASTRANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RADOMIRO ZEPEDA PASTRANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RADOMIRO ZEPEDA PASTRANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RADOMIRO ZEPEDA PASTRANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RADOMIRO ZEPEDA PASTRANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RADOMIRO ZEPEDA PASTRANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RADOMIRO ZEPEDA PASTRANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RADOMIRO ZEPEDA PASTRANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RADOMIRO ZEPEDA PASTRANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RADOMIRO ZEPEDA PASTRANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RADOMIRO ZEPEDA PASTRANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RADOMIRO ZEPEDA PASTRANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RADOMIRO ZEPEDA PASTRANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RADOMIRO ZEPEDA PASTRANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RADOMIRO ZEPEDA PASTRANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RADOMIRO ZEPEDA PASTRANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RADOMIRO ZEPEDA PASTRANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RADOMIRO ZEPEDA PASTRANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 19:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ALDO AURELIO ESCOBAR CORTES",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JAIME FERNANDEZ MICHEA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JAIME FERNANDEZ MICHEA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JAIME FERNANDEZ MICHEA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RICHARD EDUARDO VARGAS VERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "RICHARD EDUARDO VARGAS VERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "RICHARD EDUARDO VARGAS VERA",
-    lat: -22.35227688208,
-    lng: -68.857303744188,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "HERNAN VALDEBENITO TORRES",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CESAR CORTES BARRAZA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CESAR CORTES BARRAZA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MANUEL AGUSTÍN PONCE MANCILLA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "SIGDO KOPPERS",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PATRICIO IBAR BARRERA ARAYA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "NEXXO",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "LUIS MANUEL MORALES ALVAREZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "LUIS HUMBERTO CASTRO MALDONADO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "NEXXO",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "LUIS HUMBERTO CASTRO MALDONADO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "NEXXO",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "LUIS HUMBERTO CASTRO MALDONADO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "NEXXO",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MIGUEL ALBERTO VEGA ORTIZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MIGUEL ALBERTO VEGA ORTIZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MIGUEL ALBERTO VEGA ORTIZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PEDRO HAROLDO GUERRERO PIZARRO",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PEDRO HAROLDO GUERRERO PIZARRO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PEDRO HAROLDO GUERRERO PIZARRO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE JULIAN COROSEO ORTIZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PABLO TRIGO TRIGO",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JORGE LAUTARO FUENTES CRUZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CRISTIAN ALFREDO ESPERGUEL OÑATE",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "SIGDO KOPPERS",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CARLOS ALBERTO MONTOYA REYES",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "SIGDO KOPPERS",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "CRISTIAN ENRIQUE CERVANTES CERVANTES",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CRISTIAN ENRIQUE CERVANTES CERVANTES",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FREDY RICARDO RAMOS SEGUEL",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "SIGDO KOPPERS",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FREDY RICARDO RAMOS SEGUEL",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "SIGDO KOPPERS",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "EDGAR ALBERTO BELEN RAMOS",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "EDGAR ALBERTO BELEN RAMOS",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "EDGAR ALBERTO BELEN RAMOS",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ROSA LUCI NINA ALI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "HECTOR ALEJANDRO HERRERA CALDERON",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "HECTOR ALEJANDRO HERRERA CALDERON",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "HECTOR ALEJANDRO HERRERA CALDERON",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "HECTOR ALEJANDRO HERRERA CALDERON",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "SEBASTIAN ALONSO YAÑEZ PIZARRO",
-    lat: -22.35227688208,
-    lng: -68.857303744188,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "NEXXO",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "SEBASTIAN ALONSO YAÑEZ PIZARRO",
-    lat: -22.35227688208,
-    lng: -68.857303744188,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "NEXXO",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "GILBERTO DEL TRANSITO OGALDE ORTIZ",
-    lat: -22.311201658921,
-    lng: -68.896504171231,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "GILBERTO DEL TRANSITO OGALDE ORTIZ",
-    lat: -22.311201658921,
-    lng: -68.896504171231,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "GILBERTO DEL TRANSITO OGALDE ORTIZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "GILBERTO DEL TRANSITO OGALDE ORTIZ",
-    lat: -22.311201658921,
-    lng: -68.896504171231,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MICHAEL ALEJANDRO CAMPILLAY PAEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JUAN GERMAN CORIA MEDRANO",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOAB NEHEMIAS CAMACHO LLAVES",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "VICTOR DAMIAN YAÑEZ CUBILLOS",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DIEGO JOSE ORDENES GAHONA",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "GUILLERMO DAVID BAUTISTA MAMANI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "BETSABE MARGOT MUÑOZ CORTES",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "BETSABE MARGOT MUÑOZ CORTES",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "GEORGE EDWARD MARQUEZ CAMPOS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "GEORGE EDWARD MARQUEZ CAMPOS",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "GEORGE EDWARD MARQUEZ CAMPOS",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "GEORGE EDWARD MARQUEZ CAMPOS",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FELIPE BARRERA FRES",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "EDGAR ALEXANDRO ARANCIBIA SANDON",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "SIGDO KOPPERS",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "EDGAR ALEXANDRO ARANCIBIA SANDON",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "SIGDO KOPPERS",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "EDGAR ALEXANDRO ARANCIBIA SANDON",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "SIGDO KOPPERS",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "CRISTIAN ROBERTO RAMIREZ DIAZ",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MALCON ATREYU ESQUIVEL ALVAREZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "PEDRO ENRIQUE AYABIRE MIRANDA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "NEXXO",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "PEDRO ENRIQUE AYABIRE MIRANDA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "NEXXO",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "PEDRO ENRIQUE AYABIRE MIRANDA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "NEXXO",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "GERARDO VALENTE FLORES CENTENO",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "SIGDO KOPPERS",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CRISTOFER ROJAS CORTES",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CRISTOFER ROJAS CORTES",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CRISTOFER ROJAS CORTES",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "BERLIAM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "FELIPHE IGNACIO BAUTISTA MAMANI",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FELIPHE IGNACIO BAUTISTA MAMANI",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "FELIPHE IGNACIO BAUTISTA MAMANI",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FRANCO BENJAMIN FUENTES AVENDAÑO",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FRANCO BENJAMIN FUENTES AVENDAÑO",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FRANCO BENJAMIN FUENTES AVENDAÑO",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JEFERSON HERNÁN SUÁREZ CORTÉS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOSE ALFREDO TORRES BULEJE",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "HERNAN MACHACA MAMANI",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ALISSON SUSANA VARGAS RODRIGUEZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "NEXXO",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JUAN CARLOS CONDORI MAMANI",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS CONDORI MAMANI",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN CARLOS CONDORI MAMANI",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JUAN GABRIEL VELASCO AYOVI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MARIO FERNANDO GOMEZ CLAVIJO",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 13:30:00",
     empresa: "KDM",
     modo: "UBICADO"
   },
@@ -18145,6 +12601,62 @@ window.personas = [
   },
   {
     nombre: "ELEOTERIO ZAPATA DELGADILLO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ELEOTERIO ZAPATA DELGADILLO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ELEOTERIO ZAPATA DELGADILLO",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ELEOTERIO ZAPATA DELGADILLO",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ELEOTERIO ZAPATA DELGADILLO",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ELEOTERIO ZAPATA DELGADILLO",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ELEOTERIO ZAPATA DELGADILLO",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ELEOTERIO ZAPATA DELGADILLO",
     lat: -22.311372019423,
     lng: -68.895016482911,
     tiempo: "2025-07-26 10:30:00",
@@ -18161,6 +12673,134 @@ window.personas = [
   },
   {
     nombre: "ELEOTERIO ZAPATA DELGADILLO",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ELEOTERIO ZAPATA DELGADILLO",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ELEOTERIO ZAPATA DELGADILLO",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ELEOTERIO ZAPATA DELGADILLO",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ELEOTERIO ZAPATA DELGADILLO",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ELEOTERIO ZAPATA DELGADILLO",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ELEOTERIO ZAPATA DELGADILLO",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ELEOTERIO ZAPATA DELGADILLO",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ELEOTERIO ZAPATA DELGADILLO",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ELEOTERIO ZAPATA DELGADILLO",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ELEOTERIO ZAPATA DELGADILLO",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ELEOTERIO ZAPATA DELGADILLO",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ELEOTERIO ZAPATA DELGADILLO",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ELEOTERIO ZAPATA DELGADILLO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ELEOTERIO ZAPATA DELGADILLO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ELEOTERIO ZAPATA DELGADILLO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ELEOTERIO ZAPATA DELGADILLO",
     lat: -22.315509638749,
     lng: -68.923715554613,
     tiempo: "2025-07-26 19:30:00",
@@ -18169,9 +12809,121 @@ window.personas = [
   },
   {
     nombre: "GUMERCINDO PEDRAZA MENDOZA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 06:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "GUMERCINDO PEDRAZA MENDOZA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "GUMERCINDO PEDRAZA MENDOZA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "GUMERCINDO PEDRAZA MENDOZA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GUMERCINDO PEDRAZA MENDOZA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "GUMERCINDO PEDRAZA MENDOZA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GUMERCINDO PEDRAZA MENDOZA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GUMERCINDO PEDRAZA MENDOZA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GUMERCINDO PEDRAZA MENDOZA",
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GUMERCINDO PEDRAZA MENDOZA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GUMERCINDO PEDRAZA MENDOZA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GUMERCINDO PEDRAZA MENDOZA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GUMERCINDO PEDRAZA MENDOZA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GUMERCINDO PEDRAZA MENDOZA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GUMERCINDO PEDRAZA MENDOZA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -18184,10 +12936,498 @@ window.personas = [
     modo: "UBICADO"
   },
   {
+    nombre: "GUMERCINDO PEDRAZA MENDOZA",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "GUMERCINDO PEDRAZA MENDOZA",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GUMERCINDO PEDRAZA MENDOZA",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GUMERCINDO PEDRAZA MENDOZA",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GUMERCINDO PEDRAZA MENDOZA",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GUMERCINDO PEDRAZA MENDOZA",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GUMERCINDO PEDRAZA MENDOZA",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GUMERCINDO PEDRAZA MENDOZA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "GUMERCINDO PEDRAZA MENDOZA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "GUMERCINDO PEDRAZA MENDOZA",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOSE LUIS PERALES JOAQUIN",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 06:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOSE LUIS PERALES JOAQUIN",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
     nombre: "JOSE LUIS PERALES JOAQUIN",
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOSE LUIS PERALES JOAQUIN",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOSE LUIS PERALES JOAQUIN",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOSE LUIS PERALES JOAQUIN",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS PERALES JOAQUIN",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS PERALES JOAQUIN",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS PERALES JOAQUIN",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS PERALES JOAQUIN",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS PERALES JOAQUIN",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS PERALES JOAQUIN",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS PERALES JOAQUIN",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS PERALES JOAQUIN",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS PERALES JOAQUIN",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS PERALES JOAQUIN",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS PERALES JOAQUIN",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS PERALES JOAQUIN",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS PERALES JOAQUIN",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS PERALES JOAQUIN",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS PERALES JOAQUIN",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS PERALES JOAQUIN",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS PERALES JOAQUIN",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOSE LUIS PERALES JOAQUIN",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOSE LUIS PERALES JOAQUIN",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS PERALES JOAQUIN",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ANDRES FELIPE SANTAMARIA MOLINA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DIEGO FLORES CORDOVA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DIEGO FLORES CORDOVA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DIEGO FLORES CORDOVA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 08:00:00",
     empresa: "KDM",
     modo: "UBICADO"
   },
@@ -18201,6 +13441,54 @@ window.personas = [
   },
   {
     nombre: "DIEGO FLORES CORDOVA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DIEGO FLORES CORDOVA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DIEGO FLORES CORDOVA",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DIEGO FLORES CORDOVA",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DIEGO FLORES CORDOVA",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DIEGO FLORES CORDOVA",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DIEGO FLORES CORDOVA",
     lat: -22.311625584499,
     lng: -68.892951459097,
     tiempo: "2025-07-26 12:00:00",
@@ -18209,11 +13497,131 @@ window.personas = [
   },
   {
     nombre: "DIEGO FLORES CORDOVA",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DIEGO FLORES CORDOVA",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DIEGO FLORES CORDOVA",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DIEGO FLORES CORDOVA",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DIEGO FLORES CORDOVA",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DIEGO FLORES CORDOVA",
     lat: -22.311372019423,
     lng: -68.895016482911,
     tiempo: "2025-07-26 15:00:00",
     empresa: "KDM",
     modo: "UBICADO"
+  },
+  {
+    nombre: "DIEGO FLORES CORDOVA",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DIEGO FLORES CORDOVA",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DIEGO FLORES CORDOVA",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DIEGO FLORES CORDOVA",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DIEGO FLORES CORDOVA",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DIEGO FLORES CORDOVA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DIEGO FLORES CORDOVA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DIEGO FLORES CORDOVA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "TOVIAS FELIX ROJAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "TOVIAS FELIX ROJAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
   },
   {
     nombre: "TOVIAS FELIX ROJAS",
@@ -18227,7 +13635,95 @@ window.personas = [
     nombre: "TOVIAS FELIX ROJAS",
     lat: -22.315509638749,
     lng: -68.923715554613,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "TOVIAS FELIX ROJAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "TOVIAS FELIX ROJAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "TOVIAS FELIX ROJAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "TOVIAS FELIX ROJAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "TOVIAS FELIX ROJAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "TOVIAS FELIX ROJAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
     tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "TOVIAS FELIX ROJAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "TOVIAS FELIX ROJAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "TOVIAS FELIX ROJAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "TOVIAS FELIX ROJAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "TOVIAS FELIX ROJAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 14:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -18240,10 +13736,474 @@ window.personas = [
     modo: "NO UBICABLE"
   },
   {
+    nombre: "TOVIAS FELIX ROJAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "TOVIAS FELIX ROJAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "TOVIAS FELIX ROJAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "TOVIAS FELIX ROJAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "TOVIAS FELIX ROJAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "TOVIAS FELIX ROJAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "TOVIAS FELIX ROJAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JUAN CARLOS GUERRA REJAS",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS GUERRA REJAS",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS GUERRA REJAS",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS GUERRA REJAS",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS GUERRA REJAS",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS GUERRA REJAS",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS GUERRA REJAS",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
     nombre: "JUAN CARLOS GUERRA REJAS",
     lat: -22.353446659086,
     lng: -68.856164540738,
     tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS GUERRA REJAS",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS GUERRA REJAS",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS GUERRA REJAS",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS GUERRA REJAS",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS GUERRA REJAS",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS GUERRA REJAS",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS GUERRA REJAS",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS GUERRA REJAS",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS GUERRA REJAS",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS GUERRA REJAS",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS GUERRA REJAS",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS GUERRA REJAS",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS GUERRA REJAS",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS GUERRA REJAS",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 06:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN CARLOS RAMIREZ CORINO",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ISAID AÑEZ ZEBALLOS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ISAID AÑEZ ZEBALLOS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ISAID AÑEZ ZEBALLOS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ISAID AÑEZ ZEBALLOS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 08:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -18259,8 +14219,488 @@ window.personas = [
     nombre: "ISAID AÑEZ ZEBALLOS",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ISAID AÑEZ ZEBALLOS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ISAID AÑEZ ZEBALLOS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ISAID AÑEZ ZEBALLOS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ISAID AÑEZ ZEBALLOS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 11:30:00",
     empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ISAID AÑEZ ZEBALLOS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ISAID AÑEZ ZEBALLOS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ISAID AÑEZ ZEBALLOS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ISAID AÑEZ ZEBALLOS",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ISAID AÑEZ ZEBALLOS",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ISAID AÑEZ ZEBALLOS",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ISAID AÑEZ ZEBALLOS",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ISAID AÑEZ ZEBALLOS",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ISAID AÑEZ ZEBALLOS",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ISAID AÑEZ ZEBALLOS",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ISAID AÑEZ ZEBALLOS",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ISAID AÑEZ ZEBALLOS",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ISAID AÑEZ ZEBALLOS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ISAID AÑEZ ZEBALLOS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ISAID AÑEZ ZEBALLOS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ISAID AÑEZ ZEBALLOS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 19:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MAIKO ASATO HERRERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MAIKO ASATO HERRERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MAIKO ASATO HERRERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MAIKO ASATO HERRERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MAIKO ASATO HERRERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MAIKO ASATO HERRERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MAIKO ASATO HERRERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MAIKO ASATO HERRERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MAIKO ASATO HERRERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MAIKO ASATO HERRERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MAIKO ASATO HERRERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MAIKO ASATO HERRERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MAIKO ASATO HERRERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MAIKO ASATO HERRERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MAIKO ASATO HERRERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MAIKO ASATO HERRERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MAIKO ASATO HERRERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MAIKO ASATO HERRERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MAIKO ASATO HERRERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MAIKO ASATO HERRERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MAIKO ASATO HERRERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MAIKO ASATO HERRERA",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MAIKO ASATO HERRERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MAIKO ASATO HERRERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MAIKO ASATO HERRERA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "VICTOR FLORES TALAVERA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "BERLIAM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "VICTOR FLORES TALAVERA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "VICTOR FLORES TALAVERA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "VICTOR FLORES TALAVERA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "VICTOR FLORES TALAVERA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "VICTOR FLORES TALAVERA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "VICTOR FLORES TALAVERA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "VICTOR FLORES TALAVERA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "VICTOR FLORES TALAVERA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "VICTOR FLORES TALAVERA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "VICTOR FLORES TALAVERA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "VICTOR FLORES TALAVERA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "VICTOR FLORES TALAVERA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "VICTOR FLORES TALAVERA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "VICTOR FLORES TALAVERA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "BERLIAM",
     modo: "NO UBICABLE"
   },
   {
@@ -18270,6 +14710,286 @@ window.personas = [
     tiempo: "2025-07-26 14:30:00",
     empresa: "BERLIAM",
     modo: "NO UBICABLE"
+  },
+  {
+    nombre: "VICTOR FLORES TALAVERA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "VICTOR FLORES TALAVERA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "VICTOR FLORES TALAVERA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "VICTOR FLORES TALAVERA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "VICTOR FLORES TALAVERA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "VICTOR FLORES TALAVERA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "VICTOR FLORES TALAVERA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "BERLIAM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "VICTOR FLORES TALAVERA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "BERLIAM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "VICTOR FLORES TALAVERA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "BERLIAM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARIO HUAYTA COTJIRI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MARIO HUAYTA COTJIRI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MARIO HUAYTA COTJIRI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MARIO HUAYTA COTJIRI",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARIO HUAYTA COTJIRI",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MARIO HUAYTA COTJIRI",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MARIO HUAYTA COTJIRI",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MARIO HUAYTA COTJIRI",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MARIO HUAYTA COTJIRI",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MARIO HUAYTA COTJIRI",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MARIO HUAYTA COTJIRI",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MARIO HUAYTA COTJIRI",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MARIO HUAYTA COTJIRI",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARIO HUAYTA COTJIRI",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARIO HUAYTA COTJIRI",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARIO HUAYTA COTJIRI",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARIO HUAYTA COTJIRI",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MARIO HUAYTA COTJIRI",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MARIO HUAYTA COTJIRI",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MARIO HUAYTA COTJIRI",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MARIO HUAYTA COTJIRI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARIO HUAYTA COTJIRI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MARIO HUAYTA COTJIRI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MARIO HUAYTA COTJIRI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MARIO HUAYTA COTJIRI",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "RAUL ARISPE SANCHEZ",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "UBICADO"
   },
   {
     nombre: "RAUL ARISPE SANCHEZ",
@@ -18291,6 +15011,134 @@ window.personas = [
     nombre: "RAUL ARISPE SANCHEZ",
     lat: -22.315509638749,
     lng: -68.923715554613,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RAUL ARISPE SANCHEZ",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RAUL ARISPE SANCHEZ",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RAUL ARISPE SANCHEZ",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RAUL ARISPE SANCHEZ",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RAUL ARISPE SANCHEZ",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RAUL ARISPE SANCHEZ",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RAUL ARISPE SANCHEZ",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RAUL ARISPE SANCHEZ",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RAUL ARISPE SANCHEZ",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RAUL ARISPE SANCHEZ",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RAUL ARISPE SANCHEZ",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RAUL ARISPE SANCHEZ",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RAUL ARISPE SANCHEZ",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RAUL ARISPE SANCHEZ",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RAUL ARISPE SANCHEZ",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RAUL ARISPE SANCHEZ",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
     tiempo: "2025-07-26 16:30:00",
     empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
@@ -18302,6 +15150,30 @@ window.personas = [
     tiempo: "2025-07-26 17:00:00",
     empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RAUL ARISPE SANCHEZ",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RAUL ARISPE SANCHEZ",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RAUL ARISPE SANCHEZ",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "UBICADO"
   },
   {
     nombre: "WILFREDO CAYO ARENAS",
@@ -18315,7 +15187,79 @@ window.personas = [
     nombre: "WILFREDO CAYO ARENAS",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "WILFREDO CAYO ARENAS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "WILFREDO CAYO ARENAS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "WILFREDO CAYO ARENAS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "WILFREDO CAYO ARENAS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "WILFREDO CAYO ARENAS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "WILFREDO CAYO ARENAS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "WILFREDO CAYO ARENAS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "WILFREDO CAYO ARENAS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "WILFREDO CAYO ARENAS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 11:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -18329,9 +15273,177 @@ window.personas = [
   },
   {
     nombre: "WILFREDO CAYO ARENAS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "WILFREDO CAYO ARENAS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "WILFREDO CAYO ARENAS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "WILFREDO CAYO ARENAS",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "WILFREDO CAYO ARENAS",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "WILFREDO CAYO ARENAS",
     lat: -22.311625584499,
     lng: -68.892951459097,
     tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "WILFREDO CAYO ARENAS",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "WILFREDO CAYO ARENAS",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "WILFREDO CAYO ARENAS",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "WILFREDO CAYO ARENAS",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "WILFREDO CAYO ARENAS",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "WILFREDO CAYO ARENAS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "WILFREDO CAYO ARENAS",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "WILFREDO CAYO ARENAS",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "NELSON PEREDO PIZO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "NELSON PEREDO PIZO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "NELSON PEREDO PIZO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "NELSON PEREDO PIZO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "NELSON PEREDO PIZO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "NELSON PEREDO PIZO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "NELSON PEREDO PIZO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "NELSON PEREDO PIZO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -18347,244 +15459,28 @@ window.personas = [
     nombre: "NELSON PEREDO PIZO",
     lat: -22.328839025764,
     lng: -68.885274223686,
-    tiempo: "2025-07-26 13:30:00",
+    tiempo: "2025-07-26 11:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
   {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS HURTADO FERNANDEZ",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MARTIN SARZURI QUISPE",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MARTIN SARZURI QUISPE",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "EDWIN SARZURI AGUIRRE",
+    nombre: "NELSON PEREDO PIZO",
     lat: -22.328839025764,
     lng: -68.885274223686,
-    tiempo: "2025-07-26 08:00:00",
+    tiempo: "2025-07-26 12:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
   {
-    nombre: "EDWIN SARZURI AGUIRRE",
-    lat: -22.311201658921,
-    lng: -68.896504171231,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "EDWIN SARZURI AGUIRRE",
-    lat: -22.311201658921,
-    lng: -68.896504171231,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DOUGLAS SALVATIERRA NEIRA",
+    nombre: "NELSON PEREDO PIZO",
     lat: -22.328839025764,
     lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DOUGLAS SALVATIERRA NEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:30:00",
+    tiempo: "2025-07-26 12:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
   {
-    nombre: "DOUGLAS SALVATIERRA NEIRA",
-    lat: -22.35227688208,
-    lng: -68.857303744188,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DAVID MOISES GUTIERREZ BRAVO",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DAVID MOISES GUTIERREZ BRAVO",
-    lat: -22.311201658921,
-    lng: -68.896504171231,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MILTON GALLOSO MOSQUEIRA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JEAN PAUL LIMARINO LOPEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOAQUIN QUISPE MEJIA",
-    lat: -22.311201658921,
-    lng: -68.896504171231,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
-    lat: -22.35227688208,
-    lng: -68.857303744188,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ALDO AURELIO ESCOBAR CORTES",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "OSCAR HERNANDEZ BARRERA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JAIME FERNANDEZ MICHEA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JAIME FERNANDEZ MICHEA",
+    nombre: "NELSON PEREDO PIZO",
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 13:00:00",
@@ -18592,7 +15488,87 @@ window.personas = [
     modo: "NO UBICABLE"
   },
   {
-    nombre: "JAIME FERNANDEZ MICHEA",
+    nombre: "NELSON PEREDO PIZO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "NELSON PEREDO PIZO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "NELSON PEREDO PIZO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "NELSON PEREDO PIZO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "NELSON PEREDO PIZO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "NELSON PEREDO PIZO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "NELSON PEREDO PIZO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "NELSON PEREDO PIZO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "NELSON PEREDO PIZO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "NELSON PEREDO PIZO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "NELSON PEREDO PIZO",
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 18:30:00",
@@ -18600,842 +15576,322 @@ window.personas = [
     modo: "NO UBICABLE"
   },
   {
-    nombre: "RICHARD EDUARDO VARGAS VERA",
+    nombre: "NELSON PEREDO PIZO",
+    lat: -22.35227688208,
+    lng: -68.857303744188,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
     lat: -22.328839025764,
     lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
     tiempo: "2025-07-26 09:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
   {
-    nombre: "NELSON DAVID FERNANDEZ CASTRO",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 14:30:00",
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 13:30:00",
     empresa: "KDM",
     modo: "UBICADO"
   },
   {
-    nombre: "HERNAN VALDEBENITO TORRES",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "BERLIAM",
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
     modo: "NO UBICABLE"
   },
   {
-    nombre: "CESAR CORTES BARRAZA",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "BERLIAM",
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
     modo: "NO UBICABLE"
   },
   {
-    nombre: "PATRICIO IBAR BARRERA ARAYA",
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "CARLOS DANIEL IGNACIO AIREYU",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 19:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "FERNANDO ABARIOJO ONARRI",
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 07:00:00",
-    empresa: "NEXXO",
+    empresa: "KDM",
     modo: "UBICADO"
   },
   {
-    nombre: "PATRICIO IBAR BARRERA ARAYA",
+    nombre: "FERNANDO ABARIOJO ONARRI",
     lat: -22.328839025764,
     lng: -68.885274223686,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "NEXXO",
-    modo: "UBICADO"
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
   },
   {
-    nombre: "LUIS HUMBERTO CASTRO MALDONADO",
+    nombre: "FERNANDO ABARIOJO ONARRI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "FERNANDO ABARIOJO ONARRI",
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 08:30:00",
-    empresa: "NEXXO",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "LUIS HUMBERTO CASTRO MALDONADO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "NEXXO",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "LUIS HUMBERTO CASTRO MALDONADO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "NEXXO",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MIGUEL ALBERTO VEGA ORTIZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "PEDRO HAROLDO GUERRERO PIZARRO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
   {
-    nombre: "PEDRO HAROLDO GUERRERO PIZARRO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PEDRO HAROLDO GUERRERO PIZARRO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE JULIAN COROSEO ORTIZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE JULIAN COROSEO ORTIZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE JULIAN COROSEO ORTIZ",
-    lat: -22.353446659086,
-    lng: -68.856164540738,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "PABLO TRIGO TRIGO",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "CRISTIAN ALFREDO ESPERGUEL OÑATE",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "SIGDO KOPPERS",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CRISTIAN ALFREDO ESPERGUEL OÑATE",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 12:30:00",
-    empresa: "SIGDO KOPPERS",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CRISTIAN ALFREDO ESPERGUEL OÑATE",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "SIGDO KOPPERS",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CRISTIAN ALFREDO ESPERGUEL OÑATE",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "SIGDO KOPPERS",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CARLOS ALBERTO MONTOYA REYES",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "SIGDO KOPPERS",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CARLOS ALBERTO MONTOYA REYES",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "SIGDO KOPPERS",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "CARLOS ALBERTO MONTOYA REYES",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "SIGDO KOPPERS",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "CRISTIAN ENRIQUE CERVANTES CERVANTES",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CRISTIAN ENRIQUE CERVANTES CERVANTES",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MAURICIO ALEJANDRO INAREJO TOLEDO",
+    nombre: "FERNANDO ABARIOJO ONARRI",
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 09:00:00",
-    empresa: "NEXXO",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MAURICIO ALEJANDRO INAREJO TOLEDO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:30:00",
-    empresa: "NEXXO",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MAURICIO ALEJANDRO INAREJO TOLEDO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "NEXXO",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "FREDY RICARDO RAMOS SEGUEL",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "SIGDO KOPPERS",
+    empresa: "KDM",
     modo: "NO UBICABLE"
   },
   {
-    nombre: "EDGAR ALBERTO BELEN RAMOS",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
+    nombre: "FERNANDO ABARIOJO ONARRI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "FERNANDO ABARIOJO ONARRI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 10:00:00",
     empresa: "KDM",
-    modo: "UBICADO"
+    modo: "NO UBICABLE"
   },
   {
-    nombre: "EDGAR ALBERTO BELEN RAMOS",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "EDGAR ALBERTO BELEN RAMOS",
+    nombre: "FERNANDO ABARIOJO ONARRI",
     lat: -22.328839025764,
     lng: -68.885274223686,
-    tiempo: "2025-07-26 18:30:00",
+    tiempo: "2025-07-26 10:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
   {
-    nombre: "ROSA LUCI NINA ALI",
+    nombre: "FERNANDO ABARIOJO ONARRI",
     lat: -22.328839025764,
     lng: -68.885274223686,
-    tiempo: "2025-07-26 14:00:00",
+    tiempo: "2025-07-26 11:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
   {
-    nombre: "JUAN ANTONIO OLAZO FRANCO",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "HECTOR ALEJANDRO HERRERA CALDERON",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "HECTOR ALEJANDRO HERRERA CALDERON",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "HECTOR ALEJANDRO HERRERA CALDERON",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "GILBERTO DEL TRANSITO OGALDE ORTIZ",
+    nombre: "FERNANDO ABARIOJO ONARRI",
     lat: -22.328839025764,
     lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "GILBERTO DEL TRANSITO OGALDE ORTIZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "GILBERTO DEL TRANSITO OGALDE ORTIZ",
-    lat: -22.311201658921,
-    lng: -68.896504171231,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MICHAEL ALEJANDRO CAMPILLAY PAEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "MICHAEL ALEJANDRO CAMPILLAY PAEZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
     tiempo: "2025-07-26 11:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
   {
-    nombre: "EMILIO JOSE POZO BARRAZA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "NEXXO",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "EMILIO JOSE POZO BARRAZA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "NEXXO",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN GERMAN CORIA MEDRANO",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOAB NEHEMIAS CAMACHO LLAVES",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JONATHAN ORDENES LOPEZ",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JONATHAN ORDENES LOPEZ",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "VICTOR DAMIAN YAÑEZ CUBILLOS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "VICTOR DAMIAN YAÑEZ CUBILLOS",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "VICTOR DAMIAN YAÑEZ CUBILLOS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "GUILLERMO DAVID BAUTISTA MAMANI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FRANCISCO MELQUIADES CHAVEZ ORELLANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 09:00:00",
-    empresa: "NEXXO",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "FRANCISCO MELQUIADES CHAVEZ ORELLANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "NEXXO",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "FRANCISCO MELQUIADES CHAVEZ ORELLANA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:00:00",
-    empresa: "NEXXO",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "GEORGE EDWARD MARQUEZ CAMPOS",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CRISTIAN ALEJANDRO ROSAS CLARO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CRISTIAN ALEJANDRO ROSAS CLARO",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 13:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FELIPE BARRERA FRES",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "FELIPE BARRERA FRES",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "FELIPE BARRERA FRES",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "EDGAR ALEXANDRO ARANCIBIA SANDON",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 09:30:00",
-    empresa: "SIGDO KOPPERS",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CRISTIAN ROBERTO RAMIREZ DIAZ",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MALCON ATREYU ESQUIVEL ALVAREZ",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 11:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "PEDRO ENRIQUE AYABIRE MIRANDA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 08:30:00",
-    empresa: "NEXXO",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "PEDRO ENRIQUE AYABIRE MIRANDA",
+    nombre: "FERNANDO ABARIOJO ONARRI",
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 12:00:00",
-    empresa: "NEXXO",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "PEDRO ENRIQUE AYABIRE MIRANDA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "NEXXO",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "GERARDO VALENTE FLORES CENTENO",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "SIGDO KOPPERS",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "GERARDO VALENTE FLORES CENTENO",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "SIGDO KOPPERS",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "GERARDO VALENTE FLORES CENTENO",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "SIGDO KOPPERS",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CRISTOFER ROJAS CORTES",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "CRISTOFER ROJAS CORTES",
-    lat: -22.310478882107,
-    lng: -68.916832718385,
-    tiempo: "2025-07-26 15:00:00",
-    empresa: "BERLIAM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "FRANCO BENJAMIN FUENTES AVENDAÑO",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE ALFREDO TORRES BULEJE",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "HERNAN MACHACA MAMANI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:00:00",
     empresa: "KDM",
-    modo: "UBICADO"
+    modo: "NO UBICABLE"
   },
   {
-    nombre: "HERNAN MACHACA MAMANI",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
+    nombre: "FERNANDO ABARIOJO ONARRI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
     tiempo: "2025-07-26 12:30:00",
     empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "HERNAN MACHACA MAMANI",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "HERNAN MACHACA MAMANI",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 16:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "HERNAN MACHACA MAMANI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 17:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "HERNAN MACHACA MAMANI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
     modo: "NO UBICABLE"
   },
   {
-    nombre: "ALISSON SUSANA VARGAS RODRIGUEZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "NEXXO",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ALISSON SUSANA VARGAS RODRIGUEZ",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "NEXXO",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JUAN GABRIEL VELASCO AYOVI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JUAN GABRIEL VELASCO AYOVI",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 15:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JUAN GABRIEL VELASCO AYOVI",
-    lat: -22.35227688208,
-    lng: -68.857303744188,
-    tiempo: "2025-07-26 19:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ELEOTERIO ZAPATA DELGADILLO",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 08:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "ELEOTERIO ZAPATA DELGADILLO",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "GUMERCINDO PEDRAZA MENDOZA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 07:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "GUMERCINDO PEDRAZA MENDOZA",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 16:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "GUMERCINDO PEDRAZA MENDOZA",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 17:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "JOSE LUIS PERALES JOAQUIN",
-    lat: -22.311243775405,
-    lng: -68.892535271906,
-    tiempo: "2025-07-26 14:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DIEGO FLORES CORDOVA",
-    lat: -22.311372019423,
-    lng: -68.895016482911,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "DIEGO FLORES CORDOVA",
-    lat: -22.311625584499,
-    lng: -68.892951459097,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "DIEGO FLORES CORDOVA",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "TOVIAS FELIX ROJAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "TOVIAS FELIX ROJAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "TOVIAS FELIX ROJAS",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 18:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "JUAN CARLOS RAMIREZ CORINO",
-    lat: -22.313387710135,
-    lng: -68.889005564052,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "ISAID AÑEZ ZEBALLOS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 12:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "MARIO HUAYTA COTJIRI",
-    lat: -22.312733751018,
-    lng: -68.897586458245,
-    tiempo: "2025-07-26 14:30:00",
-    empresa: "KDM",
-    modo: "UBICADO"
-  },
-  {
-    nombre: "RAUL ARISPE SANCHEZ",
-    lat: -22.315509638749,
-    lng: -68.923715554613,
-    tiempo: "2025-07-26 10:30:00",
-    empresa: "PACOLL ING. Y CÍA. LTDA",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "WILFREDO CAYO ARENAS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 10:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "WILFREDO CAYO ARENAS",
+    nombre: "FERNANDO ABARIOJO ONARRI",
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 13:00:00",
-    empresa: "KDM",
-    modo: "NO UBICABLE"
-  },
-  {
-    nombre: "WILFREDO CAYO ARENAS",
-    lat: -22.328839025764,
-    lng: -68.885274223686,
-    tiempo: "2025-07-26 18:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -19448,10 +15904,746 @@ window.personas = [
     modo: "NO UBICABLE"
   },
   {
+    nombre: "FERNANDO ABARIOJO ONARRI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "FERNANDO ABARIOJO ONARRI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "FERNANDO ABARIOJO ONARRI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "FERNANDO ABARIOJO ONARRI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "FERNANDO ABARIOJO ONARRI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "FERNANDO ABARIOJO ONARRI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "FERNANDO ABARIOJO ONARRI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "FERNANDO ABARIOJO ONARRI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "FERNANDO ABARIOJO ONARRI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "FERNANDO ABARIOJO ONARRI",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "FERNANDO ABARIOJO ONARRI",
+    lat: -22.35227688208,
+    lng: -68.857303744188,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 06:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.313387710135,
+    lng: -68.889005564052,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOSE LUIS HURTADO FERNANDEZ",
+    lat: -22.310478882107,
+    lng: -68.916832718385,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARTIN SARZURI QUISPE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARTIN SARZURI QUISPE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARTIN SARZURI QUISPE",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARTIN SARZURI QUISPE",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARTIN SARZURI QUISPE",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARTIN SARZURI QUISPE",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARTIN SARZURI QUISPE",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARTIN SARZURI QUISPE",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARTIN SARZURI QUISPE",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARTIN SARZURI QUISPE",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARTIN SARZURI QUISPE",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARTIN SARZURI QUISPE",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARTIN SARZURI QUISPE",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARTIN SARZURI QUISPE",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARTIN SARZURI QUISPE",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARTIN SARZURI QUISPE",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARTIN SARZURI QUISPE",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MARTIN SARZURI QUISPE",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARTIN SARZURI QUISPE",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARTIN SARZURI QUISPE",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARTIN SARZURI QUISPE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MARTIN SARZURI QUISPE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MARTIN SARZURI QUISPE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MARTIN SARZURI QUISPE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MARTIN SARZURI QUISPE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "EDWIN SARZURI AGUIRRE",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 06:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "EDWIN SARZURI AGUIRRE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "EDWIN SARZURI AGUIRRE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "EDWIN SARZURI AGUIRRE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "EDWIN SARZURI AGUIRRE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "EDWIN SARZURI AGUIRRE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "EDWIN SARZURI AGUIRRE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "EDWIN SARZURI AGUIRRE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
     nombre: "EDWIN SARZURI AGUIRRE",
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "EDWIN SARZURI AGUIRRE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "EDWIN SARZURI AGUIRRE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "EDWIN SARZURI AGUIRRE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "EDWIN SARZURI AGUIRRE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "EDWIN SARZURI AGUIRRE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "EDWIN SARZURI AGUIRRE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "EDWIN SARZURI AGUIRRE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "EDWIN SARZURI AGUIRRE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "EDWIN SARZURI AGUIRRE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "EDWIN SARZURI AGUIRRE",
+    lat: -22.311201658921,
+    lng: -68.896504171231,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "EDWIN SARZURI AGUIRRE",
+    lat: -22.311201658921,
+    lng: -68.896504171231,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "EDWIN SARZURI AGUIRRE",
+    lat: -22.311201658921,
+    lng: -68.896504171231,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "EDWIN SARZURI AGUIRRE",
+    lat: -22.311201658921,
+    lng: -68.896504171231,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "EDWIN SARZURI AGUIRRE",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "EDWIN SARZURI AGUIRRE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "EDWIN SARZURI AGUIRRE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "EDWIN SARZURI AGUIRRE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DOUGLAS SALVATIERRA NEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DOUGLAS SALVATIERRA NEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DOUGLAS SALVATIERRA NEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DOUGLAS SALVATIERRA NEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DOUGLAS SALVATIERRA NEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -19464,7 +16656,1255 @@ window.personas = [
     modo: "NO UBICABLE"
   },
   {
+    nombre: "DOUGLAS SALVATIERRA NEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DOUGLAS SALVATIERRA NEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DOUGLAS SALVATIERRA NEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DOUGLAS SALVATIERRA NEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DOUGLAS SALVATIERRA NEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DOUGLAS SALVATIERRA NEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DOUGLAS SALVATIERRA NEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DOUGLAS SALVATIERRA NEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DOUGLAS SALVATIERRA NEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DOUGLAS SALVATIERRA NEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DOUGLAS SALVATIERRA NEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DOUGLAS SALVATIERRA NEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DOUGLAS SALVATIERRA NEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DOUGLAS SALVATIERRA NEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DOUGLAS SALVATIERRA NEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DOUGLAS SALVATIERRA NEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DOUGLAS SALVATIERRA NEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DOUGLAS SALVATIERRA NEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DOUGLAS SALVATIERRA NEIRA",
+    lat: -22.35227688208,
+    lng: -68.857303744188,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "YONATAN MARINO GUTIERREZ BRAVO",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 19:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DAVID MOISES GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DAVID MOISES GUTIERREZ BRAVO",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DAVID MOISES GUTIERREZ BRAVO",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DAVID MOISES GUTIERREZ BRAVO",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DAVID MOISES GUTIERREZ BRAVO",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DAVID MOISES GUTIERREZ BRAVO",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DAVID MOISES GUTIERREZ BRAVO",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DAVID MOISES GUTIERREZ BRAVO",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DAVID MOISES GUTIERREZ BRAVO",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DAVID MOISES GUTIERREZ BRAVO",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DAVID MOISES GUTIERREZ BRAVO",
+    lat: -22.311201658921,
+    lng: -68.896504171231,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DAVID MOISES GUTIERREZ BRAVO",
+    lat: -22.311201658921,
+    lng: -68.896504171231,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DAVID MOISES GUTIERREZ BRAVO",
+    lat: -22.311201658921,
+    lng: -68.896504171231,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "DAVID MOISES GUTIERREZ BRAVO",
+    lat: -22.311201658921,
+    lng: -68.896504171231,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DAVID MOISES GUTIERREZ BRAVO",
+    lat: -22.311201658921,
+    lng: -68.896504171231,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DAVID MOISES GUTIERREZ BRAVO",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DAVID MOISES GUTIERREZ BRAVO",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DAVID MOISES GUTIERREZ BRAVO",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DAVID MOISES GUTIERREZ BRAVO",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DAVID MOISES GUTIERREZ BRAVO",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DAVID MOISES GUTIERREZ BRAVO",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DAVID MOISES GUTIERREZ BRAVO",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DAVID MOISES GUTIERREZ BRAVO",
+    lat: -22.311201658921,
+    lng: -68.896504171231,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DAVID MOISES GUTIERREZ BRAVO",
+    lat: -22.311201658921,
+    lng: -68.896504171231,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "DAVID MOISES GUTIERREZ BRAVO",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "PETRIENNE MENACHO REVOLLO",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PETRIENNE MENACHO REVOLLO",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PETRIENNE MENACHO REVOLLO",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PETRIENNE MENACHO REVOLLO",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PETRIENNE MENACHO REVOLLO",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PETRIENNE MENACHO REVOLLO",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PETRIENNE MENACHO REVOLLO",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PETRIENNE MENACHO REVOLLO",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PETRIENNE MENACHO REVOLLO",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PETRIENNE MENACHO REVOLLO",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PETRIENNE MENACHO REVOLLO",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PETRIENNE MENACHO REVOLLO",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PETRIENNE MENACHO REVOLLO",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PETRIENNE MENACHO REVOLLO",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PETRIENNE MENACHO REVOLLO",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PETRIENNE MENACHO REVOLLO",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PETRIENNE MENACHO REVOLLO",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PETRIENNE MENACHO REVOLLO",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PETRIENNE MENACHO REVOLLO",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PETRIENNE MENACHO REVOLLO",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PETRIENNE MENACHO REVOLLO",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "PETRIENNE MENACHO REVOLLO",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ROMER MENDOLAS MAMANI",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "ROMER MENDOLAS MAMANI",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ROMER MENDOLAS MAMANI",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ROMER MENDOLAS MAMANI",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ROMER MENDOLAS MAMANI",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ROMER MENDOLAS MAMANI",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ROMER MENDOLAS MAMANI",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ROMER MENDOLAS MAMANI",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ROMER MENDOLAS MAMANI",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ROMER MENDOLAS MAMANI",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ROMER MENDOLAS MAMANI",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ROMER MENDOLAS MAMANI",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ROMER MENDOLAS MAMANI",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ROMER MENDOLAS MAMANI",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ROMER MENDOLAS MAMANI",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ROMER MENDOLAS MAMANI",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ROMER MENDOLAS MAMANI",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ROMER MENDOLAS MAMANI",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ROMER MENDOLAS MAMANI",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ROMER MENDOLAS MAMANI",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ROMER MENDOLAS MAMANI",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ROMER MENDOLAS MAMANI",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "ROMER MENDOLAS MAMANI",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
     nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JHONNY GARCIA COLQUE",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 19:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MILTON GALLOSO MOSQUEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "MILTON GALLOSO MOSQUEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MILTON GALLOSO MOSQUEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MILTON GALLOSO MOSQUEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MILTON GALLOSO MOSQUEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MILTON GALLOSO MOSQUEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MILTON GALLOSO MOSQUEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MILTON GALLOSO MOSQUEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MILTON GALLOSO MOSQUEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MILTON GALLOSO MOSQUEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MILTON GALLOSO MOSQUEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MILTON GALLOSO MOSQUEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MILTON GALLOSO MOSQUEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MILTON GALLOSO MOSQUEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MILTON GALLOSO MOSQUEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MILTON GALLOSO MOSQUEIRA",
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 14:30:00",
@@ -19475,7 +17915,23 @@ window.personas = [
     nombre: "MILTON GALLOSO MOSQUEIRA",
     lat: -22.328839025764,
     lng: -68.885274223686,
-    tiempo: "2025-07-26 08:00:00",
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MILTON GALLOSO MOSQUEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MILTON GALLOSO MOSQUEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 16:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -19496,11 +17952,539 @@ window.personas = [
     modo: "NO UBICABLE"
   },
   {
+    nombre: "MILTON GALLOSO MOSQUEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MILTON GALLOSO MOSQUEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MILTON GALLOSO MOSQUEIRA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "MILTON GALLOSO MOSQUEIRA",
+    lat: -22.35227688208,
+    lng: -68.857303744188,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JEAN PAUL LIMARINO LOPEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JEAN PAUL LIMARINO LOPEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JEAN PAUL LIMARINO LOPEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JEAN PAUL LIMARINO LOPEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JEAN PAUL LIMARINO LOPEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JEAN PAUL LIMARINO LOPEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JEAN PAUL LIMARINO LOPEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JEAN PAUL LIMARINO LOPEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JEAN PAUL LIMARINO LOPEZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JEAN PAUL LIMARINO LOPEZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JEAN PAUL LIMARINO LOPEZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JEAN PAUL LIMARINO LOPEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JEAN PAUL LIMARINO LOPEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JEAN PAUL LIMARINO LOPEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JEAN PAUL LIMARINO LOPEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JEAN PAUL LIMARINO LOPEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JEAN PAUL LIMARINO LOPEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JEAN PAUL LIMARINO LOPEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JEAN PAUL LIMARINO LOPEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JEAN PAUL LIMARINO LOPEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JEAN PAUL LIMARINO LOPEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JEAN PAUL LIMARINO LOPEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JEAN PAUL LIMARINO LOPEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
     nombre: "JEAN PAUL LIMARINO LOPEZ",
     lat: -22.312733751018,
     lng: -68.897586458245,
     tiempo: "2025-07-26 19:00:00",
     empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.311201658921,
+    lng: -68.896504171231,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.311201658921,
+    lng: -68.896504171231,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.311201658921,
+    lng: -68.896504171231,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.311201658921,
+    lng: -68.896504171231,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.311201658921,
+    lng: -68.896504171231,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.311201658921,
+    lng: -68.896504171231,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.311201658921,
+    lng: -68.896504171231,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JOAQUIN QUISPE MEJIA",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 19:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JESE ELEAN MEZA VARGAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JESE ELEAN MEZA VARGAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JESE ELEAN MEZA VARGAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JESE ELEAN MEZA VARGAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JESE ELEAN MEZA VARGAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JESE ELEAN MEZA VARGAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JESE ELEAN MEZA VARGAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JESE ELEAN MEZA VARGAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JESE ELEAN MEZA VARGAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JESE ELEAN MEZA VARGAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JESE ELEAN MEZA VARGAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JESE ELEAN MEZA VARGAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JESE ELEAN MEZA VARGAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
     modo: "NO UBICABLE"
   },
   {
@@ -19512,10 +18496,226 @@ window.personas = [
     modo: "NO UBICABLE"
   },
   {
+    nombre: "JESE ELEAN MEZA VARGAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JESE ELEAN MEZA VARGAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JESE ELEAN MEZA VARGAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JESE ELEAN MEZA VARGAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JESE ELEAN MEZA VARGAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JESE ELEAN MEZA VARGAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JESE ELEAN MEZA VARGAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JESE ELEAN MEZA VARGAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JESE ELEAN MEZA VARGAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JESE ELEAN MEZA VARGAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "PACOLL ING. Y CÍA. LTDA",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
     nombre: "IVAN RIVADENEIRA HENRIQUEZ",
     lat: -22.328839025764,
     lng: -68.885274223686,
     tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 15:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -19531,7 +18731,287 @@ window.personas = [
     nombre: "IVAN RIVADENEIRA HENRIQUEZ",
     lat: -22.311625584499,
     lng: -68.892951459097,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
     tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "IVAN RIVADENEIRA HENRIQUEZ",
+    lat: -22.35227688208,
+    lng: -68.857303744188,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "RADOMIRO ZEPEDA PASTRANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "RADOMIRO ZEPEDA PASTRANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RADOMIRO ZEPEDA PASTRANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RADOMIRO ZEPEDA PASTRANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RADOMIRO ZEPEDA PASTRANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RADOMIRO ZEPEDA PASTRANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RADOMIRO ZEPEDA PASTRANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RADOMIRO ZEPEDA PASTRANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RADOMIRO ZEPEDA PASTRANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RADOMIRO ZEPEDA PASTRANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RADOMIRO ZEPEDA PASTRANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RADOMIRO ZEPEDA PASTRANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RADOMIRO ZEPEDA PASTRANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RADOMIRO ZEPEDA PASTRANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RADOMIRO ZEPEDA PASTRANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RADOMIRO ZEPEDA PASTRANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RADOMIRO ZEPEDA PASTRANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RADOMIRO ZEPEDA PASTRANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RADOMIRO ZEPEDA PASTRANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RADOMIRO ZEPEDA PASTRANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RADOMIRO ZEPEDA PASTRANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RADOMIRO ZEPEDA PASTRANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RADOMIRO ZEPEDA PASTRANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RADOMIRO ZEPEDA PASTRANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "RADOMIRO ZEPEDA PASTRANA",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
+    lat: -22.328839025764,
+    lng: -68.885274223686,
+    tiempo: "2025-07-26 07:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 09:00:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
   },
@@ -19542,5 +19022,525 @@ window.personas = [
     tiempo: "2025-07-26 09:30:00",
     empresa: "KDM",
     modo: "NO UBICABLE"
+  },
+  {
+    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
+    lat: -22.311243775405,
+    lng: -68.892535271906,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
+    lat: -22.311625584499,
+    lng: -68.892951459097,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
+    lat: -22.312733751018,
+    lng: -68.897586458245,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
+    lat: -22.311372019423,
+    lng: -68.895016482911,
+    tiempo: "2025-07-26 19:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "HUMBERTO JAVIER BUSTAMANTE VASQUEZ",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 19:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "JUAN ANTONIO IRIBARREN DIAZ",
+    lat: -22.353446659086,
+    lng: -68.856164540738,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 07:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
+  },
+  {
+    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 08:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 08:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 09:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 09:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 10:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 10:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 11:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 11:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 12:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 12:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 13:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 13:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 14:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 14:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 15:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 15:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 16:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 16:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 17:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 17:30:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 18:00:00",
+    empresa: "KDM",
+    modo: "NO UBICABLE"
+  },
+  {
+    nombre: "LUIS EDUARDO MARTINEZ CONTRERAS",
+    lat: -22.315509638749,
+    lng: -68.923715554613,
+    tiempo: "2025-07-26 18:30:00",
+    empresa: "KDM",
+    modo: "UBICADO"
   }
 ];
