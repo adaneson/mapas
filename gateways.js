@@ -11,7 +11,7 @@ const lugares = [
     { nombre: "Limite Molienda A0-A1", lat: -22.311372019423, lng: -68.895016482911, tipo_area: "FT" },
     { nombre: "Planta 3 De Acido", lat: -22.316117982550, lng: -68.885435322495, tipo_area: "FT" },
     { nombre: "Planta De Acido", lat: -22.315680530637, lng: -68.886395313022, tipo_area: "FT" },
-    { nombre: "Puerta 2A", lat: -22.322672784895, lng: -68.925496372141, tipo_area: "PT" },
+    { nombre: "Puerta 2A", lat: -22.315509638749, lng: -68.923715554613, tipo_area: "PT" },
     { nombre: "Puerta 2B", lat: -22.310478882107, lng: -68.916832718385, tipo_area: "PT" },
     { nombre: "Puerta 4A", lat: -22.353446659086, lng: -68.856164540738, tipo_area: "PT" },
     { nombre: "Puerta 4B", lat: -22.352276882080, lng: -68.857303744188, tipo_area: "PT" },
