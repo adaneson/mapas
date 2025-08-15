@@ -97,8 +97,8 @@ const camiones = [
   },
   {
     "nombre": "MINSPA-SUCKER-RCXR-54",
-    "lat": -22.313604,
-    "lng": -68.883743,
+    "lat": -22.313468,
+    "lng": -68.884834,
     "estado": "Running",
     "timestamp": "14-08-2025 23:59",
     "empresa": "MINSPA"
