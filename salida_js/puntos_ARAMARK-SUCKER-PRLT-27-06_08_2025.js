@@ -1,4 +1,5 @@
 window.puntos_ARAMARK_SUCKER_PRLT_27_06_08_2025 = [
+{ lat: -22.441434, lng: -68.880607, timestamp: "2025-08-06T00:00:00", description: "Calama - Ollagüe,Puerto Seco,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Calama - Ollagüe,Puerto Seco,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Stopped" },
 { lat: -22.441434, lng: -68.880607, timestamp: "2025-08-06T01:46:00", description: "Calama - Ollagüe,Puerto Seco,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Calama - Ollagüe,Puerto Seco,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Inactive" },
 { lat: -22.441434, lng: -68.880607, timestamp: "2025-08-06T02:46:00", description: "Calama - Ollagüe,Puerto Seco,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Calama - Ollagüe,Puerto Seco,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Inactive" },
 { lat: -22.441434, lng: -68.880607, timestamp: "2025-08-06T03:46:00", description: "Calama - Ollagüe,Puerto Seco,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Calama - Ollagüe,Puerto Seco,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Inactive" },
