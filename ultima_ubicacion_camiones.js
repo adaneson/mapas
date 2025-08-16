@@ -44,7 +44,7 @@ const camiones = [
     "lat": -22.30977,
     "lng": -68.891738,
     "estado": "Inactive",
-    "timestamp": "16-08-2025 03:40",
+    "timestamp": "16-08-2025 04:43",
     "empresa": "ARAMARK"
   },
   {
@@ -97,8 +97,8 @@ const camiones = [
   },
   {
     "nombre": "MINSPA-SUCKER-RCXR-54",
-    "lat": -22.313995,
-    "lng": -68.886116,
+    "lat": -22.319961,
+    "lng": -68.887847,
     "estado": "Running",
     "timestamp": "16-08-2025 23:59",
     "empresa": "MINSPA"
