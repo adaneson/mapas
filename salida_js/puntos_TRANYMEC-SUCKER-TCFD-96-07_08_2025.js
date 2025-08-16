@@ -1,4 +1,5 @@
 window.puntos_TRANYMEC_SUCKER_TCFD_96_07_08_2025 = [
+{ lat: -22.3022, lng: -68.845031, timestamp: "2025-08-07T00:01:00", description: "4.29 km from PipeGrande,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", address: "4.29 km from PipeGrande,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", state: "Idle" },
 { lat: -22.3022, lng: -68.845031, timestamp: "2025-08-07T00:55:00", description: "4.29 km from PipeGrande,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", address: "4.29 km from PipeGrande,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", state: "Running" },
 { lat: -22.3022, lng: -68.845031, timestamp: "2025-08-07T00:55:00", description: "4.29 km from PipeGrande,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", address: "4.29 km from PipeGrande,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", state: "Stopped" },
 { lat: -22.3022, lng: -68.845031, timestamp: "2025-08-07T01:09:00", description: "4.29 km from PipeGrande,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", address: "4.29 km from PipeGrande,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", state: "Idle" },
