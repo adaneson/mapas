@@ -1,4 +1,5 @@
 window.puntos_ARAMARK_SUCKER_PRLT_25_17_08_2025 = [
 { lat: -22.306335, lng: -68.895545, timestamp: "2025-08-17T02:11:00", description: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Inactive" },
+{ lat: -22.306335, lng: -68.895545, timestamp: "2025-08-17T04:11:00", description: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Inactive" },
 { lat: -22.306335, lng: -68.895545, timestamp: "2025-08-17T23:59:00", description: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Stopped" }
 ];
