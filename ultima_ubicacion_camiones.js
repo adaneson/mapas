@@ -81,9 +81,9 @@ const camiones = [
   },
   {
     "nombre": "KDM-SUCKER-RLFP-27",
-    "lat": -22.332372,
-    "lng": -68.879463,
-    "estado": "Stopped",
+    "lat": -22.312982,
+    "lng": -68.892852,
+    "estado": "Running",
     "timestamp": "17-08-2025 23:59",
     "empresa": "KDM"
   },
@@ -113,8 +113,8 @@ const camiones = [
   },
   {
     "nombre": "TRANYMEC-SUCKER-TCFD-96",
-    "lat": -22.347885,
-    "lng": -68.871154,
+    "lat": -22.34406,
+    "lng": -68.881454,
     "estado": "Running",
     "timestamp": "17-08-2025 23:59",
     "empresa": "TRANYMEC"
