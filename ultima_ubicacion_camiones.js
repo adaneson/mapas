@@ -81,9 +81,9 @@ const camiones = [
   },
   {
     "nombre": "KDM-SUCKER-RLFP-27",
-    "lat": -22.312982,
-    "lng": -68.892852,
-    "estado": "Running",
+    "lat": -22.332244,
+    "lng": -68.879333,
+    "estado": "Stopped",
     "timestamp": "17-08-2025 23:59",
     "empresa": "KDM"
   },
