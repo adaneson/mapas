@@ -57,9 +57,9 @@ const camiones = [
   },
   {
     "nombre": "KDM-SUCKER-KXTK-20",
-    "lat": -22.332338,
-    "lng": -68.879501,
-    "estado": "Stopped",
+    "lat": -22.310264,
+    "lng": -68.895729,
+    "estado": "Running",
     "timestamp": "18-08-2025 23:59",
     "empresa": "KDM"
   },
@@ -81,33 +81,33 @@ const camiones = [
   },
   {
     "nombre": "KDM-SUCKER-RLFP-27",
-    "lat": -22.332361,
-    "lng": -68.879463,
-    "estado": "Stopped",
+    "lat": -22.329887,
+    "lng": -68.88179,
+    "estado": "Running",
     "timestamp": "18-08-2025 23:59",
     "empresa": "KDM"
   },
   {
     "nombre": "KDM-SUCKER-SGXL-87",
-    "lat": -22.331949,
-    "lng": -68.879707,
+    "lat": -22.314676,
+    "lng": -68.892295,
     "estado": "Running",
     "timestamp": "18-08-2025 23:59",
     "empresa": "KDM"
   },
   {
     "nombre": "MINSPA-SUCKER-RCXR-54",
-    "lat": -22.328731,
-    "lng": -68.884086,
-    "estado": "Stopped",
+    "lat": -22.316312,
+    "lng": -68.886253,
+    "estado": "Running",
     "timestamp": "18-08-2025 23:59",
     "empresa": "MINSPA"
   },
   {
     "nombre": "MINSPA-SUCKER-RCXR-64",
-    "lat": -22.328781,
-    "lng": -68.884033,
-    "estado": "Stopped",
+    "lat": -22.317825,
+    "lng": -68.887603,
+    "estado": "Running",
     "timestamp": "18-08-2025 23:59",
     "empresa": "MINSPA"
   },
