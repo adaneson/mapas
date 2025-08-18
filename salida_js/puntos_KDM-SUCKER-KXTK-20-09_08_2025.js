@@ -1,4 +1,5 @@
 window.puntos_KDM_SUCKER_KXTK_20_09_08_2025 = [
+{ lat: -22.310033, lng: -68.89553, timestamp: "2025-08-09T00:00:00", description: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Stopped" },
 { lat: -22.310033, lng: -68.89553, timestamp: "2025-08-09T00:56:00", description: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Idle" },
 { lat: -22.310033, lng: -68.89553, timestamp: "2025-08-09T01:03:00", description: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Running" },
 { lat: -22.310033, lng: -68.89553, timestamp: "2025-08-09T01:03:00", description: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Stopped" },

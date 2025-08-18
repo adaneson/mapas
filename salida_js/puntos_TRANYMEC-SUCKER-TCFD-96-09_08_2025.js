@@ -1,4 +1,5 @@
 window.puntos_TRANYMEC_SUCKER_TCFD_96_09_08_2025 = [
+{ lat: -22.440996, lng: -68.894599, timestamp: "2025-08-09T00:00:00", description: "Calama - Ollagüe,Puerto Seco,Provincia de El Loa, Antofagasta Region, Chile (NE)", address: "Calama - Ollagüe,Puerto Seco,Provincia de El Loa, Antofagasta Region, Chile (NE)", state: "Stopped" },
 { lat: -22.440996, lng: -68.894599, timestamp: "2025-08-09T01:35:00", description: "Calama - Ollagüe,Puerto Seco,Provincia de El Loa, Antofagasta Region, Chile (NE)", address: "Calama - Ollagüe,Puerto Seco,Provincia de El Loa, Antofagasta Region, Chile (NE)", state: "Inactive" },
 { lat: -22.440996, lng: -68.894599, timestamp: "2025-08-09T01:35:00", description: "Calama - Ollagüe,Puerto Seco,Provincia de El Loa, Antofagasta Region, Chile (NE)", address: "Calama - Ollagüe,Puerto Seco,Provincia de El Loa, Antofagasta Region, Chile (NE)", state: "Inactive" },
 { lat: -22.440996, lng: -68.894599, timestamp: "2025-08-09T02:38:00", description: "Calama - Ollagüe,Puerto Seco,Provincia de El Loa, Antofagasta Region, Chile (NE)", address: "Calama - Ollagüe,Puerto Seco,Provincia de El Loa, Antofagasta Region, Chile (NE)", state: "Stopped" },

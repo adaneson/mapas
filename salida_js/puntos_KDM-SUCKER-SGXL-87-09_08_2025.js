@@ -1,4 +1,5 @@
 window.puntos_KDM_SUCKER_SGXL_87_09_08_2025 = [
+{ lat: -22.332229, lng: -68.879623, timestamp: "2025-08-09T00:00:00", description: "2.01 km from Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", address: "2.01 km from Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", state: "Stopped" },
 { lat: -22.332229, lng: -68.879623, timestamp: "2025-08-09T00:04:00", description: "2.01 km from Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", address: "2.01 km from Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", state: "Stopped" },
 { lat: -22.332229, lng: -68.879623, timestamp: "2025-08-09T00:04:00", description: "2.01 km from Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", address: "2.01 km from Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", state: "Stopped" },
 { lat: -22.332229, lng: -68.879623, timestamp: "2025-08-09T00:04:00", description: "2.01 km from Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", address: "2.01 km from Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", state: "Stopped" },
