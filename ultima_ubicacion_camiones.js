@@ -57,9 +57,9 @@ const camiones = [
   },
   {
     "nombre": "KDM-SUCKER-KXTK-20",
-    "lat": -22.310264,
-    "lng": -68.895729,
-    "estado": "Running",
+    "lat": -22.332349,
+    "lng": -68.879508,
+    "estado": "Stopped",
     "timestamp": "18-08-2025 23:59",
     "empresa": "KDM"
   },
@@ -81,8 +81,8 @@ const camiones = [
   },
   {
     "nombre": "KDM-SUCKER-RLFP-27",
-    "lat": -22.327106,
-    "lng": -68.887176,
+    "lat": -22.312496,
+    "lng": -68.897964,
     "estado": "Running",
     "timestamp": "18-08-2025 23:59",
     "empresa": "KDM"
@@ -97,8 +97,8 @@ const camiones = [
   },
   {
     "nombre": "MINSPA-SUCKER-RCXR-54",
-    "lat": -22.314027,
-    "lng": -68.886199,
+    "lat": -22.328804,
+    "lng": -68.884849,
     "estado": "Running",
     "timestamp": "18-08-2025 23:59",
     "empresa": "MINSPA"
