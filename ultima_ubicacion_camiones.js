@@ -3,8 +3,8 @@ const camiones = [
     "nombre": "ARAMARK-SUCKER-PRLT-25",
     "lat": -22.306335,
     "lng": -68.895545,
-    "estado": "Inactive",
-    "timestamp": "19-08-2025 04:08",
+    "estado": "Stopped",
+    "timestamp": "19-08-2025 23:59",
     "empresa": "ARAMARK"
   },
   {
@@ -83,8 +83,8 @@ const camiones = [
     "nombre": "KDM-SUCKER-RLFP-27",
     "lat": -22.312397,
     "lng": -68.896667,
-    "estado": "Inactive",
-    "timestamp": "19-08-2025 03:22",
+    "estado": "Stopped",
+    "timestamp": "19-08-2025 23:59",
     "empresa": "KDM"
   },
   {
