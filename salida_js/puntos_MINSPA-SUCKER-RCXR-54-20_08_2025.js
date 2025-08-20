@@ -1,0 +1,8 @@
+window.puntos_MINSPA_SUCKER_RCXR_54_20_08_2025 = [
+{ lat: -22.317171, lng: -68.878585, timestamp: "2025-08-20T00:19:00", description: "Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", address: "Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", state: "Stopped" },
+{ lat: -22.317171, lng: -68.878585, timestamp: "2025-08-20T00:20:00", description: "Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", address: "Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", state: "Idle" },
+{ lat: -22.317171, lng: -68.878585, timestamp: "2025-08-20T00:30:00", description: "Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", address: "Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", state: "Running" },
+{ lat: -22.321729, lng: -68.878639, timestamp: "2025-08-20T00:35:00", description: "Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", address: "Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", state: "Idle" },
+{ lat: -22.321729, lng: -68.878639, timestamp: "2025-08-20T00:41:00", description: "Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", address: "Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", state: "Running" },
+{ lat: -22.328809, lng: -68.884536, timestamp: "2025-08-20T00:41:00", description: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", address: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", state: "Inactive" }
+];
