@@ -1,5 +1,7 @@
 window.puntos_KDM_SUCKER_RLFP_27_21_08_2025 = [
 { lat: -22.332387, lng: -68.879478, timestamp: "2025-08-21T00:29:00", description: "2.04 km from Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", address: "2.04 km from Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", state: "Stopped" },
+{ lat: -22.332387, lng: -68.879478, timestamp: "2025-08-21T00:29:00", description: "2.04 km from Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", address: "2.04 km from Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", state: "Stopped" },
 { lat: -22.332387, lng: -68.879478, timestamp: "2025-08-21T01:29:00", description: "2.04 km from Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", address: "2.04 km from Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", state: "Inactive" },
+{ lat: -22.332387, lng: -68.879478, timestamp: "2025-08-21T03:29:00", description: "2.04 km from Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", address: "2.04 km from Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", state: "Inactive" },
 { lat: -22.332387, lng: -68.879478, timestamp: "2025-08-21T23:59:00", description: "2.04 km from Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", address: "2.04 km from Pipe,Calama,Provincia de El Loa, Antofagasta Region, Chile (SE)", state: "Stopped" }
 ];
