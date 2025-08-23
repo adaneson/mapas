@@ -1,9 +1,9 @@
 const camiones = [
   {
     "nombre": "ARAMARK-SUCKER-PRLT-25",
-    "lat": -22.309846,
-    "lng": -68.891784,
-    "estado": "Stopped",
+    "lat": -22.305784,
+    "lng": -68.904914,
+    "estado": "Running",
     "timestamp": "23-08-2025 23:59",
     "empresa": "ARAMARK"
   },
@@ -41,9 +41,9 @@ const camiones = [
   },
   {
     "nombre": "ARAMARK-SUCKER-SLCX-12",
-    "lat": -22.30949,
-    "lng": -68.892967,
-    "estado": "Running",
+    "lat": -22.30981,
+    "lng": -68.891708,
+    "estado": "Stopped",
     "timestamp": "23-08-2025 23:59",
     "empresa": "ARAMARK"
   },
@@ -75,7 +75,7 @@ const camiones = [
     "nombre": "KDM-SUCKER-PBXD-49",
     "lat": -22.506561,
     "lng": -68.932899,
-    "estado": "Stopped",
+    "estado": "Running",
     "timestamp": "23-08-2025 23:59",
     "empresa": "KDM"
   },
@@ -91,15 +91,15 @@ const camiones = [
     "nombre": "KDM-SUCKER-SGXL-87",
     "lat": -22.332214,
     "lng": -68.879646,
-    "estado": "Inactive",
-    "timestamp": "23-08-2025 07:29",
+    "estado": "Stopped",
+    "timestamp": "23-08-2025 23:59",
     "empresa": "KDM"
   },
   {
     "nombre": "MINSPA-SUCKER-RCXR-54",
-    "lat": -22.328784,
-    "lng": -68.884056,
-    "estado": "Stopped",
+    "lat": -22.316228,
+    "lng": -68.887031,
+    "estado": "Running",
     "timestamp": "23-08-2025 23:59",
     "empresa": "MINSPA"
   },
@@ -113,9 +113,9 @@ const camiones = [
   },
   {
     "nombre": "TRANYMEC-SUCKER-TCFD-96",
-    "lat": -22.344058,
-    "lng": -68.881523,
-    "estado": "Stopped",
+    "lat": -22.330684,
+    "lng": -68.886825,
+    "estado": "Running",
     "timestamp": "23-08-2025 23:59",
     "empresa": "TRANYMEC"
   }
