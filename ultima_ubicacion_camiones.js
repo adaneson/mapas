@@ -1,8 +1,8 @@
 const camiones = [
   {
     "nombre": "ARAMARK-SUCKER-PRLT-25",
-    "lat": -22.305784,
-    "lng": -68.904914,
+    "lat": -22.439649,
+    "lng": -68.880935,
     "estado": "Running",
     "timestamp": "23-08-2025 23:59",
     "empresa": "ARAMARK"
@@ -41,9 +41,9 @@ const camiones = [
   },
   {
     "nombre": "ARAMARK-SUCKER-SLCX-12",
-    "lat": -22.30981,
-    "lng": -68.891708,
-    "estado": "Stopped",
+    "lat": -22.319379,
+    "lng": -68.889419,
+    "estado": "Running",
     "timestamp": "23-08-2025 23:59",
     "empresa": "ARAMARK"
   },
@@ -57,9 +57,9 @@ const camiones = [
   },
   {
     "nombre": "KDM-SUCKER-KXTK-20",
-    "lat": -22.332416,
-    "lng": -68.879417,
-    "estado": "Stopped",
+    "lat": -22.330757,
+    "lng": -68.881141,
+    "estado": "Running",
     "timestamp": "23-08-2025 23:59",
     "empresa": "KDM"
   },
@@ -75,14 +75,14 @@ const camiones = [
     "nombre": "KDM-SUCKER-PBXD-49",
     "lat": -22.506561,
     "lng": -68.932899,
-    "estado": "Running",
+    "estado": "Stopped",
     "timestamp": "23-08-2025 23:59",
     "empresa": "KDM"
   },
   {
     "nombre": "KDM-SUCKER-RLFP-27",
-    "lat": -22.330047,
-    "lng": -68.883369,
+    "lat": -22.313299,
+    "lng": -68.891883,
     "estado": "Running",
     "timestamp": "23-08-2025 23:59",
     "empresa": "KDM"
@@ -97,24 +97,24 @@ const camiones = [
   },
   {
     "nombre": "MINSPA-SUCKER-RCXR-54",
-    "lat": -22.316228,
-    "lng": -68.887031,
+    "lat": -22.312593,
+    "lng": -68.886047,
     "estado": "Running",
     "timestamp": "23-08-2025 23:59",
     "empresa": "MINSPA"
   },
   {
     "nombre": "MINSPA-SUCKER-RCXR-64",
-    "lat": -22.328763,
-    "lng": -68.884742,
+    "lat": -22.328731,
+    "lng": -68.884094,
     "estado": "Stopped",
     "timestamp": "23-08-2025 23:59",
     "empresa": "MINSPA"
   },
   {
     "nombre": "TRANYMEC-SUCKER-TCFD-96",
-    "lat": -22.330684,
-    "lng": -68.886825,
+    "lat": -22.342353,
+    "lng": -68.880897,
     "estado": "Running",
     "timestamp": "23-08-2025 23:59",
     "empresa": "TRANYMEC"
