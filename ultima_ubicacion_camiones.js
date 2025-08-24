@@ -1,9 +1,9 @@
 const camiones = [
   {
     "nombre": "ARAMARK-SUCKER-PRLT-25",
-    "lat": -22.309101,
-    "lng": -68.893547,
-    "estado": "Running",
+    "lat": -22.309761,
+    "lng": -68.89167,
+    "estado": "Stopped",
     "timestamp": "23-08-2025 23:59",
     "empresa": "ARAMARK"
   },
@@ -41,9 +41,9 @@ const camiones = [
   },
   {
     "nombre": "ARAMARK-SUCKER-SLCX-12",
-    "lat": -22.309175,
-    "lng": -68.893844,
-    "estado": "Running",
+    "lat": -22.309701,
+    "lng": -68.891799,
+    "estado": "Stopped",
     "timestamp": "23-08-2025 23:59",
     "empresa": "ARAMARK"
   },
@@ -57,9 +57,9 @@ const camiones = [
   },
   {
     "nombre": "KDM-SUCKER-KXTK-20",
-    "lat": -22.329774,
-    "lng": -68.883316,
-    "estado": "Running",
+    "lat": -22.333185,
+    "lng": -68.878677,
+    "estado": "Stopped",
     "timestamp": "23-08-2025 23:59",
     "empresa": "KDM"
   },
@@ -81,8 +81,8 @@ const camiones = [
   },
   {
     "nombre": "KDM-SUCKER-RLFP-27",
-    "lat": -22.313104,
-    "lng": -68.891815,
+    "lat": -22.332376,
+    "lng": -68.87947,
     "estado": "Stopped",
     "timestamp": "23-08-2025 23:59",
     "empresa": "KDM"
