@@ -1,0 +1,10 @@
+window.puntos_ARAMARK_SUCKER_PRLT_25_25_08_2025 = [
+{ lat: -22.309728, lng: -68.891868, timestamp: "2025-08-25T00:55:00", description: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Running" },
+{ lat: -22.309728, lng: -68.891868, timestamp: "2025-08-25T00:55:00", description: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Stopped" },
+{ lat: -22.309728, lng: -68.891868, timestamp: "2025-08-25T01:04:00", description: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Running" },
+{ lat: -22.310527, lng: -68.892692, timestamp: "2025-08-25T01:04:00", description: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Idle" },
+{ lat: -22.310527, lng: -68.892692, timestamp: "2025-08-25T01:08:00", description: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Running" },
+{ lat: -22.310651, lng: -68.892593, timestamp: "2025-08-25T01:09:00", description: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Idle" },
+{ lat: -22.310651, lng: -68.892593, timestamp: "2025-08-25T01:33:00", description: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Running" },
+{ lat: -22.310651, lng: -68.892593, timestamp: "2025-08-25T01:34:00", description: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "PipeGrandePLG,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Inactive" }
+];

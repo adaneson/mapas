@@ -1,0 +1,4 @@
+window.puntos_TRANYMEC_SUCKER_TCFD_96_25_08_2025 = [
+{ lat: -22.30331, lng: -68.844062, timestamp: "2025-08-25T00:48:00", description: "4.16 km from Cruce B-175 (Puente Lasana) - Chuquicamata,Pona,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "4.16 km from Cruce B-175 (Puente Lasana) - Chuquicamata,Pona,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Inactive" },
+{ lat: -22.30331, lng: -68.844062, timestamp: "2025-08-25T23:59:00", description: "4.16 km from Cruce B-175 (Puente Lasana) - Chuquicamata,Pona,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "4.16 km from Cruce B-175 (Puente Lasana) - Chuquicamata,Pona,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Stopped" }
+];
