@@ -105,16 +105,16 @@ const camiones = [
   },
   {
     "nombre": "MINSPA-SUCKER-RCXR-64",
-    "lat": -22.319118,
-    "lng": -68.88993,
+    "lat": -22.312524,
+    "lng": -68.886039,
     "estado": "Running",
     "timestamp": "25-08-2025 23:59",
     "empresa": "MINSPA"
   },
   {
     "nombre": "TRANYMEC-SUCKER-TCFD-96",
-    "lat": -22.302164,
-    "lng": -68.844772,
+    "lat": -22.302104,
+    "lng": -68.844764,
     "estado": "Running",
     "timestamp": "25-08-2025 23:59",
     "empresa": "TRANYMEC"
