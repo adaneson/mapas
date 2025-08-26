@@ -89,7 +89,7 @@ const camiones = [
   },
   {
     "nombre": "KDM-SUCKER-SGXL-87",
-    "lat": -22.314655,
+    "lat": -22.314638,
     "lng": -68.892509,
     "estado": "Running",
     "timestamp": "26-08-2025 23:59",
