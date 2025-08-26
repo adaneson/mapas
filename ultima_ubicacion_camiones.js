@@ -73,8 +73,8 @@ const camiones = [
   },
   {
     "nombre": "KDM-SUCKER-PBXD-49",
-    "lat": -22.506334,
-    "lng": -68.932685,
+    "lat": -22.506637,
+    "lng": -68.93296,
     "estado": "Stopped",
     "timestamp": "26-08-2025 23:59",
     "empresa": "KDM"
