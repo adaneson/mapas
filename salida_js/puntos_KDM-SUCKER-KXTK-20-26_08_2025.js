@@ -1,0 +1,4 @@
+window.puntos_KDM_SUCKER_KXTK_20_26_08_2025 = [
+{ lat: -22.432157, lng: -68.925819, timestamp: "2025-08-26T01:25:00", description: "Punta de Rieles,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "Punta de Rieles,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Inactive" },
+{ lat: -22.432157, lng: -68.925819, timestamp: "2025-08-26T23:59:00", description: "Punta de Rieles,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", address: "Punta de Rieles,Calama,Provincia de El Loa, Antofagasta Region, Chile (NW)", state: "Stopped" }
+];
