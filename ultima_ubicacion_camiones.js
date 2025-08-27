@@ -1,9 +1,9 @@
 const camiones = [
   {
     "nombre": "ARAMARK-SUCKER-PRLT-25",
-    "lat": -22.309453,
-    "lng": -68.893737,
-    "estado": "Running",
+    "lat": -22.309778,
+    "lng": -68.891654,
+    "estado": "Stopped",
     "timestamp": "27-08-2025 23:59",
     "empresa": "ARAMARK"
   },
