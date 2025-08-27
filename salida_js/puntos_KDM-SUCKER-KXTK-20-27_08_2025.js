@@ -1,5 +1,6 @@
 window.puntos_KDM_SUCKER_KXTK_20_27_08_2025 = [
 { lat: -22.434381, lng: -68.89447, timestamp: "2025-08-27T01:59:00", description: "Alberto Terrazas,Jalquinche,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", address: "Alberto Terrazas,Jalquinche,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", state: "Inactive" },
 { lat: -22.434381, lng: -68.89447, timestamp: "2025-08-27T03:59:00", description: "Alberto Terrazas,Jalquinche,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", address: "Alberto Terrazas,Jalquinche,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", state: "Inactive" },
+{ lat: -22.434381, lng: -68.89447, timestamp: "2025-08-27T05:59:00", description: "Alberto Terrazas,Jalquinche,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", address: "Alberto Terrazas,Jalquinche,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", state: "Inactive" },
 { lat: -22.434381, lng: -68.89447, timestamp: "2025-08-27T23:59:00", description: "Alberto Terrazas,Jalquinche,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", address: "Alberto Terrazas,Jalquinche,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", state: "Stopped" }
 ];

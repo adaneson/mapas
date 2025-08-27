@@ -113,8 +113,8 @@ const camiones = [
   },
   {
     "nombre": "TRANYMEC-SUCKER-TCFD-96",
-    "lat": -22.302181,
-    "lng": -68.845031,
+    "lat": -22.305278,
+    "lng": -68.847213,
     "estado": "Running",
     "timestamp": "27-08-2025 23:59",
     "empresa": "TRANYMEC"
