@@ -1,0 +1,5 @@
+window.puntos_ARAMARK_SUCKER_SLCX_12_27_08_2025 = [
+{ lat: -22.441621, lng: -68.863105, timestamp: "2025-08-27T00:44:00", description: "Calama - Ollagüe,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Calama - Ollagüe,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Stopped" },
+{ lat: -22.441621, lng: -68.863105, timestamp: "2025-08-27T01:41:00", description: "Calama - Ollagüe,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Calama - Ollagüe,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Inactive" },
+{ lat: -22.441621, lng: -68.863105, timestamp: "2025-08-27T23:59:00", description: "Calama - Ollagüe,Provincia de El Loa, Antofagasta Region, Chile (SW)", address: "Calama - Ollagüe,Provincia de El Loa, Antofagasta Region, Chile (SW)", state: "Stopped" }
+];

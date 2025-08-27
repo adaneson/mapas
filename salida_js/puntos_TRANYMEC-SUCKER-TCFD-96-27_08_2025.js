@@ -1,0 +1,8 @@
+window.puntos_TRANYMEC_SUCKER_TCFD_96_27_08_2025 = [
+{ lat: -22.302129, lng: -68.845153, timestamp: "2025-08-27T00:45:00", description: "4.28 km from PipeGrande,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", address: "4.28 km from PipeGrande,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", state: "Idle" },
+{ lat: -22.302129, lng: -68.845153, timestamp: "2025-08-27T00:55:00", description: "4.28 km from PipeGrande,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", address: "4.28 km from PipeGrande,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", state: "Running" },
+{ lat: -22.306711, lng: -68.863052, timestamp: "2025-08-27T00:57:00", description: "2.37 km from PipeGrande,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", address: "2.37 km from PipeGrande,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", state: "Idle" },
+{ lat: -22.306711, lng: -68.863052, timestamp: "2025-08-27T01:46:00", description: "2.37 km from PipeGrande,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", address: "2.37 km from PipeGrande,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", state: "Running" },
+{ lat: -22.305063, lng: -68.846946, timestamp: "2025-08-27T01:47:00", description: "4.01 km from PipeGrande,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", address: "4.01 km from PipeGrande,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", state: "Inactive" },
+{ lat: -22.305063, lng: -68.846946, timestamp: "2025-08-27T23:59:00", description: "4.01 km from PipeGrande,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", address: "4.01 km from PipeGrande,Calama,Provincia de El Loa, Antofagasta Region, Chile (NE)", state: "Running" }
+];
